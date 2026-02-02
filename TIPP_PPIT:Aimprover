@@ -49,6 +49,7 @@ local UICorner_8 = Instance.new("UICorner")
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.DisplayOrder = 999999999
 ScreenGui.ResetOnSpawn = false
 
 CloseOpenGUI.Name = "Close/Open GUI"
@@ -440,7 +441,7 @@ UICorner_8.Parent = InfiniteYield
 
 -- Scripts:
 
-local function ZAQHM_fake_script() -- CloseOpen.LocalScript 
+local function ISUDRL_fake_script() -- CloseOpen.LocalScript 
 	local script = Instance.new('LocalScript', CloseOpen)
 
 	local button = script.Parent
@@ -473,8 +474,8 @@ local function ZAQHM_fake_script() -- CloseOpen.LocalScript
 		isProcessing = false
 	end)
 end
-coroutine.wrap(ZAQHM_fake_script)()
-local function DEQTUDK_fake_script() -- CloseOpenGUI.LocalScript 
+coroutine.wrap(ISUDRL_fake_script)()
+local function ZFPW_fake_script() -- CloseOpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', CloseOpenGUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -518,8 +519,8 @@ local function DEQTUDK_fake_script() -- CloseOpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DEQTUDK_fake_script)()
-local function JOJPAF_fake_script() -- AimbotONOFF.Red/Green 
+coroutine.wrap(ZFPW_fake_script)()
+local function BVYLM_fake_script() -- AimbotONOFF.Red/Green 
 	local script = Instance.new('LocalScript', AimbotONOFF)
 
 	local TweenService = game:GetService("TweenService")
@@ -557,8 +558,8 @@ local function JOJPAF_fake_script() -- AimbotONOFF.Red/Green
 		end
 	end)
 end
-coroutine.wrap(JOJPAF_fake_script)()
-local function FITCRR_fake_script() -- AimbotONOFF.LocalScript 
+coroutine.wrap(BVYLM_fake_script)()
+local function MBYF_fake_script() -- AimbotONOFF.LocalScript 
 	local script = Instance.new('LocalScript', AimbotONOFF)
 
 	local RunService = game:GetService("RunService")
@@ -693,8 +694,8 @@ local function FITCRR_fake_script() -- AimbotONOFF.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FITCRR_fake_script)()
-local function NCXFIYF_fake_script() -- ESPONOFF.Red/Green 
+coroutine.wrap(MBYF_fake_script)()
+local function PQANL_fake_script() -- ESPONOFF.Red/Green 
 	local script = Instance.new('LocalScript', ESPONOFF)
 
 	local TweenService = game:GetService("TweenService")
@@ -732,8 +733,8 @@ local function NCXFIYF_fake_script() -- ESPONOFF.Red/Green
 		end
 	end)
 end
-coroutine.wrap(NCXFIYF_fake_script)()
-local function LAORG_fake_script() -- ESPONOFF.LocalScript 
+coroutine.wrap(PQANL_fake_script)()
+local function DCFY_fake_script() -- ESPONOFF.LocalScript 
 	local script = Instance.new('LocalScript', ESPONOFF)
 
 	local RunService = game:GetService("RunService")
@@ -818,8 +819,8 @@ local function LAORG_fake_script() -- ESPONOFF.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LAORG_fake_script)()
-local function IGAVH_fake_script() -- AimbotCircleONOFF.LocalScript 
+coroutine.wrap(DCFY_fake_script)()
+local function VPTNUZ_fake_script() -- AimbotCircleONOFF.LocalScript 
 	local script = Instance.new('LocalScript', AimbotCircleONOFF)
 
 	local button = script.Parent
@@ -831,8 +832,8 @@ local function IGAVH_fake_script() -- AimbotCircleONOFF.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(IGAVH_fake_script)()
-local function BQMG_fake_script() -- AimbotCircleONOFF.Red/Green 
+coroutine.wrap(VPTNUZ_fake_script)()
+local function TFNTVV_fake_script() -- AimbotCircleONOFF.Red/Green 
 	local script = Instance.new('LocalScript', AimbotCircleONOFF)
 
 	local TweenService = game:GetService("TweenService")
@@ -870,8 +871,8 @@ local function BQMG_fake_script() -- AimbotCircleONOFF.Red/Green
 		end
 	end)
 end
-coroutine.wrap(BQMG_fake_script)()
-local function UTKO_fake_script() -- AimbotCircleONOFF_2.LocalScript 
+coroutine.wrap(TFNTVV_fake_script)()
+local function SWLGNK_fake_script() -- AimbotCircleONOFF_2.LocalScript 
 	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
 
 	local button = script.Parent
@@ -883,8 +884,8 @@ local function UTKO_fake_script() -- AimbotCircleONOFF_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(UTKO_fake_script)()
-local function DCEAJQ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
+coroutine.wrap(SWLGNK_fake_script)()
+local function WVRZZ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
 	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
 
 	local TweenService = game:GetService("TweenService")
@@ -922,8 +923,8 @@ local function DCEAJQ_fake_script() -- AimbotCircleONOFF_2.Red/Green
 		end
 	end)
 end
-coroutine.wrap(DCEAJQ_fake_script)()
-local function DSHXNZ_fake_script() -- MainBorderGUI.LocalScript 
+coroutine.wrap(WVRZZ_fake_script)()
+local function NKEETB_fake_script() -- MainBorderGUI.LocalScript 
 	local script = Instance.new('LocalScript', MainBorderGUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -967,4 +968,4 @@ local function DSHXNZ_fake_script() -- MainBorderGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DSHXNZ_fake_script)()
+coroutine.wrap(NKEETB_fake_script)()
