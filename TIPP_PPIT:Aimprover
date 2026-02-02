@@ -1,0 +1,970 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local CloseOpenGUI = Instance.new("Frame")
+local CloseB = Instance.new("ImageLabel")
+local Close = Instance.new("ImageLabel")
+local CloseOpen = Instance.new("TextButton")
+local MainBorderGUI = Instance.new("Frame")
+local MainBorder = Instance.new("ImageLabel")
+local Main = Instance.new("ImageLabel")
+local TIPP_PPIT = Instance.new("TextLabel")
+local BorderX = Instance.new("Frame")
+local BorderY = Instance.new("Frame")
+local BorderXB = Instance.new("ImageLabel")
+local BorderXY = Instance.new("ImageLabel")
+local Home = Instance.new("TextButton")
+local NeverComing = Instance.new("TextButton")
+local NeverComing_2 = Instance.new("TextButton")
+local NeverComing_3 = Instance.new("TextButton")
+local NeverComing_4 = Instance.new("TextButton")
+local Aimbot = Instance.new("Frame")
+local Aimbot_2 = Instance.new("Frame")
+local AimbotONOFF = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local ESP = Instance.new("Frame")
+local ESP_2 = Instance.new("Frame")
+local ESPONOFF = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextLabel")
+local ESP_3 = Instance.new("TextLabel")
+local SilentAim_2 = Instance.new("Frame")
+local SilentAim_3 = Instance.new("Frame")
+local AimbotCircleONOFF = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Aimbot_3 = Instance.new("TextLabel")
+local SilentAim_4 = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("Frame")
+local InfiniteYield_2 = Instance.new("Frame")
+local AimbotCircleONOFF_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+CloseOpenGUI.Name = "Close/Open GUI"
+CloseOpenGUI.Parent = ScreenGui
+CloseOpenGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpenGUI.BackgroundTransparency = 1.000
+CloseOpenGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpenGUI.BorderSizePixel = 0
+CloseOpenGUI.Position = UDim2.new(0.053970702, 0, 0.0817757025, 0)
+CloseOpenGUI.Size = UDim2.new(0, 70, 0, 70)
+
+CloseB.Name = "Close B"
+CloseB.Parent = CloseOpenGUI
+CloseB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseB.BackgroundTransparency = 1.000
+CloseB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseB.Position = UDim2.new(0.0285714287, 0, 0.0285714287, 0)
+CloseB.Size = UDim2.new(0, 65, 0, 65)
+CloseB.Image = "rbxassetid://3570695787"
+CloseB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+CloseB.ScaleType = Enum.ScaleType.Slice
+CloseB.SliceCenter = Rect.new(100, 100, 100, 100)
+CloseB.SliceScale = 0.120
+
+Close.Name = "Close"
+Close.Parent = CloseB
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.Position = UDim2.new(0.0375000015, 0, 0.0350000001, 0)
+Close.Size = UDim2.new(0, 60, 0, 60)
+Close.Image = "rbxassetid://3570695787"
+Close.ImageColor3 = Color3.fromRGB(27, 48, 27)
+Close.ScaleType = Enum.ScaleType.Slice
+Close.SliceCenter = Rect.new(100, 100, 100, 100)
+Close.SliceScale = 0.120
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = Close
+CloseOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.BackgroundTransparency = 1.000
+CloseOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderSizePixel = 0
+CloseOpen.Position = UDim2.new(0, 0, -0.016666539, 0)
+CloseOpen.Size = UDim2.new(0, 60, 0, 60)
+CloseOpen.Font = Enum.Font.SourceSansBold
+CloseOpen.Text = "T"
+CloseOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.TextSize = 40.000
+
+MainBorderGUI.Name = "MainBorder GUI"
+MainBorderGUI.Parent = ScreenGui
+MainBorderGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBorderGUI.BackgroundTransparency = 1.000
+MainBorderGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainBorderGUI.BorderSizePixel = 0
+MainBorderGUI.Position = UDim2.new(0.264456451, 0, 0.260514021, 0)
+MainBorderGUI.Size = UDim2.new(0, 610, 0, 410)
+
+MainBorder.Name = "MainBorder"
+MainBorder.Parent = MainBorderGUI
+MainBorder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBorder.BackgroundTransparency = 1.000
+MainBorder.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainBorder.Position = UDim2.new(-0.00141951768, 0, -0.000816680142, 0)
+MainBorder.Size = UDim2.new(0, 610, 0, 410)
+MainBorder.Image = "rbxassetid://3570695787"
+MainBorder.ImageColor3 = Color3.fromRGB(0, 0, 0)
+MainBorder.ScaleType = Enum.ScaleType.Slice
+MainBorder.SliceCenter = Rect.new(100, 100, 100, 100)
+MainBorder.SliceScale = 0.120
+
+Main.Name = "Main"
+Main.Parent = MainBorder
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 4
+Main.Position = UDim2.new(0.00810807012, 0, 0.0100879204, 0)
+Main.Size = UDim2.new(0, 600, 0, 400)
+Main.Image = "rbxassetid://3570695787"
+Main.ImageColor3 = Color3.fromRGB(16, 44, 19)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+
+TIPP_PPIT.Name = "TIPP_PPIT"
+TIPP_PPIT.Parent = Main
+TIPP_PPIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TIPP_PPIT.BackgroundTransparency = 1.000
+TIPP_PPIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TIPP_PPIT.BorderSizePixel = 0
+TIPP_PPIT.Position = UDim2.new(0.284999996, 0, 0, 0)
+TIPP_PPIT.Size = UDim2.new(0, 342, 0, 50)
+TIPP_PPIT.Font = Enum.Font.SourceSansBold
+TIPP_PPIT.Text = "TIPP_PPIT: Aimprover"
+TIPP_PPIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+TIPP_PPIT.TextSize = 40.000
+
+BorderX.Name = "Border X"
+BorderX.Parent = Main
+BorderX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderX.BorderColor3 = Color3.fromRGB(39, 59, 39)
+BorderX.BorderSizePixel = 3
+BorderX.Position = UDim2.new(0.148000002, 0, 0.126000002, 0)
+BorderX.Size = UDim2.new(0, 508, 0, 5)
+
+BorderY.Name = "Border Y"
+BorderY.Parent = BorderX
+BorderY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderY.BorderColor3 = Color3.fromRGB(39, 59, 39)
+BorderY.BorderSizePixel = 3
+BorderY.Position = UDim2.new(-0.0114487773, 0, -9.39249897, 0)
+BorderY.Size = UDim2.new(0, 5, 0, 393)
+
+BorderXB.Name = "Border X B"
+BorderXB.Parent = BorderX
+BorderXB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BorderXB.BackgroundTransparency = 1.000
+BorderXB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BorderXB.Position = UDim2.new(-0.00160625787, 0, -0.0739990249, 0)
+BorderXB.Size = UDim2.new(0, 517, 0, 5)
+BorderXB.Image = "rbxassetid://3570695787"
+BorderXB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+BorderXB.ScaleType = Enum.ScaleType.Slice
+BorderXB.SliceCenter = Rect.new(100, 100, 100, 100)
+BorderXB.SliceScale = 0.120
+
+BorderXY.Name = "Border X Y"
+BorderXY.Parent = BorderX
+BorderXY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BorderXY.BackgroundTransparency = 1.000
+BorderXY.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BorderXY.Position = UDim2.new(-0.0114487773, 0, -10.079999, 0)
+BorderXY.Size = UDim2.new(0, 5, 0, 400)
+BorderXY.Image = "rbxassetid://3570695787"
+BorderXY.ImageColor3 = Color3.fromRGB(0, 0, 0)
+BorderXY.ScaleType = Enum.ScaleType.Slice
+BorderXY.SliceCenter = Rect.new(100, 100, 100, 100)
+BorderXY.SliceScale = 0.120
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+Home.BorderColor3 = Color3.fromRGB(39, 59, 39)
+Home.BorderSizePixel = 3
+Home.Position = UDim2.new(0.00999999978, 0, 0.150000006, 0)
+Home.Size = UDim2.new(0, 70, 0, 50)
+Home.Font = Enum.Font.SourceSansBold
+Home.Text = "HOME"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 25.000
+
+NeverComing.Name = "Never Coming"
+NeverComing.Parent = Main
+NeverComing.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing.BorderSizePixel = 3
+NeverComing.Position = UDim2.new(0.00999999978, 0, 0.300000012, 0)
+NeverComing.Size = UDim2.new(0, 70, 0, 50)
+NeverComing.Font = Enum.Font.SourceSansBold
+NeverComing.Text = "Never coming"
+NeverComing.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing.TextSize = 12.000
+
+NeverComing_2.Name = "Never Coming"
+NeverComing_2.Parent = Main
+NeverComing_2.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_2.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_2.BorderSizePixel = 3
+NeverComing_2.Position = UDim2.new(0.00999999978, 0, 0.449999988, 0)
+NeverComing_2.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_2.Font = Enum.Font.SourceSansBold
+NeverComing_2.Text = "Never coming"
+NeverComing_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_2.TextSize = 12.000
+
+NeverComing_3.Name = "Never Coming"
+NeverComing_3.Parent = Main
+NeverComing_3.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_3.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_3.BorderSizePixel = 3
+NeverComing_3.Position = UDim2.new(0.00999999978, 0, 0.600000024, 0)
+NeverComing_3.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_3.Font = Enum.Font.SourceSansBold
+NeverComing_3.Text = "Never coming"
+NeverComing_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_3.TextSize = 12.000
+
+NeverComing_4.Name = "Never Coming"
+NeverComing_4.Parent = Main
+NeverComing_4.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_4.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_4.BorderSizePixel = 3
+NeverComing_4.Position = UDim2.new(0.00999999978, 0, 0.75, 0)
+NeverComing_4.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_4.Font = Enum.Font.SourceSansBold
+NeverComing_4.Text = "Never coming"
+NeverComing_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_4.TextSize = 12.000
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Main
+Aimbot.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.709999979, 0, 0.200000003, 0)
+Aimbot.Size = UDim2.new(0, 130, 0, 30)
+
+Aimbot_2.Name = "Aimbot"
+Aimbot_2.Parent = Aimbot
+Aimbot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_2.BorderSizePixel = 0
+Aimbot_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+Aimbot_2.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotONOFF.Name = "Aimbot ON/OFF"
+AimbotONOFF.Parent = Aimbot_2
+AimbotONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotONOFF.BackgroundTransparency = 1.000
+AimbotONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotONOFF.BorderSizePixel = 0
+AimbotONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotONOFF.Size = UDim2.new(0, 125, 0, 25)
+AimbotONOFF.Font = Enum.Font.SourceSans
+AimbotONOFF.Text = ""
+AimbotONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotONOFF.TextSize = 14.000
+
+UICorner.Parent = Aimbot_2
+
+UICorner_2.Parent = Aimbot
+
+ESP.Name = "ESP"
+ESP.Parent = Main
+ESP.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.709666669, 0, 0.349999994, 0)
+ESP.Size = UDim2.new(0, 130, 0, 30)
+
+ESP_2.Name = "ESP"
+ESP_2.Parent = ESP
+ESP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP_2.BorderSizePixel = 0
+ESP_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+ESP_2.Size = UDim2.new(0, 125, 0, 25)
+
+ESPONOFF.Name = "ESP ON/OFF"
+ESPONOFF.Parent = ESP_2
+ESPONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPONOFF.BackgroundTransparency = 1.000
+ESPONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPONOFF.BorderSizePixel = 0
+ESPONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+ESPONOFF.Size = UDim2.new(0, 125, 0, 25)
+ESPONOFF.Font = Enum.Font.SourceSans
+ESPONOFF.Text = ""
+ESPONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPONOFF.TextSize = 14.000
+
+UICorner_3.Parent = ESP_2
+
+UICorner_4.Parent = ESP
+
+SilentAim.Name = "Silent Aim"
+SilentAim.Parent = Main
+SilentAim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.BackgroundTransparency = 1.000
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.185000002, 0, 0.474999994, 0)
+SilentAim.Size = UDim2.new(0, 342, 0, 50)
+SilentAim.Font = Enum.Font.SourceSansBold
+SilentAim.Text = "Silent Aim: (not mine)"
+SilentAim.TextColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.TextSize = 40.000
+SilentAim.TextXAlignment = Enum.TextXAlignment.Left
+
+ESP_3.Name = "ESP"
+ESP_3.Parent = Main
+ESP_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP_3.BackgroundTransparency = 1.000
+ESP_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.BorderSizePixel = 0
+ESP_3.Position = UDim2.new(0.185000002, 0, 0.32249999, 0)
+ESP_3.Size = UDim2.new(0, 342, 0, 50)
+ESP_3.Font = Enum.Font.SourceSansBold
+ESP_3.Text = "ESP:"
+ESP_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.TextSize = 40.000
+ESP_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SilentAim_2.Name = "Silent Aim"
+SilentAim_2.Parent = Main
+SilentAim_2.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_2.BorderSizePixel = 0
+SilentAim_2.Position = UDim2.new(0.709999979, 0, 0.5, 0)
+SilentAim_2.Size = UDim2.new(0, 130, 0, 30)
+
+SilentAim_3.Name = "Silent Aim"
+SilentAim_3.Parent = SilentAim_2
+SilentAim_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_3.BorderSizePixel = 0
+SilentAim_3.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+SilentAim_3.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotCircleONOFF.Name = "Aimbot Circle ON/OFF"
+AimbotCircleONOFF.Parent = SilentAim_3
+AimbotCircleONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotCircleONOFF.BackgroundTransparency = 1.000
+AimbotCircleONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF.BorderSizePixel = 0
+AimbotCircleONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotCircleONOFF.Size = UDim2.new(0, 125, 0, 25)
+AimbotCircleONOFF.Font = Enum.Font.SourceSans
+AimbotCircleONOFF.Text = ""
+AimbotCircleONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF.TextSize = 14.000
+
+UICorner_5.Parent = SilentAim_3
+
+UICorner_6.Parent = SilentAim_2
+
+Aimbot_3.Name = "Aimbot"
+Aimbot_3.Parent = Main
+Aimbot_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot_3.BackgroundTransparency = 1.000
+Aimbot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_3.BorderSizePixel = 0
+Aimbot_3.Position = UDim2.new(0.185000002, 0, 0.174999997, 0)
+Aimbot_3.Size = UDim2.new(0, 342, 0, 50)
+Aimbot_3.Font = Enum.Font.SourceSansBold
+Aimbot_3.Text = "Aimbot:"
+Aimbot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_3.TextSize = 40.000
+Aimbot_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SilentAim_4.Name = "Silent Aim"
+SilentAim_4.Parent = Main
+SilentAim_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_4.BackgroundTransparency = 1.000
+SilentAim_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_4.BorderSizePixel = 0
+SilentAim_4.Position = UDim2.new(0.185000002, 0, 0.625, 0)
+SilentAim_4.Size = UDim2.new(0, 342, 0, 50)
+SilentAim_4.Font = Enum.Font.SourceSansBold
+SilentAim_4.Text = "Infi. Yield: (not mine)"
+SilentAim_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_4.TextSize = 40.000
+SilentAim_4.TextXAlignment = Enum.TextXAlignment.Left
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.709999979, 0, 0.649999976, 0)
+InfiniteYield.Size = UDim2.new(0, 130, 0, 30)
+
+InfiniteYield_2.Name = "Infinite Yield"
+InfiniteYield_2.Parent = InfiniteYield
+InfiniteYield_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield_2.BorderSizePixel = 0
+InfiniteYield_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+InfiniteYield_2.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotCircleONOFF_2.Name = "Aimbot Circle ON/OFF"
+AimbotCircleONOFF_2.Parent = InfiniteYield_2
+AimbotCircleONOFF_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotCircleONOFF_2.BackgroundTransparency = 1.000
+AimbotCircleONOFF_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF_2.BorderSizePixel = 0
+AimbotCircleONOFF_2.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotCircleONOFF_2.Size = UDim2.new(0, 125, 0, 25)
+AimbotCircleONOFF_2.Font = Enum.Font.SourceSans
+AimbotCircleONOFF_2.Text = ""
+AimbotCircleONOFF_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF_2.TextSize = 14.000
+
+UICorner_7.Parent = InfiniteYield_2
+
+UICorner_8.Parent = InfiniteYield
+
+-- Scripts:
+
+local function ZAQHM_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
+	
+	local isOpen = true
+	local lastPos = mainBorder.Position
+	local isProcessing = false -- Verhindert Doppel-Trigger
+	
+	button.MouseButton1Click:Connect(function()
+		if isProcessing then return end -- Abbrechen, falls gerade eine Aktion läuft
+		isProcessing = true
+	
+		isOpen = not isOpen
+	
+		if isOpen then
+			-- MENÜ ÖFFNEN
+			mainBorder.Position = lastPos
+		else
+			-- MENÜ SCHLIESSEN
+			-- Wir speichern die Position NUR, wenn sie nicht schon im "Versteck" ist
+			if mainBorder.Position.X.Offset > -1000 then
+				lastPos = mainBorder.Position
+			end
+			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
+		end
+	
+		task.wait(0.1) -- Kurze Pause zur Stabilisierung
+		isProcessing = false
+	end)
+end
+coroutine.wrap(ZAQHM_fake_script)()
+local function DEQTUDK_fake_script() -- CloseOpenGUI.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpenGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		-- Berechnet die neue Position
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(DEQTUDK_fake_script)()
+local function JOJPAF_fake_script() -- AimbotONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(JOJPAF_fake_script)()
+local function FITCRR_fake_script() -- AimbotONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local Camera = workspace.CurrentCamera
+	
+	-- VARIABLE SETTINGS
+	local aimbotEnabled = false
+	local isLockActive = false
+	local smoothing = 0.15 
+	local aimKey = Enum.KeyCode.C
+	local aimMode = "HOLD"
+	
+	-- 1. GUI ERSTELLEN
+	local screenGui = script:FindFirstAncestorOfClass("ScreenGui")
+	local frame = Instance.new("Frame", screenGui)
+	frame.Name = "AimbotSettings"
+	frame.Size = UDim2.new(0, 220, 0, 260) 
+	frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+	frame.AnchorPoint = Vector2.new(0.5, 0.5)
+	frame.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
+	frame.BorderSizePixel = 0
+	frame.Visible = false
+	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 15)
+	
+	-- // DRAGGABLE LOGIC //
+	local dragToggle, dragStart, startPos
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then dragToggle = false end
+			end)
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if dragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	end)
+	
+	-- Titel
+	local title = Instance.new("TextLabel", frame)
+	title.Text = "Aimbot + Wallcheck"
+	title.Size = UDim2.new(1, 0, 0, 40)
+	title.BackgroundTransparency = 1
+	title.TextColor3 = Color3.new(1, 1, 1)
+	title.Font = Enum.Font.GothamBold
+	title.TextSize = 16
+	
+	-- // NEU: WALLCHECK FUNKTION //
+	local function isVisible(targetPart)
+		local char = Players.LocalPlayer.Character
+		if not char then return false end
+	
+		local rayParams = RaycastParams.new()
+		rayParams.FilterDescendantsInstances = {char, Camera}
+		rayParams.FilterType = Enum.RaycastFilterType.Exclude
+	
+		-- Strahl von der Kamera zum Zielteil
+		local origin = Camera.CFrame.Position
+		local direction = targetPart.Position - origin
+		local raycastResult = workspace:Raycast(origin, direction, rayParams)
+	
+		-- Wenn der Strahl nichts trifft oder das Ziel trifft, ist es sichtbar
+		if raycastResult then
+			return raycastResult.Instance:IsDescendantOf(targetPart.Parent)
+		end
+		return false
+	end
+	
+	-- // ZIELFINDUNG MIT WALLCHECK //
+	local function getTarget()
+		local closest = nil
+		local dist = math.huge
+		local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+	
+		for _, p in pairs(Players:GetPlayers()) do
+			if p ~= Players.LocalPlayer and p.Character and p.Team ~= Players.LocalPlayer.Team then
+				local head = p.Character:FindFirstChild("Head")
+				local hum = p.Character:FindFirstChild("Humanoid")
+	
+				if head and hum and hum.Health > 0 then
+					local pos, on = Camera:WorldToViewportPoint(head.Position)
+					-- Prüfe ob auf dem Bildschirm UND ob keine Wand davor ist
+					if on and isVisible(head) then
+						local mag = (Vector2.new(pos.X, pos.Y) - center).Magnitude
+						if mag < dist then 
+							closest = head 
+							dist = mag 
+						end
+					end
+				end
+			end
+		end
+		return closest
+	end
+	
+	-- // RESTLICHE LOGIK (Inputs & Schleife) //
+	local function createLabeledInput(labelText, placeholder, pos)
+		local label = Instance.new("TextLabel", frame); label.Text = labelText; label.Size = UDim2.new(0.8, 0, 0, 20); label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.08, 0); label.BackgroundTransparency = 1; label.TextColor3 = Color3.fromRGB(200, 200, 200); label.Font = Enum.Font.GothamSemibold; label.TextSize = 12; label.TextXAlignment = Enum.TextXAlignment.Left; label.Parent = frame
+		local txt = Instance.new("TextBox", frame); txt.PlaceholderText = placeholder; txt.Size = UDim2.new(0.8, 0, 0, 30); txt.Position = pos; txt.BackgroundColor3 = Color3.fromRGB(35, 65, 30); txt.TextColor3 = Color3.new(1, 1, 1); txt.Font = Enum.Font.Gotham; txt.TextSize = 14; txt.Text = ""; Instance.new("UICorner", txt).CornerRadius = UDim.new(0, 8); return txt
+	end
+	
+	local keyInput = createLabeledInput("Keybind:", "C, Q, F...", UDim2.new(0.1, 0, 0.28, 0))
+	local smoothInput = createLabeledInput("Smoothing:", "0.01 - 1.0", UDim2.new(0.1, 0, 0.53, 0))
+	local modeInput = createLabeledInput("Aimbot Mode:", "HOLD / TOGGLE", UDim2.new(0.1, 0, 0.78, 0))
+	
+	keyInput.FocusLost:Connect(function() local s, r = pcall(function() return Enum.KeyCode[keyInput.Text:upper()] end) if s then aimKey = r; keyInput.Text = r.Name end end)
+	smoothInput.FocusLost:Connect(function() local n = tonumber(smoothInput.Text) if n then smoothing = math.clamp(n, 0.01, 1); smoothInput.Text = tostring(smoothing) end end)
+	modeInput.FocusLost:Connect(function() local i = modeInput.Text:upper() if i == "TOGGLE" or i == "HOLD" then aimMode = i; modeInput.Text = aimMode; isLockActive = false end end)
+	
+	UserInputService.InputBegan:Connect(function(i, p) if p then return end if i.KeyCode == aimKey then if aimMode == "HOLD" then isLockActive = true else isLockActive = not isLockActive end end end)
+	UserInputService.InputEnded:Connect(function(i) if i.KeyCode == aimKey and aimMode == "HOLD" then isLockActive = false end end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		aimbotEnabled = not aimbotEnabled
+		frame.Visible = aimbotEnabled
+	end)
+	
+	RunService.RenderStepped:Connect(function()
+		if aimbotEnabled and isLockActive then
+			local target = getTarget()
+			if target then
+				local lookAt = CFrame.new(Camera.CFrame.Position, target.Position)
+				Camera.CFrame = Camera.CFrame:Lerp(lookAt, smoothing)
+			end
+		end
+	end)
+end
+coroutine.wrap(FITCRR_fake_script)()
+local function NCXFIYF_fake_script() -- ESPONOFF.Red/Green 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(NCXFIYF_fake_script)()
+local function LAORG_fake_script() -- ESPONOFF.LocalScript 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local RunService = game:GetService("RunService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local button = script.Parent
+	
+	local espActive = false
+	
+	-- Funktion zum Erstellen des ESP
+	local function createESP(player)
+		if player == LocalPlayer then return end
+	
+		local function setup(char)
+			-- Falls schon ein Tag existiert, löschen (um Dopplungen zu vermeiden)
+			local head = char:WaitForChild("Head", 10)
+			if head and not head:FindFirstChild("ESPTag") then
+				local bgui = Instance.new("BillboardGui", head)
+				bgui.Name = "ESPTag"
+				bgui.Size = UDim2.new(0, 150, 0, 75) -- Etwas größer für Distanz + Name
+				bgui.AlwaysOnTop = true
+				bgui.StudsOffset = Vector3.new(0, 3, 0)
+	
+				local lbl = Instance.new("TextLabel", bgui)
+				lbl.BackgroundTransparency = 1
+				lbl.Size = UDim2.new(1, 0, 1, 0)
+				lbl.TextScaled = false
+				lbl.TextSize = 14
+				-- HIER: Nutzt die Teamfarbe des Spielers
+				lbl.TextColor3 = player.TeamColor.Color 
+				lbl.Font = Enum.Font.GothamBold
+				lbl.TextStrokeTransparency = 0 -- Bessere Lesbarkeit
+			end
+		end
+	
+		player.CharacterAdded:Connect(setup)
+		if player.Character then setup(player.Character) end
+	end
+	
+	-- Button Klick: Schaltet die Logik um
+	button.MouseButton1Click:Connect(function()
+		espActive = not espActive
+	
+		if espActive then
+			for _, p in pairs(Players:GetPlayers()) do 
+				createESP(p) 
+			end
+		else
+			-- Alle Tags entfernen
+			for _, p in pairs(Players:GetPlayers()) do
+				if p.Character and p.Character:FindFirstChild("Head") then
+					local tag = p.Character.Head:FindFirstChild("ESPTag")
+					if tag then tag:Destroy() end
+				end
+			end
+		end
+	end)
+	
+	-- Update der Distanzanzeige und Teamfarbe
+	RunService.RenderStepped:Connect(function()
+		if espActive then
+			local myChar = LocalPlayer.Character
+			if not myChar or not myChar:FindFirstChild("Head") then return end
+	
+			for _, p in pairs(Players:GetPlayers()) do
+				if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("Head") then
+					local tag = p.Character.Head:FindFirstChild("ESPTag")
+					local label = tag and tag:FindFirstChild("TextLabel")
+	
+					if label then
+						-- Distanz berechnen
+						local dist = math.floor((myChar.Head.Position - p.Character.Head.Position).Magnitude)
+	
+						-- Text setzen: Name + Distanz
+						label.Text = p.Name .. "\n[" .. dist .. "m]"
+	
+						-- Farbe aktualisieren (falls Team gewechselt wurde)
+						label.TextColor3 = p.TeamColor.Color
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(LAORG_fake_script)()
+local function IGAVH_fake_script() -- AimbotCircleONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Führt das externe Skript aus, wenn der Button geklickt wird
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
+		end)
+	end)
+end
+coroutine.wrap(IGAVH_fake_script)()
+local function BQMG_fake_script() -- AimbotCircleONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(BQMG_fake_script)()
+local function UTKO_fake_script() -- AimbotCircleONOFF_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Führt das externe Skript aus, wenn der Button geklickt wird
+		local success, err = pcall(function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		end)
+	end)
+end
+coroutine.wrap(UTKO_fake_script)()
+local function DCEAJQ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(DCEAJQ_fake_script)()
+local function DSHXNZ_fake_script() -- MainBorderGUI.LocalScript 
+	local script = Instance.new('LocalScript', MainBorderGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		-- Berechnet die neue Position
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(DSHXNZ_fake_script)()
