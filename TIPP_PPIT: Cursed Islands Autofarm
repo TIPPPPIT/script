@@ -1,0 +1,61 @@
+local TweenService = game:GetService("TweenService")
+local spawnsFolder = workspace.Lobby.CoinSpawns
+local player = game.Players.LocalPlayer
+ 
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+ 
+local tweenDuration = 0.5
+local tweenEasingStyle = Enum.EasingStyle.Quad
+local tweenEasingDirection = Enum.EasingDirection.Out
+ 
+local interTweenDelay = 0.2
+ 
+local function getPlayerComponents()
+    character = player.Character
+    if not character then
+        character = player.CharacterAdded:Wait()
+    end
+    humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+    return character, humanoidRootPart
+end
+ 
+if spawnsFolder and humanoidRootPart then
+    local spawnParts = {}
+    for _, child in ipairs(spawnsFolder:GetChildren()) do
+        if child:IsA("BasePart") and child.Name == "Spawn" then
+            table.insert(spawnParts, child)
+        end
+    end
+ 
+    if #spawnParts > 0 then
+        table.sort(spawnParts, function(a, b)
+            return a.Name < b.Name
+        end)
+ 
+        for i, part in ipairs(spawnParts) do
+            local char, hrp = getPlayerComponents()
+            if not char or not hrp then
+                break
+            end
+            humanoidRootPart = hrp
+ 
+            local targetCFrame = part.CFrame * CFrame.new(0, 5, 0)
+ 
+            local tweenInfo = TweenInfo.new(
+                tweenDuration,
+                tweenEasingStyle,
+                tweenEasingDirection
+            )
+ 
+            local tween = TweenService:Create(humanoidRootPart, tweenInfo, {CFrame = targetCFrame})
+            tween:Play()
+ 
+            tween.Completed:Wait()
+ 
+            if i < #spawnParts then
+                task.wait(interTweenDelay)
+            end
+        end
+    end
+end)
