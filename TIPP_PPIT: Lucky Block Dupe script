@@ -1,0 +1,193 @@
+local LuckyBlockScript = Instance.new("ScreenGui")
+local BorderMainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local MainFrameCorner = Instance.new("UICorner")
+local ScriptName = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ScriptBorder = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local BorderONOFF = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local OnOff = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+
+LuckyBlockScript.Name = "Lucky Block Script"
+LuckyBlockScript.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
+LuckyBlockScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BorderMainFrame.Name = "BorderMainFrame"
+BorderMainFrame.Parent = LuckyBlockScript
+BorderMainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderMainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BorderMainFrame.BorderSizePixel = 0
+BorderMainFrame.Position = UDim2.new(0.0161344875, 0, 0.730256736, 0)
+BorderMainFrame.Size = UDim2.new(0.260712922, 0, 0.249513522, 0)
+
+UICorner.CornerRadius = UDim.new(0.100000001, 8)
+UICorner.Parent = BorderMainFrame
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BorderMainFrame
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 251, 255)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0180172, 0, 0.0212497, 0)
+MainFrame.Size = UDim2.new(0.96090, 0, 0.95000, 0)
+
+MainFrameCorner.CornerRadius = UDim.new(0.100000001, 8)
+MainFrameCorner.Name = "MainFrameCorner"
+MainFrameCorner.Parent = MainFrame
+
+ScriptName.Name = "ScriptName"
+ScriptName.Parent = MainFrame
+ScriptName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName.Position = UDim2.new(0.0920000002, 0, 0, 0)
+ScriptName.Size = UDim2.new(0.808000028, 0, 0.25999999, 0)
+ScriptName.Font = Enum.Font.Bangers
+ScriptName.Text = ""
+ScriptName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptName.TextSize = 40.000
+
+UICorner_2.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_2.Parent = ScriptName
+
+ScriptBorder.Name = "ScriptBorder"
+ScriptBorder.Parent = MainFrame
+ScriptBorder.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+ScriptBorder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptBorder.Position = UDim2.new(0.0920000002, 0, 0, 0)
+ScriptBorder.Size = UDim2.new(0.800000012, 0, 0.25, 0)
+ScriptBorder.Font = Enum.Font.Bangers
+ScriptBorder.Text = "DUPE GUI:"
+ScriptBorder.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptBorder.TextSize = 30.000
+
+UICorner_3.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_3.Parent = ScriptBorder
+
+BorderONOFF.Name = "BorderON/OFF"
+BorderONOFF.Parent = MainFrame
+BorderONOFF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BorderONOFF.BorderSizePixel = 0
+BorderONOFF.Position = UDim2.new(0.0879999995, 0, 0.310000062, 0)
+BorderONOFF.Size = UDim2.new(0.819999993, 0, 0.524999976, 0)
+
+UICorner_4.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_4.Parent = BorderONOFF
+
+OnOff.Name = "On/Off"
+OnOff.Parent = MainFrame
+OnOff.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+OnOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OnOff.BorderSizePixel = 0
+OnOff.Position = UDim2.new(0.100000001, 0, 0.324999988, 0)
+OnOff.Size = UDim2.new(0.800000012, 0, 0.5, 0)
+OnOff.Font = Enum.Font.Bangers
+OnOff.Text = "DUPE"
+OnOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+OnOff.TextSize = 50.000
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_5.Parent = OnOff
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(69, 255, 249)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.108000003, 0, 0.870000005, 0)
+TextLabel.Size = UDim2.new(0.800000012, 0, 0.0949999988, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made By: TIPP_PPIT"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UIAspectRatioConstraint.Parent = MainFrame
+UIAspectRatioConstraint.AspectRatio = 1.250
+
+UIAspectRatioConstraint_2.Parent = LuckyBlockScript
+UIAspectRatioConstraint_2.AspectRatio = 1.076
+
+local LocalPlayer = Players.LocalPlayer
+
+local function doubleLocalPlayerBackpackItems()
+    if not LocalPlayer then return end
+
+    local backpack = LocalPlayer:WaitForChild("Backpack")
+    if not backpack then
+        warn("Backpack nicht gefunden für den lokalen Spieler.")
+        return
+    end
+
+    print("Versuche, Items im Rucksack des lokalen Spielers zu kopieren und einzufügen: " .. LocalPlayer.Name)
+
+    local itemsToDuplicate = {}
+    for _, item in ipairs(backpack:GetChildren()) do
+        if item:IsA("Tool") or item:IsA("Model") or item:IsA("Part") then
+            table.insert(itemsToDuplicate, item)
+        else
+            warn("Überspringe Nicht-Tool/Model/Part-Item im Rucksack: " .. item.Name)
+        end
+    end
+
+    for _, item in ipairs(itemsToDuplicate) do
+        local clonedItem = item:Clone()
+        clonedItem.Parent = backpack
+        print("Item im Rucksack kopiert und eingefügt: " .. item.Name)
+    end
+end
+
+local dragging = false
+local dragStart = Vector2.new(0, 0)
+local initialPosition = UDim2.new(0,0,0,0)
+
+local function onInputBegan(input, gameProcessed)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 and not gameProcessed then
+        local mousePosition = UserInputService:GetMouseLocation()
+        local frameAbsolutePosition = BorderMainFrame.AbsolutePosition
+        local frameAbsoluteSize = BorderMainFrame.AbsoluteSize
+
+        if mousePosition.X >= frameAbsolutePosition.X and
+           mousePosition.X <= frameAbsolutePosition.X + frameAbsoluteSize.X and
+           mousePosition.Y >= frameAbsolutePosition.Y and
+           mousePosition.Y <= frameAbsolutePosition.Y + frameAbsoluteSize.Y then
+
+            dragging = true
+            dragStart = mousePosition
+            initialPosition = BorderMainFrame.Position
+        end
+    end
+end
+
+local function onInputChanged(input, gameProcessed)
+    if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local delta = input.Position - dragStart
+        local newX = initialPosition.X.Offset + delta.X
+        local newY = initialPosition.Y.Offset + delta.Y
+        BorderMainFrame.Position = UDim2.new(0, newX, 0, newY)
+    end
+end
+
+local function onInputEnded(input, gameProcessed)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+    end
+end
+
+UserInputService.InputBegan:Connect(onInputBegan)
+UserInputService.InputChanged:Connect(onInputChanged)
+UserInputService.InputEnded:Connect(onInputEnded)
+
+OnOff.MouseButton1Click:Connect(function()
+    print("DUPE Button geklickt!")
+    doubleLocalPlayerBackpackItems()
+end)
