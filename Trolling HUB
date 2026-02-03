@@ -1,0 +1,640 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local BorderMainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local CloseOpen = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local MainFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local GUIName = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UnderGUIName = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local LineGUIName = Instance.new("Frame")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local BeNormal = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local BeNormal_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local BeSnake = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local BeSnake_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local bringplayer = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local bringplayer_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local walkfling = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local Walkfling = Instance.new("TextLabel")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local AntiAfk = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local AntiAfk_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local Ak47 = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local Ak47_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local Fly = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local Fly_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local InfiniteYield = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local Inf = Instance.new("TextLabel")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local CreatedBy = Instance.new("TextLabel")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local Animation = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local Animation_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
+local GUIName_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local Frame = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+BorderMainFrame.Name = "BorderMainFrame"
+BorderMainFrame.Parent = ScreenGui
+BorderMainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderMainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BorderMainFrame.BorderSizePixel = 0
+BorderMainFrame.Position = UDim2.new(0.29699716, 0, 0.257109016, 0)
+BorderMainFrame.Size = UDim2.new(0.58317399, 0, 0.485781997, 0)
+
+UICorner.CornerRadius = UDim.new(0.0399999991, 0)
+UICorner.Parent = BorderMainFrame
+
+UIAspectRatioConstraint.Parent = BorderMainFrame
+UIAspectRatioConstraint.AspectRatio = 1.488
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = ScreenGui
+CloseOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderSizePixel = 3
+CloseOpen.Position = UDim2.new(0.0205781851, 0, 0.035545025, 0)
+CloseOpen.Size = UDim2.new(0.0669216067, 0, 0.082938388, 0)
+CloseOpen.Font = Enum.Font.SourceSans
+CloseOpen.Text = "CLOSE/OPEN"
+CloseOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.TextScaled = true
+CloseOpen.TextSize = 14.000
+CloseOpen.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient.Parent = CloseOpen
+
+UITextSizeConstraint.Parent = CloseOpen
+UITextSizeConstraint.MaxTextSize = 14
+
+UIAspectRatioConstraint_2.Parent = ScreenGui
+UIAspectRatioConstraint_2.AspectRatio = 1.239
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.300480574, 0, 0.263033181, 0)
+MainFrame.Size = UDim2.new(0.573613763, 0, 0.473933637, 0)
+
+UICorner_2.CornerRadius = UDim.new(0.0399999991, 0)
+UICorner_2.Parent = MainFrame
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_2.Parent = MainFrame
+
+GUIName.Name = "GUIName"
+GUIName.Parent = MainFrame
+GUIName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIName.BackgroundTransparency = 1.000
+GUIName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUIName.BorderSizePixel = 0
+GUIName.Size = UDim2.new(1, 0, 0.125, 0)
+GUIName.Font = Enum.Font.Bangers
+GUIName.Text = "Trolling GUI:"
+GUIName.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUIName.TextScaled = true
+GUIName.TextSize = 50.000
+GUIName.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = GUIName
+UITextSizeConstraint_2.MaxTextSize = 50
+
+UnderGUIName.Name = "UnderGUIName"
+UnderGUIName.Parent = MainFrame
+UnderGUIName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UnderGUIName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UnderGUIName.BorderSizePixel = 0
+UnderGUIName.Position = UDim2.new(0, 0, 0.112499997, 0)
+UnderGUIName.Size = UDim2.new(1, 0, 0.0125000002, 0)
+
+UIAspectRatioConstraint_3.Parent = UnderGUIName
+UIAspectRatioConstraint_3.AspectRatio = 120.000
+
+LineGUIName.Name = "LineGUIName"
+LineGUIName.Parent = MainFrame
+LineGUIName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LineGUIName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LineGUIName.BorderSizePixel = 0
+LineGUIName.Position = UDim2.new(0.158333331, 0, -3.81469718e-08, 0)
+LineGUIName.Size = UDim2.new(-0.00833333377, 0, 1, 0)
+
+UIAspectRatioConstraint_4.Parent = LineGUIName
+
+BeNormal.Name = "Be Normal"
+BeNormal.Parent = MainFrame
+BeNormal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeNormal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeNormal.Position = UDim2.new(0.875, 0, 0.174999997, 0)
+BeNormal.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+BeNormal.Font = Enum.Font.SourceSans
+BeNormal.Text = "ON/OFF"
+BeNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeNormal.TextScaled = true
+BeNormal.TextSize = 14.000
+BeNormal.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_3.Parent = BeNormal
+
+BeNormal_2.Name = "Be Normal"
+BeNormal_2.Parent = BeNormal
+BeNormal_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeNormal_2.BackgroundTransparency = 1.000
+BeNormal_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeNormal_2.BorderSizePixel = 0
+BeNormal_2.Position = UDim2.new(-11.5380001, 0, -0.0149999997, 0)
+BeNormal_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+BeNormal_2.Font = Enum.Font.Bangers
+BeNormal_2.Text = "Be Normal (Reset)"
+BeNormal_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeNormal_2.TextScaled = true
+BeNormal_2.TextSize = 50.000
+BeNormal_2.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = BeNormal_2
+UITextSizeConstraint_3.MaxTextSize = 50
+
+UITextSizeConstraint_4.Parent = BeNormal
+UITextSizeConstraint_4.MaxTextSize = 14
+
+BeSnake.Name = "Be Snake"
+BeSnake.Parent = MainFrame
+BeSnake.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeSnake.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeSnake.Position = UDim2.new(0.875, 0, 0.300000012, 0)
+BeSnake.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+BeSnake.Font = Enum.Font.SourceSans
+BeSnake.Text = "ON/OFF"
+BeSnake.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeSnake.TextScaled = true
+BeSnake.TextSize = 14.000
+BeSnake.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_4.Parent = BeSnake
+
+UITextSizeConstraint_5.Parent = BeSnake
+UITextSizeConstraint_5.MaxTextSize = 14
+
+BeSnake_2.Name = "Be Snake"
+BeSnake_2.Parent = BeSnake
+BeSnake_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeSnake_2.BackgroundTransparency = 1.000
+BeSnake_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeSnake_2.BorderSizePixel = 0
+BeSnake_2.Position = UDim2.new(-13.0933352, 0, 0, 0)
+BeSnake_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+BeSnake_2.Font = Enum.Font.Bangers
+BeSnake_2.Text = "Be Snake "
+BeSnake_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeSnake_2.TextScaled = true
+BeSnake_2.TextSize = 50.000
+BeSnake_2.TextWrapped = true
+
+UITextSizeConstraint_6.Parent = BeSnake_2
+UITextSizeConstraint_6.MaxTextSize = 50
+
+bringplayer.Name = "bringplayer"
+bringplayer.Parent = MainFrame
+bringplayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bringplayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bringplayer.Position = UDim2.new(0.875, 0, 0.425000012, 0)
+bringplayer.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+bringplayer.Font = Enum.Font.SourceSans
+bringplayer.Text = "ON/OFF"
+bringplayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+bringplayer.TextScaled = true
+bringplayer.TextSize = 14.000
+bringplayer.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_5.Parent = bringplayer
+
+bringplayer_2.Name = "bringplayer"
+bringplayer_2.Parent = bringplayer
+bringplayer_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bringplayer_2.BackgroundTransparency = 1.000
+bringplayer_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bringplayer_2.BorderSizePixel = 0
+bringplayer_2.Position = UDim2.new(-12.4983349, 0, -0.0149999997, 0)
+bringplayer_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+bringplayer_2.Font = Enum.Font.Bangers
+bringplayer_2.Text = "bring Player"
+bringplayer_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+bringplayer_2.TextScaled = true
+bringplayer_2.TextSize = 50.000
+bringplayer_2.TextWrapped = true
+
+UITextSizeConstraint_7.Parent = bringplayer_2
+UITextSizeConstraint_7.MaxTextSize = 50
+
+UITextSizeConstraint_8.Parent = bringplayer
+UITextSizeConstraint_8.MaxTextSize = 14
+
+walkfling.Name = "walkfling"
+walkfling.Parent = MainFrame
+walkfling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+walkfling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walkfling.Position = UDim2.new(0.875, 0, 0.550000012, 0)
+walkfling.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+walkfling.Font = Enum.Font.SourceSans
+walkfling.Text = "ON/OFF"
+walkfling.TextColor3 = Color3.fromRGB(0, 0, 0)
+walkfling.TextScaled = true
+walkfling.TextSize = 14.000
+walkfling.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_6.Parent = walkfling
+
+Walkfling.Name = "Walkfling"
+Walkfling.Parent = walkfling
+Walkfling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walkfling.BackgroundTransparency = 1.000
+Walkfling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Walkfling.BorderSizePixel = 0
+Walkfling.Position = UDim2.new(-12.96, 0, -0.0125000002, 0)
+Walkfling.Size = UDim2.new(11.8999996, 0, 1, 0)
+Walkfling.Font = Enum.Font.Bangers
+Walkfling.Text = "Walkfling"
+Walkfling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walkfling.TextScaled = true
+Walkfling.TextSize = 50.000
+Walkfling.TextWrapped = true
+
+UITextSizeConstraint_9.Parent = Walkfling
+UITextSizeConstraint_9.MaxTextSize = 50
+
+UITextSizeConstraint_10.Parent = walkfling
+UITextSizeConstraint_10.MaxTextSize = 14
+
+AntiAfk.Name = "AntiAfk"
+AntiAfk.Parent = MainFrame
+AntiAfk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAfk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AntiAfk.Position = UDim2.new(0.875, 0, 0.675000012, 0)
+AntiAfk.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+AntiAfk.Font = Enum.Font.SourceSans
+AntiAfk.Text = "ON/OFF"
+AntiAfk.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAfk.TextScaled = true
+AntiAfk.TextSize = 14.000
+AntiAfk.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_7.Parent = AntiAfk
+
+AntiAfk_2.Name = "Anti Afk"
+AntiAfk_2.Parent = AntiAfk
+AntiAfk_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAfk_2.BackgroundTransparency = 1.000
+AntiAfk_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AntiAfk_2.BorderSizePixel = 0
+AntiAfk_2.Position = UDim2.new(-13.286665, 0, -0.00499999989, 0)
+AntiAfk_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+AntiAfk_2.Font = Enum.Font.Bangers
+AntiAfk_2.Text = "Anti Afk"
+AntiAfk_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAfk_2.TextScaled = true
+AntiAfk_2.TextSize = 50.000
+AntiAfk_2.TextWrapped = true
+
+UITextSizeConstraint_11.Parent = AntiAfk_2
+UITextSizeConstraint_11.MaxTextSize = 50
+
+UITextSizeConstraint_12.Parent = AntiAfk
+UITextSizeConstraint_12.MaxTextSize = 14
+
+Ak47.Name = "Ak-47"
+Ak47.Parent = MainFrame
+Ak47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ak47.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ak47.Position = UDim2.new(0.875, 0, 0.800000012, 0)
+Ak47.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+Ak47.Font = Enum.Font.SourceSans
+Ak47.Text = "ON/OFF"
+Ak47.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ak47.TextScaled = true
+Ak47.TextSize = 14.000
+Ak47.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_8.Parent = Ak47
+
+Ak47_2.Name = "Ak-47"
+Ak47_2.Parent = Ak47
+Ak47_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ak47_2.BackgroundTransparency = 1.000
+Ak47_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ak47_2.BorderSizePixel = 0
+Ak47_2.Position = UDim2.new(-13.6350002, 0, 0, 0)
+Ak47_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+Ak47_2.Font = Enum.Font.Bangers
+Ak47_2.Text = "Ak-47"
+Ak47_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ak47_2.TextScaled = true
+Ak47_2.TextSize = 50.000
+Ak47_2.TextWrapped = true
+
+UITextSizeConstraint_13.Parent = Ak47_2
+UITextSizeConstraint_13.MaxTextSize = 50
+
+UITextSizeConstraint_14.Parent = Ak47
+UITextSizeConstraint_14.MaxTextSize = 14
+
+Fly.Name = "Fly"
+Fly.Parent = MainFrame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.Position = UDim2.new(0.0299999993, 0, 0.264999986, 0)
+Fly.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "ON/OFF"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_9.Parent = Fly
+
+Fly_2.Name = "Fly"
+Fly_2.Parent = Fly
+Fly_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly_2.BackgroundTransparency = 1.000
+Fly_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly_2.BorderSizePixel = 0
+Fly_2.Position = UDim2.new(-5.45800066, 0, -1.01499999, 0)
+Fly_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+Fly_2.Font = Enum.Font.Bangers
+Fly_2.Text = "Fly"
+Fly_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly_2.TextScaled = true
+Fly_2.TextSize = 50.000
+Fly_2.TextWrapped = true
+
+UITextSizeConstraint_15.Parent = Fly_2
+UITextSizeConstraint_15.MaxTextSize = 50
+
+UITextSizeConstraint_16.Parent = Fly
+UITextSizeConstraint_16.MaxTextSize = 14
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = MainFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.Position = UDim2.new(0.0299999993, 0, 0.797500014, 0)
+InfiniteYield.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "ON/OFF"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_10.Parent = InfiniteYield
+
+Inf.Name = "Inf"
+Inf.Parent = InfiniteYield
+Inf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inf.BackgroundTransparency = 1.000
+Inf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Inf.BorderSizePixel = 0
+Inf.Position = UDim2.new(-5.45800066, 0, -1.01499999, 0)
+Inf.Size = UDim2.new(11.8999996, 0, 1, 0)
+Inf.Font = Enum.Font.Bangers
+Inf.Text = "Inf."
+Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inf.TextScaled = true
+Inf.TextSize = 50.000
+Inf.TextWrapped = true
+
+UITextSizeConstraint_17.Parent = Inf
+UITextSizeConstraint_17.MaxTextSize = 50
+
+UITextSizeConstraint_18.Parent = InfiniteYield
+UITextSizeConstraint_18.MaxTextSize = 14
+
+CreatedBy.Name = "Created By"
+CreatedBy.Parent = MainFrame
+CreatedBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreatedBy.BackgroundTransparency = 1.000
+CreatedBy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreatedBy.BorderSizePixel = 0
+CreatedBy.Position = UDim2.new(0.158333331, 0, 0.88499999, 0)
+CreatedBy.Size = UDim2.new(0.850000024, 0, 0.115000002, 0)
+CreatedBy.Font = Enum.Font.Bangers
+CreatedBy.Text = "Created by: TIPP_PPIT"
+CreatedBy.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreatedBy.TextScaled = true
+CreatedBy.TextSize = 40.000
+CreatedBy.TextWrapped = true
+
+UITextSizeConstraint_19.Parent = CreatedBy
+UITextSizeConstraint_19.MaxTextSize = 40
+
+Animation.Name = "Animation"
+Animation.Parent = MainFrame
+Animation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Animation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Animation.Position = UDim2.new(0.0299999993, 0, 0.519999981, 0)
+Animation.Size = UDim2.new(0.0833333358, 0, 0.125, 0)
+Animation.Font = Enum.Font.SourceSans
+Animation.Text = "ON/OFF"
+Animation.TextColor3 = Color3.fromRGB(0, 0, 0)
+Animation.TextScaled = true
+Animation.TextSize = 14.000
+Animation.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(179, 20, 200)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 255, 249))}
+UIGradient_11.Parent = Animation
+
+Animation_2.Name = "Animation"
+Animation_2.Parent = Animation
+Animation_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Animation_2.BackgroundTransparency = 1.000
+Animation_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Animation_2.BorderSizePixel = 0
+Animation_2.Position = UDim2.new(-5.45800066, 0, -1.01499999, 0)
+Animation_2.Size = UDim2.new(11.8999996, 0, 1, 0)
+Animation_2.Font = Enum.Font.Bangers
+Animation_2.Text = "Ani."
+Animation_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Animation_2.TextScaled = true
+Animation_2.TextSize = 50.000
+Animation_2.TextWrapped = true
+
+UITextSizeConstraint_20.Parent = Animation_2
+UITextSizeConstraint_20.MaxTextSize = 50
+
+UITextSizeConstraint_21.Parent = Animation
+UITextSizeConstraint_21.MaxTextSize = 14
+
+GUIName_2.Name = "GUIName"
+GUIName_2.Parent = MainFrame
+GUIName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIName_2.BackgroundTransparency = 1.000
+GUIName_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUIName_2.BorderSizePixel = 0
+GUIName_2.Position = UDim2.new(-0.425000012, 0, 0, 0)
+GUIName_2.Size = UDim2.new(1, 0, 0.125, 0)
+GUIName_2.Font = Enum.Font.Bangers
+GUIName_2.Text = "Misc:"
+GUIName_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUIName_2.TextScaled = true
+GUIName_2.TextSize = 45.000
+GUIName_2.TextWrapped = true
+
+UITextSizeConstraint_22.Parent = GUIName_2
+UITextSizeConstraint_22.MaxTextSize = 45
+
+UIAspectRatioConstraint_5.Parent = MainFrame
+UIAspectRatioConstraint_5.AspectRatio = 1.500
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.150000006, 0, 0.124999925, 0)
+Frame.Size = UDim2.new(-0.0105554201, 0, 0.877500176, 0)
+
+
+CloseOpen.MouseButton1Click:Connect(function()
+    local isVisible = BorderMainFrame.Visible
+    BorderMainFrame.Visible = not isVisible
+    MainFrame.Visible = not isVisible -- MainFrame ist jetzt ein Kind von BorderMainFrame, wird also mitgeblendet
+end)
+
+
+BorderMainFrame.Visible = true
+
+-- Funktion für den Animation-Button
+Animation.MouseButton1Click:Connect(function()
+    -- Versuche, das Skript von der URL herunterzuladen und auszuführen.
+    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix")
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den Fly-Button
+Fly.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
+    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt")
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den Infinite Yield-Button
+InfiniteYield.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
+    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den Be Normal-Button
+BeNormal.MouseButton1Click:Connect(function()
+    -- Sendet eine Benachrichtigung an den Spieler
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Reset Character",
+        Text = "Do it yourself",
+        Button1 = "Sorry",
+        Duration = 25
+    })
+end)
+
+
+-- Funktion für den Be Snake-Button
+BeSnake.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
+    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/Be%20Snake")
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den bringplayer-Button
+bringplayer.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der "Bring Player"-URL herunterzuladen und auszuführen.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/Bring%20player")
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den walkfling-Button
+walkfling.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der "WalkFling"-URL herunterzuladen und auszuführen.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/WalkFling", true)
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den AntiAfk-Button
+AntiAfk.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der "anti afk"-URL herunterzuladen und auszuführen.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/anti%20afk", true)
+        loadstring(scriptContent)()
+    end)
+end)
+
+-- Funktion für den Ak47-Button
+Ak47.MouseButton1Click:Connect(function()
+    -- Versucht, das Skript von der "ak47"-URL herunterzuladen und auszuführen.
+    pcall(function()
+        local scriptContent = game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true)
+        loadstring(scriptContent)()
+    end)
+end)
