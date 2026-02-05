@@ -441,41 +441,7 @@ UICorner_8.Parent = InfiniteYield
 
 -- Scripts:
 
-local function ISUDRL_fake_script() -- CloseOpen.LocalScript 
-	local script = Instance.new('LocalScript', CloseOpen)
-
-	local button = script.Parent
-	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
-	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
-	
-	local isOpen = true
-	local lastPos = mainBorder.Position
-	local isProcessing = false -- Verhindert Doppel-Trigger
-	
-	button.MouseButton1Click:Connect(function()
-		if isProcessing then return end -- Abbrechen, falls gerade eine Aktion läuft
-		isProcessing = true
-	
-		isOpen = not isOpen
-	
-		if isOpen then
-			-- MENÜ ÖFFNEN
-			mainBorder.Position = lastPos
-		else
-			-- MENÜ SCHLIESSEN
-			-- Wir speichern die Position NUR, wenn sie nicht schon im "Versteck" ist
-			if mainBorder.Position.X.Offset > -1000 then
-				lastPos = mainBorder.Position
-			end
-			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
-		end
-	
-		task.wait(0.1) -- Kurze Pause zur Stabilisierung
-		isProcessing = false
-	end)
-end
-coroutine.wrap(ISUDRL_fake_script)()
-local function ZFPW_fake_script() -- CloseOpenGUI.LocalScript 
+local function AMFGA_fake_script() -- CloseOpenGUI.LocalScript 
 	local script = Instance.new('LocalScript', CloseOpenGUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -519,412 +485,42 @@ local function ZFPW_fake_script() -- CloseOpenGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZFPW_fake_script)()
-local function BVYLM_fake_script() -- AimbotONOFF.Red/Green 
-	local script = Instance.new('LocalScript', AimbotONOFF)
+coroutine.wrap(AMFGA_fake_script)()
+local function UNSX_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
 
-	local TweenService = game:GetService("TweenService")
-	
 	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
 	
-	local active = false
-	
-	-- Einstellungen für die Farben
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	-- Zeit und Stil der Animation
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	-- Initialisierung beim Start
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
+	local isOpen = true
+	local lastPos = mainBorder.Position
+	local isProcessing = false -- Verhindert Doppel-Trigger
 	
 	button.MouseButton1Click:Connect(function()
-		active = not active
+		if isProcessing then return end -- Abbrechen, falls gerade eine Aktion läuft
+		isProcessing = true
 	
-		if active then
-			-- Wenn an: Grün und Text ON
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
+		isOpen = not isOpen
+	
+		if isOpen then
+			-- MENÜ ÖFFNEN
+			mainBorder.Position = lastPos
 		else
-			-- Wenn aus: Rot und Text OFF
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
-end
-coroutine.wrap(BVYLM_fake_script)()
-local function MBYF_fake_script() -- AimbotONOFF.LocalScript 
-	local script = Instance.new('LocalScript', AimbotONOFF)
-
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	local Players = game:GetService("Players")
-	local Camera = workspace.CurrentCamera
-	
-	-- VARIABLE SETTINGS
-	local aimbotEnabled = false
-	local isLockActive = false
-	local smoothing = 0.15 
-	local aimKey = Enum.KeyCode.C
-	local aimMode = "HOLD"
-	
-	-- 1. GUI ERSTELLEN
-	local screenGui = script:FindFirstAncestorOfClass("ScreenGui")
-	local frame = Instance.new("Frame", screenGui)
-	frame.Name = "AimbotSettings"
-	frame.Size = UDim2.new(0, 220, 0, 260) 
-	frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-	frame.AnchorPoint = Vector2.new(0.5, 0.5)
-	frame.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
-	frame.BorderSizePixel = 0
-	frame.Visible = false
-	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 15)
-	
-	-- // DRAGGABLE LOGIC //
-	local dragToggle, dragStart, startPos
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then dragToggle = false end
-			end)
-		end
-	end)
-	UserInputService.InputChanged:Connect(function(input)
-		if dragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local delta = input.Position - dragStart
-			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		end
-	end)
-	
-	-- Titel
-	local title = Instance.new("TextLabel", frame)
-	title.Text = "Aimbot + Wallcheck"
-	title.Size = UDim2.new(1, 0, 0, 40)
-	title.BackgroundTransparency = 1
-	title.TextColor3 = Color3.new(1, 1, 1)
-	title.Font = Enum.Font.GothamBold
-	title.TextSize = 16
-	
-	-- // NEU: WALLCHECK FUNKTION //
-	local function isVisible(targetPart)
-		local char = Players.LocalPlayer.Character
-		if not char then return false end
-	
-		local rayParams = RaycastParams.new()
-		rayParams.FilterDescendantsInstances = {char, Camera}
-		rayParams.FilterType = Enum.RaycastFilterType.Exclude
-	
-		-- Strahl von der Kamera zum Zielteil
-		local origin = Camera.CFrame.Position
-		local direction = targetPart.Position - origin
-		local raycastResult = workspace:Raycast(origin, direction, rayParams)
-	
-		-- Wenn der Strahl nichts trifft oder das Ziel trifft, ist es sichtbar
-		if raycastResult then
-			return raycastResult.Instance:IsDescendantOf(targetPart.Parent)
-		end
-		return false
-	end
-	
-	-- // ZIELFINDUNG MIT WALLCHECK //
-	local function getTarget()
-		local closest = nil
-		local dist = math.huge
-		local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
-	
-		for _, p in pairs(Players:GetPlayers()) do
-			if p ~= Players.LocalPlayer and p.Character and p.Team ~= Players.LocalPlayer.Team then
-				local head = p.Character:FindFirstChild("Head")
-				local hum = p.Character:FindFirstChild("Humanoid")
-	
-				if head and hum and hum.Health > 0 then
-					local pos, on = Camera:WorldToViewportPoint(head.Position)
-					-- Prüfe ob auf dem Bildschirm UND ob keine Wand davor ist
-					if on and isVisible(head) then
-						local mag = (Vector2.new(pos.X, pos.Y) - center).Magnitude
-						if mag < dist then 
-							closest = head 
-							dist = mag 
-						end
-					end
-				end
+			-- MENÜ SCHLIESSEN
+			-- Wir speichern die Position NUR, wenn sie nicht schon im "Versteck" ist
+			if mainBorder.Position.X.Offset > -1000 then
+				lastPos = mainBorder.Position
 			end
+			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
 		end
-		return closest
-	end
 	
-	-- // RESTLICHE LOGIK (Inputs & Schleife) //
-	local function createLabeledInput(labelText, placeholder, pos)
-		local label = Instance.new("TextLabel", frame); label.Text = labelText; label.Size = UDim2.new(0.8, 0, 0, 20); label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.08, 0); label.BackgroundTransparency = 1; label.TextColor3 = Color3.fromRGB(200, 200, 200); label.Font = Enum.Font.GothamSemibold; label.TextSize = 12; label.TextXAlignment = Enum.TextXAlignment.Left; label.Parent = frame
-		local txt = Instance.new("TextBox", frame); txt.PlaceholderText = placeholder; txt.Size = UDim2.new(0.8, 0, 0, 30); txt.Position = pos; txt.BackgroundColor3 = Color3.fromRGB(35, 65, 30); txt.TextColor3 = Color3.new(1, 1, 1); txt.Font = Enum.Font.Gotham; txt.TextSize = 14; txt.Text = ""; Instance.new("UICorner", txt).CornerRadius = UDim.new(0, 8); return txt
-	end
-	
-	local keyInput = createLabeledInput("Keybind:", "C, Q, F...", UDim2.new(0.1, 0, 0.28, 0))
-	local smoothInput = createLabeledInput("Smoothing:", "0.01 - 1.0", UDim2.new(0.1, 0, 0.53, 0))
-	local modeInput = createLabeledInput("Aimbot Mode:", "HOLD / TOGGLE", UDim2.new(0.1, 0, 0.78, 0))
-	
-	keyInput.FocusLost:Connect(function() local s, r = pcall(function() return Enum.KeyCode[keyInput.Text:upper()] end) if s then aimKey = r; keyInput.Text = r.Name end end)
-	smoothInput.FocusLost:Connect(function() local n = tonumber(smoothInput.Text) if n then smoothing = math.clamp(n, 0.01, 1); smoothInput.Text = tostring(smoothing) end end)
-	modeInput.FocusLost:Connect(function() local i = modeInput.Text:upper() if i == "TOGGLE" or i == "HOLD" then aimMode = i; modeInput.Text = aimMode; isLockActive = false end end)
-	
-	UserInputService.InputBegan:Connect(function(i, p) if p then return end if i.KeyCode == aimKey then if aimMode == "HOLD" then isLockActive = true else isLockActive = not isLockActive end end end)
-	UserInputService.InputEnded:Connect(function(i) if i.KeyCode == aimKey and aimMode == "HOLD" then isLockActive = false end end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		aimbotEnabled = not aimbotEnabled
-		frame.Visible = aimbotEnabled
-	end)
-	
-	RunService.RenderStepped:Connect(function()
-		if aimbotEnabled and isLockActive then
-			local target = getTarget()
-			if target then
-				local lookAt = CFrame.new(Camera.CFrame.Position, target.Position)
-				Camera.CFrame = Camera.CFrame:Lerp(lookAt, smoothing)
-			end
-		end
+		task.wait(0.1) -- Kurze Pause zur Stabilisierung
+		isProcessing = false
 	end)
 end
-coroutine.wrap(MBYF_fake_script)()
-local function PQANL_fake_script() -- ESPONOFF.Red/Green 
-	local script = Instance.new('LocalScript', ESPONOFF)
-
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	-- Einstellungen für die Farben
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	-- Zeit und Stil der Animation
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	-- Initialisierung beim Start
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			-- Wenn an: Grün und Text ON
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			-- Wenn aus: Rot und Text OFF
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
-end
-coroutine.wrap(PQANL_fake_script)()
-local function DCFY_fake_script() -- ESPONOFF.LocalScript 
-	local script = Instance.new('LocalScript', ESPONOFF)
-
-	local RunService = game:GetService("RunService")
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	local button = script.Parent
-	
-	local espActive = false
-	
-	-- Funktion zum Erstellen des ESP
-	local function createESP(player)
-		if player == LocalPlayer then return end
-	
-		local function setup(char)
-			-- Falls schon ein Tag existiert, löschen (um Dopplungen zu vermeiden)
-			local head = char:WaitForChild("Head", 10)
-			if head and not head:FindFirstChild("ESPTag") then
-				local bgui = Instance.new("BillboardGui", head)
-				bgui.Name = "ESPTag"
-				bgui.Size = UDim2.new(0, 150, 0, 75) -- Etwas größer für Distanz + Name
-				bgui.AlwaysOnTop = true
-				bgui.StudsOffset = Vector3.new(0, 3, 0)
-	
-				local lbl = Instance.new("TextLabel", bgui)
-				lbl.BackgroundTransparency = 1
-				lbl.Size = UDim2.new(1, 0, 1, 0)
-				lbl.TextScaled = false
-				lbl.TextSize = 14
-				-- HIER: Nutzt die Teamfarbe des Spielers
-				lbl.TextColor3 = player.TeamColor.Color 
-				lbl.Font = Enum.Font.GothamBold
-				lbl.TextStrokeTransparency = 0 -- Bessere Lesbarkeit
-			end
-		end
-	
-		player.CharacterAdded:Connect(setup)
-		if player.Character then setup(player.Character) end
-	end
-	
-	-- Button Klick: Schaltet die Logik um
-	button.MouseButton1Click:Connect(function()
-		espActive = not espActive
-	
-		if espActive then
-			for _, p in pairs(Players:GetPlayers()) do 
-				createESP(p) 
-			end
-		else
-			-- Alle Tags entfernen
-			for _, p in pairs(Players:GetPlayers()) do
-				if p.Character and p.Character:FindFirstChild("Head") then
-					local tag = p.Character.Head:FindFirstChild("ESPTag")
-					if tag then tag:Destroy() end
-				end
-			end
-		end
-	end)
-	
-	-- Update der Distanzanzeige und Teamfarbe
-	RunService.RenderStepped:Connect(function()
-		if espActive then
-			local myChar = LocalPlayer.Character
-			if not myChar or not myChar:FindFirstChild("Head") then return end
-	
-			for _, p in pairs(Players:GetPlayers()) do
-				if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("Head") then
-					local tag = p.Character.Head:FindFirstChild("ESPTag")
-					local label = tag and tag:FindFirstChild("TextLabel")
-	
-					if label then
-						-- Distanz berechnen
-						local dist = math.floor((myChar.Head.Position - p.Character.Head.Position).Magnitude)
-	
-						-- Text setzen: Name + Distanz
-						label.Text = p.Name .. "\n[" .. dist .. "m]"
-	
-						-- Farbe aktualisieren (falls Team gewechselt wurde)
-						label.TextColor3 = p.TeamColor.Color
-					end
-				end
-			end
-		end
-	end)
-end
-coroutine.wrap(DCFY_fake_script)()
-local function VPTNUZ_fake_script() -- AimbotCircleONOFF.LocalScript 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF)
-
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		-- Führt das externe Skript aus, wenn der Button geklickt wird
-		local success, err = pcall(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
-		end)
-	end)
-end
-coroutine.wrap(VPTNUZ_fake_script)()
-local function TFNTVV_fake_script() -- AimbotCircleONOFF.Red/Green 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF)
-
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	-- Einstellungen für die Farben
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	-- Zeit und Stil der Animation
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	-- Initialisierung beim Start
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			-- Wenn an: Grün und Text ON
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			-- Wenn aus: Rot und Text OFF
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
-end
-coroutine.wrap(TFNTVV_fake_script)()
-local function SWLGNK_fake_script() -- AimbotCircleONOFF_2.LocalScript 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
-
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		-- Führt das externe Skript aus, wenn der Button geklickt wird
-		local success, err = pcall(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-		end)
-	end)
-end
-coroutine.wrap(SWLGNK_fake_script)()
-local function WVRZZ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
-
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	-- Einstellungen für die Farben
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	-- Zeit und Stil der Animation
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	-- Initialisierung beim Start
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			-- Wenn an: Grün und Text ON
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			-- Wenn aus: Rot und Text OFF
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
-end
-coroutine.wrap(WVRZZ_fake_script)()
-local function NKEETB_fake_script() -- MainBorderGUI.LocalScript 
+coroutine.wrap(UNSX_fake_script)()
+local function GRWQF_fake_script() -- MainBorderGUI.LocalScript 
 	local script = Instance.new('LocalScript', MainBorderGUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -968,4 +564,573 @@ local function NKEETB_fake_script() -- MainBorderGUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NKEETB_fake_script)()
+coroutine.wrap(GRWQF_fake_script)()
+local function YDES_fake_script() -- AimbotONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(YDES_fake_script)()
+local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local Camera = workspace.CurrentCamera
+	-- VARIABLE SETTINGS
+	local aimbotEnabled = false
+	local isLockActive = false
+	local smoothing = 1 -- Set to 1 automatically as requested
+	local aimKey = Enum.KeyCode.C
+	local aimMode = "HOLD" -- Restored
+	local targetPartName = "Head"
+	local menuToggleKey = Enum.KeyCode.B 
+	-- UI STATE
+	local lastPos = UDim2.new(0.5, 0, 0.5, 0)
+	local isMenuVisible = false
+	local isProcessing = false
+	-- 1. GUI ERSTELLEN
+	local screenGui = script:FindFirstAncestorOfClass("ScreenGui")
+	local frame = Instance.new("Frame", screenGui)
+	frame.Name = "AimbotSettings"
+	frame.Size = UDim2.new(0, 220, 0, 420) -- Increased size back for additional mode input
+	frame.Position = UDim2.new(0, 3000, 0, -1000) -- Start offscreen
+	frame.AnchorPoint = Vector2.new(0.5, 0.5)
+	frame.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
+	frame.BorderSizePixel = 0
+	frame.Visible = true 
+	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 15)
+	-- // TOGGLE FUNCTION //
+	local function toggleMenu()
+		if isProcessing then return end
+		isProcessing = true
+	
+		isMenuVisible = not isMenuVisible
+	
+		if isMenuVisible then
+			frame.Position = lastPos
+		else
+			-- Only save position if the menu is actually on screen
+			if frame.Position.X.Offset < 2000 then
+				lastPos = frame.Position
+			end
+			frame.Position = UDim2.new(0, 3000, 0, -1000)
+		end
+	
+		task.wait(0.1)
+		isProcessing = false
+	end
+	-- // DRAGGABLE LOGIC //
+	local dragToggle, dragStart, startPos
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then dragToggle = false end
+			end)
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if dragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			lastPos = frame.Position
+		end
+	end)
+	-- Titel
+	local title = Instance.new("TextLabel", frame)
+	title.Text = "Settings"
+	title.Size = UDim2.new(1, 0, 0, 40)
+	title.BackgroundTransparency = 1
+	title.TextColor3 = Color3.new(1, 1, 1)
+	title.Font = Enum.Font.GothamBold
+	title.TextSize = 16
+	-- // NEU: WALLCHECK FUNKTION //
+	local function isVisible(targetPart)
+		local char = Players.LocalPlayer.Character
+		if not char then return false end
+		local rayParams = RaycastParams.new()
+		rayParams.FilterDescendantsInstances = {char, Camera}
+		rayParams.FilterType = Enum.RaycastFilterType.Exclude
+		local origin = Camera.CFrame.Position
+		local direction = targetPart.Position - origin
+		local raycastResult = workspace:Raycast(origin, direction, rayParams)
+		if raycastResult then
+			return raycastResult.Instance:IsDescendantOf(targetPart.Parent)
+		end
+		return false
+	end
+	-- // ZIELFINDUNG //
+	local function getTarget()
+		local closest = nil
+		local dist = math.huge
+		local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+		for _, p in pairs(Players:GetPlayers()) do
+			if p ~= Players.LocalPlayer and p.Character and p.Team ~= Players.LocalPlayer.Team then
+				local hum = p.Character:FindFirstChild("Humanoid")
+				if hum and hum.Health > 0 then
+					local targetPart = p.Character:FindFirstChild(targetPartName)
+					if not targetPart then
+						targetPart = p.Character:FindFirstChild("Head") or p.Character:FindFirstChild("HumanoidRootPart")
+					end
+					if targetPart then
+						local pos, on = Camera:WorldToViewportPoint(targetPart.Position)
+						if on and isVisible(targetPart) then
+							local mag = (Vector2.new(pos.X, pos.Y) - center).Magnitude
+							if mag < dist then 
+								closest = targetPart 
+								dist = mag 
+							end
+						end
+					end
+				end
+			end
+		end
+		return closest
+	end
+	-- // GUI UTILITIES //
+	local function createKeySelector(labelText, defaultKey, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local button = Instance.new("TextBox", frame)
+		button.Text = defaultKey.Name
+		button.Size = UDim2.new(0.8, 0, 0, 28)
+		button.Position = pos
+		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		button.TextColor3 = Color3.new(1, 1, 1)
+		button.Font = Enum.Font.Gotham
+		button.TextSize = 12
+		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+		button.FocusLost:Connect(function()
+			local text = button.Text:upper()
+			local success, result = pcall(function() return Enum.KeyCode[text] end)
+			if success and result then
+				button.Text = result.Name
+				callback(result)
+			else
+				button.Text = "INVALID"
+				task.wait(1)
+				button.Text = defaultKey.Name
+			end
+		end)
+		return button
+	end
+	local function createCycleSelector(labelText, options, startIndex, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local button = Instance.new("TextButton", frame)
+		local currentIndex = startIndex
+		button.Text = options[currentIndex]
+		button.Size = UDim2.new(0.8, 0, 0, 28)
+		button.Position = pos
+		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		button.TextColor3 = Color3.new(1, 1, 1)
+		button.Font = Enum.Font.Gotham
+		button.TextSize = 12
+		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+		button.MouseButton1Click:Connect(function()
+			currentIndex = currentIndex + 1
+			if currentIndex > #options then currentIndex = 1 end
+			button.Text = options[currentIndex]
+			callback(options[currentIndex])
+		end)
+		return button
+	end
+	local function createTextInput(labelText, defaultText, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local txt = Instance.new("TextBox", frame)
+		txt.Text = defaultText
+		txt.Size = UDim2.new(0.8, 0, 0, 28)
+		txt.Position = pos
+		txt.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		txt.TextColor3 = Color3.new(1, 1, 1)
+		txt.Font = Enum.Font.Gotham
+		txt.TextSize = 12
+		Instance.new("UICorner", txt).CornerRadius = UDim.new(0, 8)
+		txt.FocusLost:Connect(function()
+			callback(txt.Text)
+		end)
+		return txt
+	end
+	local showMobileButton = UserInputService.TouchEnabled -- Auto-detect
+	local mobileButton = Instance.new("TextButton", screenGui)
+	mobileButton.Name = "MobileAimButton"
+	mobileButton.Size = UDim2.new(0, 60, 0, 60)
+	mobileButton.Position = UDim2.new(0.8, 0, 0.5, 0)
+	mobileButton.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+	mobileButton.TextColor3 = Color3.new(1, 1, 1)
+	mobileButton.Text = "AIM"
+	mobileButton.Font = Enum.Font.GothamBold
+	mobileButton.TextSize = 14
+	mobileButton.Visible = showMobileButton
+	Instance.new("UICorner", mobileButton).CornerRadius = UDim.new(1, 0)
+	-- Mobile Button Draggable logic
+	local mDragToggle, mDragStart, mStartPos
+	mobileButton.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			mDragToggle = true
+			mDragStart = input.Position
+			mStartPos = mobileButton.Position
+	
+			-- Handle Aim Trigger
+			if aimMode == "HOLD" then
+				isLockActive = true
+			else
+				isLockActive = not isLockActive
+			end
+		end
+	end)
+	mobileButton.InputEnded:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			mDragToggle = false
+			if aimMode == "HOLD" then
+				isLockActive = false
+			end
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if mDragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - mDragStart
+			if delta.Magnitude > 5 then -- Small threshold to distinguish click vs drag
+				mobileButton.Position = UDim2.new(mStartPos.X.Scale, mStartPos.X.Offset + delta.X, mStartPos.Y.Scale, mStartPos.Y.Offset + delta.Y)
+			end
+		end
+	end)
+	-- ... (create selectors below) ...
+	createKeySelector("Aimbot Key:", aimKey, UDim2.new(0.1, 0, 0.12, 0), function(k) aimKey = k end)
+	createKeySelector("Menu Toggle (B):", menuToggleKey, UDim2.new(0.1, 0, 0.25, 0), function(k) menuToggleKey = k end)
+	createCycleSelector("Aim Mode:", {"HOLD", "TOGGLE"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(m)
+		aimMode = m
+		isLockActive = false
+	end)
+	createCycleSelector("Mobile Button:", {"OFF", "ON"}, (showMobileButton and 2 or 1), UDim2.new(0.1, 0, 0.51, 0), function(o)
+		mobileButton.Visible = (o == "ON")
+	end)
+	createTextInput("Smoothing (0.01 - 1):", tostring(smoothing), UDim2.new(0.1, 0, 0.64, 0), function(t) 
+		local n = tonumber(t) 
+		if n then smoothing = math.clamp(n, 0.01, 1) else smoothing = 1 end 
+	end)
+	createCycleSelector("Target Part:", {"Head", "Torso"}, 1, UDim2.new(0.1, 0, 0.77, 0), function(p)
+		if p == "Torso" then
+			targetPartName = "UpperTorso"
+		else
+			targetPartName = "Head"
+		end
+	end)
+	UserInputService.InputBegan:Connect(function(i, p) 
+		if p then return end 
+		if i.KeyCode == aimKey then 
+			if aimMode == "HOLD" then
+				isLockActive = true 
+			else
+				isLockActive = not isLockActive
+			end
+		elseif i.KeyCode == menuToggleKey then
+			toggleMenu()
+		end 
+	end)
+	UserInputService.InputEnded:Connect(function(i) 
+		if i.KeyCode == aimKey and aimMode == "HOLD" then 
+			isLockActive = false 
+		end 
+	end)
+	-- Main Trigger Button
+	script.Parent.MouseButton1Click:Connect(toggleMenu)
+	RunService.RenderStepped:Connect(function()
+		if isLockActive then
+			local target = getTarget()
+			if target then
+				local lookAt = CFrame.new(Camera.CFrame.Position, target.Position)
+				Camera.CFrame = Camera.CFrame:Lerp(lookAt, smoothing)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(XTIKVO_fake_script)()
+local function ANKA_fake_script() -- ESPONOFF.Red/Green 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ANKA_fake_script)()
+local function PFVYZU_fake_script() -- ESPONOFF.LocalScript 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local RunService = game:GetService("RunService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local button = script.Parent
+	local espActive = false
+	-- Funktion zum Erstellen des ESP
+	local function createESP(player)
+		if player == LocalPlayer then return end
+		local function setup(char)
+			if not espActive then return end
+	
+			local head = char:WaitForChild("Head", 10)
+			if head and not head:FindFirstChild("ESPTag") then
+				local bgui = Instance.new("BillboardGui", head)
+				bgui.Name = "ESPTag"
+				bgui.Size = UDim2.new(0, 150, 0, 75)
+				bgui.AlwaysOnTop = true
+				bgui.StudsOffset = Vector3.new(0, 3, 0)
+				local lbl = Instance.new("TextLabel", bgui)
+				lbl.Name = "TextLabel"
+				lbl.BackgroundTransparency = 1
+				lbl.Size = UDim2.new(1, 0, 1, 0)
+				lbl.TextColor3 = player.TeamColor.Color 
+				lbl.Font = Enum.Font.GothamBold
+				lbl.TextStrokeTransparency = 0 
+				lbl.TextSize = 14
+			end
+		end
+		-- Listener für Charakter-Updates
+		player.CharacterAdded:Connect(setup)
+		if player.Character then setup(player.Character) end
+	
+		-- // NEU: Refresh bei Team-Wechsel //
+		player:GetPropertyChangedSignal("Team"):Connect(function()
+			if player.Character then setup(player.Character) end
+		end)
+	end
+	-- // NEU: Automatisch für neue Spieler starten //
+	Players.PlayerAdded:Connect(createESP)
+	-- Initial für alle vorhandenen Spieler
+	for _, p in pairs(Players:GetPlayers()) do
+		createESP(p)
+	end
+	-- Button Klick: Toggle
+	button.MouseButton1Click:Connect(function()
+		espActive = not espActive
+		if espActive then
+			for _, p in pairs(Players:GetPlayers()) do 
+				if p.Character then createESP(p) end -- Nutzt die bestehende Setup-Logik
+			end
+		else
+			-- Tags entfernen
+			for _, p in pairs(Players:GetPlayers()) do
+				if p.Character and p.Character:FindFirstChild("Head") then
+					local tag = p.Character.Head:FindFirstChild("ESPTag")
+					if tag then tag:Destroy() end
+				end
+			end
+		end
+	end)
+	-- Update der Distanzanzeige und Farbe
+	RunService.RenderStepped:Connect(function()
+		if espActive then
+			local myHead = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Head")
+			if not myHead then return end
+			for _, p in pairs(Players:GetPlayers()) do
+				if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("Head") then
+					local head = p.Character.Head
+					local tag = head:FindFirstChild("ESPTag")
+					local label = tag and tag:FindFirstChild("TextLabel")
+					if label then
+						local dist = math.floor((myHead.Position - head.Position).Magnitude)
+						label.Text = p.Name .. "\n[" .. dist .. "m]"
+						-- Farbe ständig aktuell halten
+						label.TextColor3 = p.TeamColor.Color
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(PFVYZU_fake_script)()
+local function SXHSS_fake_script() -- AimbotCircleONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Führt das externe Skript aus, wenn der Button geklickt wird
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
+		end)
+	end)
+end
+coroutine.wrap(SXHSS_fake_script)()
+local function QEFRZ_fake_script() -- AimbotCircleONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(QEFRZ_fake_script)()
+local function KXYY_fake_script() -- AimbotCircleONOFF_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Führt das externe Skript aus, wenn der Button geklickt wird
+		local success, err = pcall(function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		end)
+	end)
+end
+coroutine.wrap(KXYY_fake_script)()
+local function ERSBNXJ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ERSBNXJ_fake_script)()
