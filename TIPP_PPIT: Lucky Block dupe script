@@ -128,21 +128,16 @@ local function doubleLocalPlayerBackpackItems()
         return
     end
 
-    print("Versuche, Items im Rucksack des lokalen Spielers zu kopieren und einzufügen: " .. LocalPlayer.Name)
-
     local itemsToDuplicate = {}
     for _, item in ipairs(backpack:GetChildren()) do
         if item:IsA("Tool") or item:IsA("Model") or item:IsA("Part") then
             table.insert(itemsToDuplicate, item)
-        else
-            warn("Überspringe Nicht-Tool/Model/Part-Item im Rucksack: " .. item.Name)
         end
     end
 
     for _, item in ipairs(itemsToDuplicate) do
         local clonedItem = item:Clone()
         clonedItem.Parent = backpack
-        print("Item im Rucksack kopiert und eingefügt: " .. item.Name)
     end
 end
 
@@ -188,6 +183,5 @@ UserInputService.InputChanged:Connect(onInputChanged)
 UserInputService.InputEnded:Connect(onInputEnded)
 
 OnOff.MouseButton1Click:Connect(function()
-    print("DUPE Button geklickt!")
     doubleLocalPlayerBackpackItems()
 end)
