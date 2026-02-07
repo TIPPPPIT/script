@@ -455,7 +455,6 @@ local function AMFGA_fake_script() -- CloseOpenGUI.LocalScript
 	
 	local function update(input)
 		local delta = input.Position - dragStart
-		-- Berechnet die neue Position
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
 	
@@ -498,17 +497,14 @@ local function UNSX_fake_script() -- CloseOpen.LocalScript
 	local isProcessing = false -- Verhindert Doppel-Trigger
 	
 	button.MouseButton1Click:Connect(function()
-		if isProcessing then return end -- Abbrechen, falls gerade eine Aktion läuft
+		if isProcessing then return end
 		isProcessing = true
 	
 		isOpen = not isOpen
 	
 		if isOpen then
-			-- MENÜ ÖFFNEN
 			mainBorder.Position = lastPos
 		else
-			-- MENÜ SCHLIESSEN
-			-- Wir speichern die Position NUR, wenn sie nicht schon im "Versteck" ist
 			if mainBorder.Position.X.Offset > -1000 then
 				lastPos = mainBorder.Position
 			end
@@ -534,7 +530,6 @@ local function GRWQF_fake_script() -- MainBorderGUI.LocalScript
 	
 	local function update(input)
 		local delta = input.Position - dragStart
-		-- Berechnet die neue Position
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
 	
@@ -575,15 +570,12 @@ local function YDES_fake_script() -- AimbotONOFF.Red/Green
 	
 	local active = false
 	
-	-- Einstellungen für die Farben
 	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
 	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
 	
-	-- Zeit und Stil der Animation
 	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 	
-	-- Initialisierung beim Start
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Font = Enum.Font.SourceSansBold 
 	button.Text = "OFF"
 	background.BackgroundColor3 = colorOff
 	
@@ -591,12 +583,10 @@ local function YDES_fake_script() -- AimbotONOFF.Red/Green
 		active = not active
 	
 		if active then
-			-- Wenn an: Grün und Text ON
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
 			tween:Play()
 			button.Text = "ON"
 		else
-			-- Wenn aus: Rot und Text OFF
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
 			tween:Play()
 			button.Text = "OFF"
@@ -681,7 +671,6 @@ local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript
 	title.TextColor3 = Color3.new(1, 1, 1)
 	title.Font = Enum.Font.GothamBold
 	title.TextSize = 16
-	-- // NEU: WALLCHECK FUNKTION //
 	local function isVisible(targetPart)
 		local char = Players.LocalPlayer.Character
 		if not char then return false end
@@ -854,7 +843,6 @@ local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript
 			end
 		end
 	end)
-	-- ... (create selectors below) ...
 	createKeySelector("Aimbot Key:", aimKey, UDim2.new(0.1, 0, 0.12, 0), function(k) aimKey = k end)
 	createKeySelector("Menu Toggle (B):", menuToggleKey, UDim2.new(0.1, 0, 0.25, 0), function(k) menuToggleKey = k end)
 	createCycleSelector("Aim Mode:", {"HOLD", "TOGGLE"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(m)
@@ -892,7 +880,6 @@ local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript
 			isLockActive = false 
 		end 
 	end)
-	-- Main Trigger Button
 	script.Parent.MouseButton1Click:Connect(toggleMenu)
 	RunService.RenderStepped:Connect(function()
 		if isLockActive then
@@ -912,18 +899,15 @@ local function ANKA_fake_script() -- ESPONOFF.Red/Green
 	local TweenService = game:GetService("TweenService")
 	
 	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	local background = button.Parent
 	
 	local active = false
 	
-	-- Einstellungen für die Farben
 	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
 	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
 	
-	-- Zeit und Stil der Animation
 	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 	
-	-- Initialisierung beim Start
 	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
 	button.Text = "OFF"
 	background.BackgroundColor3 = colorOff
@@ -932,12 +916,10 @@ local function ANKA_fake_script() -- ESPONOFF.Red/Green
 		active = not active
 	
 		if active then
-			-- Wenn an: Grün und Text ON
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
 			tween:Play()
 			button.Text = "ON"
 		else
-			-- Wenn aus: Rot und Text OFF
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
 			tween:Play()
 			button.Text = "OFF"
@@ -976,22 +958,17 @@ local function PFVYZU_fake_script() -- ESPONOFF.LocalScript
 				lbl.TextSize = 14
 			end
 		end
-		-- Listener für Charakter-Updates
 		player.CharacterAdded:Connect(setup)
 		if player.Character then setup(player.Character) end
 	
-		-- // NEU: Refresh bei Team-Wechsel //
 		player:GetPropertyChangedSignal("Team"):Connect(function()
 			if player.Character then setup(player.Character) end
 		end)
 	end
-	-- // NEU: Automatisch für neue Spieler starten //
 	Players.PlayerAdded:Connect(createESP)
-	-- Initial für alle vorhandenen Spieler
 	for _, p in pairs(Players:GetPlayers()) do
 		createESP(p)
 	end
-	-- Button Klick: Toggle
 	button.MouseButton1Click:Connect(function()
 		espActive = not espActive
 		if espActive then
@@ -999,7 +976,6 @@ local function PFVYZU_fake_script() -- ESPONOFF.LocalScript
 				if p.Character then createESP(p) end -- Nutzt die bestehende Setup-Logik
 			end
 		else
-			-- Tags entfernen
 			for _, p in pairs(Players:GetPlayers()) do
 				if p.Character and p.Character:FindFirstChild("Head") then
 					local tag = p.Character.Head:FindFirstChild("ESPTag")
@@ -1008,7 +984,6 @@ local function PFVYZU_fake_script() -- ESPONOFF.LocalScript
 			end
 		end
 	end)
-	-- Update der Distanzanzeige und Farbe
 	RunService.RenderStepped:Connect(function()
 		if espActive then
 			local myHead = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Head")
@@ -1036,7 +1011,6 @@ local function SXHSS_fake_script() -- AimbotCircleONOFF.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		-- Führt das externe Skript aus, wenn der Button geklickt wird
 		local success, err = pcall(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
 		end)
@@ -1053,14 +1027,11 @@ local function QEFRZ_fake_script() -- AimbotCircleONOFF.Red/Green
 	
 	local active = false
 	
-	-- Einstellungen für die Farben
 	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
 	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
 	
-	-- Zeit und Stil der Animation
 	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 	
-	-- Initialisierung beim Start
 	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
 	button.Text = "OFF"
 	background.BackgroundColor3 = colorOff
@@ -1069,12 +1040,10 @@ local function QEFRZ_fake_script() -- AimbotCircleONOFF.Red/Green
 		active = not active
 	
 		if active then
-			-- Wenn an: Grün und Text ON
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
 			tween:Play()
 			button.Text = "ON"
 		else
-			-- Wenn aus: Rot und Text OFF
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
 			tween:Play()
 			button.Text = "OFF"
@@ -1088,7 +1057,6 @@ local function KXYY_fake_script() -- AimbotCircleONOFF_2.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		-- Führt das externe Skript aus, wenn der Button geklickt wird
 		local success, err = pcall(function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 		end)
@@ -1112,7 +1080,6 @@ local function ERSBNXJ_fake_script() -- AimbotCircleONOFF_2.Red/Green
 	-- Zeit und Stil der Animation
 	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 	
-	-- Initialisierung beim Start
 	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
 	button.Text = "OFF"
 	background.BackgroundColor3 = colorOff
@@ -1121,12 +1088,10 @@ local function ERSBNXJ_fake_script() -- AimbotCircleONOFF_2.Red/Green
 		active = not active
 	
 		if active then
-			-- Wenn an: Grün und Text ON
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
 			tween:Play()
 			button.Text = "ON"
 		else
-			-- Wenn aus: Rot und Text OFF
 			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
 			tween:Play()
 			button.Text = "OFF"
