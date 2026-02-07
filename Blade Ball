@@ -1,0 +1,654 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainBorderGUI = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainGUI = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local AutoB = Instance.new("Frame")
+local gui2lua9 = Instance.new("UICorner")
+local Auto = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local PotatoB = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Potato = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local CloseOpenGUI = Instance.new("Frame")
+local CloseB = Instance.new("ImageLabel")
+local Close = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local CloseOpen = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.DisplayOrder = 999999999
+ScreenGui.ResetOnSpawn = false
+
+MainBorderGUI.Name = "MainBorder GUI"
+MainBorderGUI.Parent = ScreenGui
+MainBorderGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainBorderGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainBorderGUI.BorderSizePixel = 0
+MainBorderGUI.Position = UDim2.new(0.387047023, 0, 0.370327115, 0)
+MainBorderGUI.Size = UDim2.new(0, 308, 0, 208)
+
+UICorner.Parent = MainBorderGUI
+
+MainGUI.Name = "Main GUI"
+MainGUI.Parent = MainBorderGUI
+MainGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainGUI.BorderSizePixel = 0
+MainGUI.Position = UDim2.new(0.0129951555, 0, 0.021272786, 0)
+MainGUI.Size = UDim2.new(0, 300, 0, 200)
+
+UICorner_2.Parent = MainGUI
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(232, 255, 83)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(232, 255, 83)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient.Rotation = -65
+UIGradient.Parent = MainGUI
+
+TextLabel.Parent = MainGUI
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.140000001, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "TIPP_PPIT: Blade Ball"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+
+AutoB.Name = "Auto B"
+AutoB.Parent = MainGUI
+AutoB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoB.BorderSizePixel = 0
+AutoB.Position = UDim2.new(0.596666694, 0, 0.395000011, 0)
+AutoB.Size = UDim2.new(0, 106, 0, 36)
+
+gui2lua9.CornerRadius = UDim.new(0, 9)
+gui2lua9.Name = "gui2lua #9"
+gui2lua9.Parent = AutoB
+
+Auto.Name = "Auto"
+Auto.Parent = AutoB
+Auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Auto.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Auto.BorderSizePixel = 0
+Auto.Position = UDim2.new(0.0211947467, 0, 0.061666701, 0)
+Auto.Size = UDim2.new(0, 102, 0, 30)
+
+UICorner_3.CornerRadius = UDim.new(0, 9)
+UICorner_3.Parent = Auto
+
+TextButton.Parent = Auto
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 100, 0, 30)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 9)
+UICorner_4.Parent = TextButton
+
+TextLabel_2.Parent = MainGUI
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.140000001, 0, 0.360000014, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Autoparry"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 30.000
+
+Frame.Parent = MainGUI
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-2.03450526e-07, 0, 0.219999999, 0)
+Frame.Size = UDim2.new(0, 303, 0, 3)
+
+PotatoB.Name = "Potato B"
+PotatoB.Parent = MainGUI
+PotatoB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PotatoB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PotatoB.BorderSizePixel = 0
+PotatoB.Position = UDim2.new(0.597000003, 0, 0.694999993, 0)
+PotatoB.Size = UDim2.new(0, 106, 0, 36)
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = PotatoB
+
+Potato.Name = "Potato"
+Potato.Parent = PotatoB
+Potato.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Potato.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Potato.BorderSizePixel = 0
+Potato.Position = UDim2.new(0.0211947467, 0, 0.061666701, 0)
+Potato.Size = UDim2.new(0, 102, 0, 30)
+
+UICorner_6.CornerRadius = UDim.new(0, 9)
+UICorner_6.Parent = Potato
+
+TextButton_2.Parent = Potato
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(0, 100, 0, 30)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 9)
+UICorner_7.Parent = TextButton_2
+
+TextLabel_3.Parent = MainGUI
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-0.0633333325, 0, 0.660000026, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Potato graphic"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 30.000
+
+CloseOpenGUI.Name = "Close/Open GUI"
+CloseOpenGUI.Parent = ScreenGui
+CloseOpenGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpenGUI.BackgroundTransparency = 1.000
+CloseOpenGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpenGUI.BorderSizePixel = 0
+CloseOpenGUI.Position = UDim2.new(0.0501156524, 0, 0.0759345815, 0)
+CloseOpenGUI.Size = UDim2.new(0, 80, 0, 80)
+
+CloseB.Name = "Close B"
+CloseB.Parent = CloseOpenGUI
+CloseB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseB.BackgroundTransparency = 1.000
+CloseB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseB.Position = UDim2.new(0.0874999985, 0, 0.0874999985, 0)
+CloseB.Size = UDim2.new(0, 65, 0, 65)
+CloseB.Image = "rbxassetid://3570695787"
+CloseB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+CloseB.ScaleType = Enum.ScaleType.Slice
+CloseB.SliceCenter = Rect.new(100, 100, 100, 100)
+CloseB.SliceScale = 0.120
+
+Close.Name = "Close"
+Close.Parent = CloseB
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.0375000015, 0, 0.0250000004, 0)
+Close.Size = UDim2.new(0, 60, 0, 60)
+
+UICorner_8.Parent = Close
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(232, 255, 83)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(232, 255, 83)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_2.Rotation = -65
+UIGradient_2.Parent = Close
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = Close
+CloseOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.BackgroundTransparency = 1.000
+CloseOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderSizePixel = 0
+CloseOpen.Position = UDim2.new(0, 0, 1.27156582e-07, 0)
+CloseOpen.Size = UDim2.new(0, 60, 0, 60)
+CloseOpen.Font = Enum.Font.SourceSansBold
+CloseOpen.Text = "T"
+CloseOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.TextSize = 40.000
+
+-- Scripts:
+
+local function FKYHQUG_fake_script() -- MainBorderGUI.LocalScript 
+	local script = Instance.new('LocalScript', MainBorderGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent -- Der Frame, der bewegt werden soll
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		-- Berechnet die neue Position basierend auf der Bewegung
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(FKYHQUG_fake_script)()
+local function RQZKQRD_fake_script() -- TextButton.Red/Green 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(RQZKQRD_fake_script)()
+local function AKFP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local RunService = game:GetService("RunService")
+	local Players = game:GetService("Players")
+	local VirtualInputManager = game:GetService("VirtualInputManager")
+	local LocalPlayer = Players.LocalPlayer
+	local button = script:FindFirstAncestorWhichIsA("TextButton") or script.Parent
+	local isActive = false
+	local REAL_MIN_RADIUS = 10
+	local REAL_SPEED_FACTOR = 0.3
+	local VISUAL_MIN_RADIUS = 8
+	local VISUAL_GROW_SPEED = 0.01
+	local realIndicator = Instance.new("Part")
+	realIndicator.Shape = Enum.PartType.Ball
+	realIndicator.Transparency = 1
+	realIndicator.CanCollide = false
+	realIndicator.CanTouch = false
+	realIndicator.CanQuery = false
+	realIndicator.Anchored = true
+	realIndicator.Parent = workspace
+	local visualIndicator = Instance.new("Part")
+	visualIndicator.Shape = Enum.PartType.Ball
+	visualIndicator.Material = Enum.Material.Neon
+	visualIndicator.Transparency = 1
+	visualIndicator.CanCollide = false
+	visualIndicator.CanTouch = false
+	visualIndicator.CanQuery = false
+	visualIndicator.CastShadow = false
+	visualIndicator.Anchored = true
+	visualIndicator.Parent = workspace
+	local function getBall()
+		local balls = workspace:FindFirstChild("Balls")
+		if not balls then return nil end
+		for _, b in pairs(balls:GetChildren()) do
+			if b:IsA("BasePart") and b.Transparency == 0 then
+				return b
+			end
+		end
+		return nil
+	end
+	button.MouseButton1Click:Connect(function()
+		isActive = not isActive
+	end)
+	local hasParriedThisBall = false
+	local lastBallPos = nil
+	local lastBall = nil
+	local currentRealSpeed = 0
+	local visualRadius = VISUAL_MIN_RADIUS
+	RunService.RenderStepped:Connect(function(dt)
+		local char = LocalPlayer.Character
+		local hrp = char and char:FindFirstChild("HumanoidRootPart")
+	
+		if not isActive or not hrp then
+			realIndicator.Transparency = 1
+			visualIndicator.Transparency = 1
+			lastBallPos = nil
+			lastBall = nil
+			currentRealSpeed = 0
+			visualRadius = VISUAL_MIN_RADIUS
+			hasParriedThisBall = false
+			return
+		end
+		local ball = getBall()
+		if not ball then
+			realIndicator.Transparency = 1
+			visualIndicator.Transparency = 1
+			lastBallPos = nil
+			lastBall = nil
+			currentRealSpeed = 0
+			visualRadius = VISUAL_MIN_RADIUS
+			hasParriedThisBall = false
+			return
+		end
+		local rawSpeed = 0
+		if lastBall == ball and lastBallPos then
+			rawSpeed = (ball.Position - lastBallPos).Magnitude / dt
+			lastBallPos = ball.Position
+			if rawSpeed > currentRealSpeed then
+				currentRealSpeed = rawSpeed
+			end
+			visualRadius = visualRadius + (VISUAL_GROW_SPEED * dt * 60)
+		else
+			lastBall = ball
+			lastBallPos = ball.Position
+			currentRealSpeed = 0
+			visualRadius = VISUAL_MIN_RADIUS
+			hasParriedThisBall = false
+		end
+	
+		local realRadius = REAL_MIN_RADIUS + (currentRealSpeed * REAL_SPEED_FACTOR)
+		realIndicator.Size = Vector3.new(realRadius * 2, realRadius * 2, realRadius * 2)
+		realIndicator.Position = hrp.Position
+	
+		visualIndicator.Size = Vector3.new(visualRadius * 2, visualRadius * 2, visualRadius * 2)
+		visualIndicator.Position = hrp.Position
+		visualIndicator.Transparency = 0.8
+		local c = ball.Color
+		local isRed = c.R > 0.9 and c.G < 0.2 and c.B < 0.2
+		local isGray = math.abs(c.R - 0.5) < 0.1 and math.abs(c.G - 0.5) < 0.1 and math.abs(c.B - 0.5) < 0.1
+		if isRed then
+			visualIndicator.Color = Color3.fromRGB(0, 255, 0)
+		elseif isGray then
+			visualIndicator.Color = Color3.fromRGB(128, 128, 128)
+		else
+			visualIndicator.Color = Color3.fromRGB(255, 255, 255)
+		end
+		local distance = (hrp.Position - ball.Position).Magnitude
+		if isRed and distance <= realRadius then
+			if not hasParriedThisBall then
+				hasParriedThisBall = true
+				VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.F, false, game)
+				VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.F, false, game)
+			end
+		else
+			if not isRed or distance > (realRadius + 0.5) then
+				hasParriedThisBall = false
+			end
+		end
+	end)
+end
+coroutine.wrap(AKFP_fake_script)()
+local function SYPXKC_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local Lighting = game:GetService("Lighting")
+	local Workspace = game:GetService("Workspace")
+	local button = script:FindFirstAncestorWhichIsA("TextButton") or script.Parent
+	local potatoActive = false
+	local originalLighting = {}
+	local storedProperties = {}
+	local function saveLighting()
+		originalLighting.GlobalShadows = Lighting.GlobalShadows
+		originalLighting.FogEnd = Lighting.FogEnd
+		originalLighting.Brightness = Lighting.Brightness
+		originalLighting.Effects = {}
+		for _, effect in pairs(Lighting:GetChildren()) do
+			if effect:IsA("PostProcessEffect") or effect:IsA("BloomEffect") or effect:IsA("BlurEffect") or effect:IsA("ColorCorrectionEffect") or effect:IsA("SunRaysEffect") or effect:IsA("DepthOfFieldEffect") then
+				table.insert(originalLighting.Effects, {obj = effect, state = effect.Enabled})
+			end
+		end
+	end
+	local function restoreLighting()
+		if not originalLighting.Brightness then return end
+		Lighting.GlobalShadows = originalLighting.GlobalShadows
+		Lighting.FogEnd = originalLighting.FogEnd
+		Lighting.Brightness = originalLighting.Brightness
+		for _, data in pairs(originalLighting.Effects) do
+			pcall(function() data.obj.Enabled = data.state end)
+		end
+	end
+	local function store(obj, prop)
+		if not storedProperties[obj] then
+			storedProperties[obj] = {}
+		end
+		if storedProperties[obj][prop] == nil then
+			pcall(function() storedProperties[obj][prop] = obj[prop] end)
+		end
+	end
+	local function strip(object)
+		if not potatoActive then return end
+	
+		if object:IsA("Decal") or object:IsA("Texture") then
+			store(object, "Transparency")
+			object.Transparency = 1 
+		elseif object:IsA("ParticleEmitter") or object:IsA("Trail") or object:IsA("Beam") or object:IsA("Sparkles") or object:IsA("Fire") or object:IsA("Smoke") then
+			store(object, "Enabled")
+			object.Enabled = false
+		elseif object:IsA("BasePart") then
+			store(object, "Material")
+			store(object, "Reflectance")
+			store(object, "CastShadow")
+			object.Material = Enum.Material.SmoothPlastic
+			object.Reflectance = 0
+			object.CastShadow = false
+	
+			if object:IsA("MeshPart") then
+				store(object, "TextureID")
+				object.TextureID = "" 
+			end
+		end
+	end
+	local function restoreWorkspace()
+		for obj, props in pairs(storedProperties) do
+			pcall(function()
+				for prop, value in pairs(props) do
+					obj[prop] = value
+				end
+			end)
+		end
+		storedProperties = {}
+	end
+	if button:IsA("GuiButton") then
+		button.MouseButton1Click:Connect(function()
+			potatoActive = not potatoActive
+			if potatoActive then
+				if not next(originalLighting) then saveLighting() end
+				Lighting.GlobalShadows = false
+				Lighting.FogEnd = 9e9
+				for _, data in pairs(originalLighting.Effects) do
+					pcall(function() data.obj.Enabled = false end)
+				end
+				for _, obj in pairs(Workspace:GetDescendants()) do
+					strip(obj)
+				end
+			else
+				restoreLighting()
+				restoreWorkspace()
+			end
+		end)
+	end
+	Workspace.DescendantAdded:Connect(function(obj)
+		if potatoActive then
+			task.wait(0.1)
+			strip(obj)
+		end
+	end)
+	
+end
+coroutine.wrap(SYPXKC_fake_script)()
+local function ZVZO_fake_script() -- TextButton_2.Red/Green 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- Initialisierung beim Start
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			-- Wenn an: Grün und Text ON
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			-- Wenn aus: Rot und Text OFF
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ZVZO_fake_script)()
+local function JYDXD_fake_script() -- CloseOpenGUI.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpenGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		-- Berechnet die neue Position
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(JYDXD_fake_script)()
+local function FYHBIU_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
+	
+	local isOpen = true
+	local lastPos = mainBorder.Position
+	local isProcessing = false -- Verhindert Doppel-Trigger
+	
+	button.MouseButton1Click:Connect(function()
+		if isProcessing then return end -- Abbrechen, falls gerade eine Aktion läuft
+		isProcessing = true
+	
+		isOpen = not isOpen
+	
+		if isOpen then
+			-- MENÜ ÖFFNEN
+			mainBorder.Position = lastPos
+		else
+			-- MENÜ SCHLIESSEN
+			-- Wir speichern die Position NUR, wenn sie nicht schon im "Versteck" ist
+			if mainBorder.Position.X.Offset > -1000 then
+				lastPos = mainBorder.Position
+			end
+			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
+		end
+	
+		task.wait(0.1) -- Kurze Pause zur Stabilisierung
+		isProcessing = false
+	end)
+end
+coroutine.wrap(FYHBIU_fake_script)()
