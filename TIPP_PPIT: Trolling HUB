@@ -551,7 +551,6 @@ end)
 
 BorderMainFrame.Visible = true
 
--- Funktion für den Animation-Button
 Animation.MouseButton1Click:Connect(function()
     -- Versuche, das Skript von der URL herunterzuladen und auszuführen.
     -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
@@ -561,29 +560,21 @@ Animation.MouseButton1Click:Connect(function()
     end)
 end)
 
--- Funktion für den Fly-Button
 Fly.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
-    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt")
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den Infinite Yield-Button
 InfiniteYield.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
-    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den Be Normal-Button
 BeNormal.MouseButton1Click:Connect(function()
-    -- Sendet eine Benachrichtigung an den Spieler
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Reset Character",
         Text = "Do it yourself",
@@ -593,46 +584,35 @@ BeNormal.MouseButton1Click:Connect(function()
 end)
 
 
--- Funktion für den Be Snake-Button
 BeSnake.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der URL herunterzuladen und auszuführen.
-    -- Jegliche Fehler, die dabei auftreten, werden intern abgefangen und nicht gemeldet.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/Be%20Snake")
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den bringplayer-Button
 bringplayer.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der "Bring Player"-URL herunterzuladen und auszuführen.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/Bring%20player")
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den walkfling-Button
 walkfling.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der "WalkFling"-URL herunterzuladen und auszuführen.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/WalkFling", true)
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den AntiAfk-Button
 AntiAfk.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der "anti afk"-URL herunterzuladen und auszuführen.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/TIPPPPIT/Trolling-Hub/refs/heads/main/anti%20afk", true)
         loadstring(scriptContent)()
     end)
 end)
 
--- Funktion für den Ak47-Button
 Ak47.MouseButton1Click:Connect(function()
-    -- Versucht, das Skript von der "ak47"-URL herunterzuladen und auszuführen.
     pcall(function()
         local scriptContent = game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true)
         loadstring(scriptContent)()
