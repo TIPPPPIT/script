@@ -319,7 +319,7 @@ local function AKFP_fake_script() -- TextButton.LocalScript
 	local button = script:FindFirstAncestorWhichIsA("TextButton") or script.Parent
 	local isActive = false
 	local REAL_MIN_RADIUS = 10
-	local REAL_SPEED_FACTOR = 0.3
+	local REAL_SPEED_FACTOR = 0.1
 	local VISUAL_MIN_RADIUS = 8
 	local VISUAL_GROW_SPEED = 0.01
 	local realIndicator = Instance.new("Part")
