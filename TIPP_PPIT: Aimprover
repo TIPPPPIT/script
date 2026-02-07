@@ -1,1096 +1,1558 @@
-local ScreenGui = Instance.new("ScreenGui")
-local CloseOpenGUI = Instance.new("Frame")
-local CloseB = Instance.new("ImageLabel")
-local Close = Instance.new("ImageLabel")
-local CloseOpen = Instance.new("TextButton")
-local MainBorderGUI = Instance.new("Frame")
-local MainBorder = Instance.new("ImageLabel")
-local Main = Instance.new("ImageLabel")
-local TIPP_PPIT = Instance.new("TextLabel")
-local BorderX = Instance.new("Frame")
-local BorderY = Instance.new("Frame")
-local BorderXB = Instance.new("ImageLabel")
-local BorderXY = Instance.new("ImageLabel")
-local Home = Instance.new("TextButton")
-local NeverComing = Instance.new("TextButton")
-local NeverComing_2 = Instance.new("TextButton")
-local NeverComing_3 = Instance.new("TextButton")
-local NeverComing_4 = Instance.new("TextButton")
-local Aimbot = Instance.new("Frame")
-local Aimbot_2 = Instance.new("Frame")
-local AimbotONOFF = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
-local UICorner_2 = Instance.new("UICorner")
-local ESP = Instance.new("Frame")
-local ESP_2 = Instance.new("Frame")
-local ESPONOFF = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local UICorner_4 = Instance.new("UICorner")
-local SilentAim = Instance.new("TextLabel")
-local ESP_3 = Instance.new("TextLabel")
-local SilentAim_2 = Instance.new("Frame")
-local SilentAim_3 = Instance.new("Frame")
-local AimbotCircleONOFF = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local UICorner_6 = Instance.new("UICorner")
-local Aimbot_3 = Instance.new("TextLabel")
-local SilentAim_4 = Instance.new("TextLabel")
-local InfiniteYield = Instance.new("Frame")
-local InfiniteYield_2 = Instance.new("Frame")
-local AimbotCircleONOFF_2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local UICorner_8 = Instance.new("UICorner")
+local v_bbGEHqxEIM = Instance.new("\83\99\114\101\101\110\71\117\105")
+local v_ghmquACSZq = Instance.new("\70\114\97\109\101")
+local v_javELw = 887;
+local v_hVTZsiLome = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_jHDobQYRBg = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_gLPSuusRXM = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_vrJhMZPrIv = Instance.new("\70\114\97\109\101")
+local v_puJlosvyYM = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_COuAig = 312;
+if v_COuAig > 198 then v_COuAig = v_COuAig + 1 end;
+local v_RZcpZDcQFJ = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_GciMbFuGGs = Instance.new("\84\101\120\116\76\97\98\101\108")
+local v_yWJWeZtDfo = Instance.new("\70\114\97\109\101")
+local v_DhkmVrGQyN = Instance.new("\70\114\97\109\101")
+local v_DOxgKpfpGt = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_suAiMOXpWH = Instance.new("\73\109\97\103\101\76\97\98\101\108")
+local v_VwkPsWqSuB = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_YImIKuwoiH = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_CRkrbGuHPI = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_ahsudZHmqx = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_jKbgXyIxTL = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_osTnZl = 118;
+local v_xzzDjIOuMi = Instance.new("\70\114\97\109\101")
+local v_FVyxxoKStS = Instance.new("\70\114\97\109\101")
+local v_KQOwKWwQAO = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_TKtkGeCrOL = Instance.new("\85\73\67\111\114\110\101\114")
+local v_rfMyWf = 707;
+local v_aiXPqHWBGB = Instance.new("\85\73\67\111\114\110\101\114")
+local v_JdqhqGJhSs = Instance.new("\70\114\97\109\101")
+local v_hCMdxG = 137;
+local v_pSylYJMHmT = Instance.new("\70\114\97\109\101")
+local v_JOCUsR = 638;
+local v_OQuEByXoRC = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_asdgrxsbdU = Instance.new("\85\73\67\111\114\110\101\114")
+local v_RbkTsNXEzQ = Instance.new("\85\73\67\111\114\110\101\114")
+local v_EIWckYbFep = Instance.new("\84\101\120\116\76\97\98\101\108")
+local v_DjuWRh = 532;
+local v_sjZGosXmpU = Instance.new("\84\101\120\116\76\97\98\101\108")
+local v_tVHICAWQFN = Instance.new("\70\114\97\109\101")
+local v_eWdpdDKwgl = Instance.new("\70\114\97\109\101")
+local v_WbIpYW = 887;
+local v_OmtxzyOIMZ = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_RnkAaGXINv = Instance.new("\85\73\67\111\114\110\101\114")
+local v_GSuyEVRJux = Instance.new("\85\73\67\111\114\110\101\114")
+local v_PncUcLUjpW = Instance.new("\84\101\120\116\76\97\98\101\108")
+local v_PRyanheFHH = Instance.new("\84\101\120\116\76\97\98\101\108")
+local v_TasbMf = 471;
+local v_YNscUUyaWI = Instance.new("\70\114\97\109\101")
+local v_bCEPLofkYY = Instance.new("\70\114\97\109\101")
+local v_EktHFSKVlX = Instance.new("\84\101\120\116\66\117\116\116\111\110")
+local v_jjgqqKfzCI = Instance.new("\85\73\67\111\114\110\101\114")
+local v_oDMZiqrauK = Instance.new("\85\73\67\111\114\110\101\114")
+local v_OWYlWt = 16;
+if v_OWYlWt > 32 then v_OWYlWt = v_OWYlWt + 1 end;
 
---Properties:
+local v_EMrOin = 196;
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.DisplayOrder = 999999999
-ScreenGui.ResetOnSpawn = false
 
-CloseOpenGUI.Name = "Close/Open GUI"
-CloseOpenGUI.Parent = ScreenGui
-CloseOpenGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseOpenGUI.BackgroundTransparency = 1.000
-CloseOpenGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CloseOpenGUI.BorderSizePixel = 0
-CloseOpenGUI.Position = UDim2.new(0.053970702, 0, 0.0817757025, 0)
-CloseOpenGUI.Size = UDim2.new(0, 70, 0, 70)
+local v_mcaplX = 638;
+v_bbGEHqxEIM.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105")
+local v_pFrdSU = 349;
+v_bbGEHqxEIM.DisplayOrder = 999999999
+v_bbGEHqxEIM.ResetOnSpawn = (1 == 2)
 
-CloseB.Name = "Close B"
-CloseB.Parent = CloseOpenGUI
-CloseB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseB.BackgroundTransparency = 1.000
-CloseB.BorderColor3 = Color3.fromRGB(27, 42, 53)
-CloseB.Position = UDim2.new(0.0285714287, 0, 0.0285714287, 0)
-CloseB.Size = UDim2.new(0, 65, 0, 65)
-CloseB.Image = "rbxassetid://3570695787"
-CloseB.ImageColor3 = Color3.fromRGB(0, 0, 0)
-CloseB.ScaleType = Enum.ScaleType.Slice
-CloseB.SliceCenter = Rect.new(100, 100, 100, 100)
-CloseB.SliceScale = 0.120
+v_ghmquACSZq.Name = "\67\108\111\115\101\47\79\112\101\110\32\71\85\73"
+v_ghmquACSZq.Parent = v_bbGEHqxEIM
+v_ghmquACSZq.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_ghmquACSZq.BackgroundTransparency = 1.000
+v_ghmquACSZq.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_ghmquACSZq.BorderSizePixel = 0
+v_ghmquACSZq.Position = UDim2.new(0.053970702, 0, 0.0817757025, 0)
+v_ghmquACSZq.Size = UDim2.new(0, 70, 0, 70)
 
-Close.Name = "Close"
-Close.Parent = CloseB
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Close.Position = UDim2.new(0.0375000015, 0, 0.0350000001, 0)
-Close.Size = UDim2.new(0, 60, 0, 60)
-Close.Image = "rbxassetid://3570695787"
-Close.ImageColor3 = Color3.fromRGB(27, 48, 27)
-Close.ScaleType = Enum.ScaleType.Slice
-Close.SliceCenter = Rect.new(100, 100, 100, 100)
-Close.SliceScale = 0.120
+v_hVTZsiLome.Name = "\67\108\111\115\101\32\66"
+v_hVTZsiLome.Parent = v_ghmquACSZq
+v_hVTZsiLome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+local v_YCwrvY = 197;
+v_hVTZsiLome.BackgroundTransparency = 1.000
+v_hVTZsiLome.BorderColor3 = Color3.fromRGB(27, 42, 53)
+v_hVTZsiLome.Position = UDim2.new(0.0285714287, 0, 0.0285714287, 0)
+local v_GMmhcI = 966;
+v_hVTZsiLome.Size = UDim2.new(0, 65, 0, 65)
+v_hVTZsiLome.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+v_hVTZsiLome.ImageColor3 = Color3.fromRGB(0, 0, 0)
+v_hVTZsiLome.ScaleType = Enum.ScaleType.Slice
+local v_qZsKTJ = 496;
+if v_qZsKTJ > 392 then v_qZsKTJ = v_qZsKTJ + 1 end;
+v_hVTZsiLome.SliceCenter = Rect.new(100, 100, 100, 100)
+v_hVTZsiLome.SliceScale = 0.120
 
-CloseOpen.Name = "Close/Open"
-CloseOpen.Parent = Close
-CloseOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseOpen.BackgroundTransparency = 1.000
-CloseOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CloseOpen.BorderSizePixel = 0
-CloseOpen.Position = UDim2.new(0, 0, -0.016666539, 0)
-CloseOpen.Size = UDim2.new(0, 60, 0, 60)
-CloseOpen.Font = Enum.Font.SourceSansBold
-CloseOpen.Text = "T"
-CloseOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
-CloseOpen.TextSize = 40.000
+local v_pnAMEK = 189;
+if v_pnAMEK > 145 then v_pnAMEK = v_pnAMEK + 1 end;
+v_jHDobQYRBg.Name = "\67\108\111\115\101"
+v_jHDobQYRBg.Parent = v_hVTZsiLome
+v_jHDobQYRBg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_jHDobQYRBg.BackgroundTransparency = 1.000
+v_jHDobQYRBg.BorderColor3 = Color3.fromRGB(27, 42, 53)
+v_jHDobQYRBg.Position = UDim2.new(0.0375000015, 0, 0.0350000001, 0)
+local v_sxeiOb = 932;
+v_jHDobQYRBg.Size = UDim2.new(0, 60, 0, 60)
+v_jHDobQYRBg.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+v_jHDobQYRBg.ImageColor3 = Color3.fromRGB(27, 48, 27)
+v_jHDobQYRBg.ScaleType = Enum.ScaleType.Slice
+local v_fiUICb = 629;
+if v_fiUICb > 180 then v_fiUICb = v_fiUICb + 1 end;
+v_jHDobQYRBg.SliceCenter = Rect.new(100, 100, 100, 100)
+v_jHDobQYRBg.SliceScale = 0.120
 
-MainBorderGUI.Name = "MainBorder GUI"
-MainBorderGUI.Parent = ScreenGui
-MainBorderGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MainBorderGUI.BackgroundTransparency = 1.000
-MainBorderGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MainBorderGUI.BorderSizePixel = 0
-MainBorderGUI.Position = UDim2.new(0.264456451, 0, 0.260514021, 0)
-MainBorderGUI.Size = UDim2.new(0, 610, 0, 410)
+v_gLPSuusRXM.Name = "\67\108\111\115\101\47\79\112\101\110"
+v_gLPSuusRXM.Parent = v_jHDobQYRBg
+v_gLPSuusRXM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_gLPSuusRXM.BackgroundTransparency = 1.000
+local v_UlKVNw = 474;
+v_gLPSuusRXM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_gLPSuusRXM.BorderSizePixel = 0
+v_gLPSuusRXM.Position = UDim2.new(0, 0, -0.016666539, 0)
+local v_fYKxDi = 215;
+v_gLPSuusRXM.Size = UDim2.new(0, 60, 0, 60)
+v_gLPSuusRXM.Font = Enum.Font.SourceSansBold
+v_gLPSuusRXM.Text = "\84"
+v_gLPSuusRXM.TextColor3 = Color3.fromRGB(0, 0, 0)
+local v_tnaVgm = 541;
+if v_tnaVgm > 463 then v_tnaVgm = v_tnaVgm + 1 end;
+v_gLPSuusRXM.TextSize = 40.000
 
-MainBorder.Name = "MainBorder"
-MainBorder.Parent = MainBorderGUI
-MainBorder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MainBorder.BackgroundTransparency = 1.000
-MainBorder.BorderColor3 = Color3.fromRGB(27, 42, 53)
-MainBorder.Position = UDim2.new(-0.00141951768, 0, -0.000816680142, 0)
-MainBorder.Size = UDim2.new(0, 610, 0, 410)
-MainBorder.Image = "rbxassetid://3570695787"
-MainBorder.ImageColor3 = Color3.fromRGB(0, 0, 0)
-MainBorder.ScaleType = Enum.ScaleType.Slice
-MainBorder.SliceCenter = Rect.new(100, 100, 100, 100)
-MainBorder.SliceScale = 0.120
+v_vrJhMZPrIv.Name = "\77\97\105\110\66\111\114\100\101\114\32\71\85\73"
+local v_IbTxZn = 706;
+if v_IbTxZn > 195 then v_IbTxZn = v_IbTxZn + 1 end;
+v_vrJhMZPrIv.Parent = v_bbGEHqxEIM
+v_vrJhMZPrIv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+local v_lNfLNP = 712;
+v_vrJhMZPrIv.BackgroundTransparency = 1.000
+v_vrJhMZPrIv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_vrJhMZPrIv.BorderSizePixel = 0
+local v_ijfWoM = 834;
+v_vrJhMZPrIv.Position = UDim2.new(0.264456451, 0, 0.260514021, 0)
+local v_nDARui = 953;
+v_vrJhMZPrIv.Size = UDim2.new(0, 610, 0, 410)
 
-Main.Name = "Main"
-Main.Parent = MainBorder
-Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.BackgroundTransparency = 1.000
-Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Main.BorderSizePixel = 4
-Main.Position = UDim2.new(0.00810807012, 0, 0.0100879204, 0)
-Main.Size = UDim2.new(0, 600, 0, 400)
-Main.Image = "rbxassetid://3570695787"
-Main.ImageColor3 = Color3.fromRGB(16, 44, 19)
-Main.ScaleType = Enum.ScaleType.Slice
-Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.120
+local v_kHGYWc = 315;
+if v_kHGYWc > 386 then v_kHGYWc = v_kHGYWc + 1 end;
+v_puJlosvyYM.Name = "\77\97\105\110\66\111\114\100\101\114"
+v_puJlosvyYM.Parent = v_vrJhMZPrIv
+v_puJlosvyYM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_puJlosvyYM.BackgroundTransparency = 1.000
+v_puJlosvyYM.BorderColor3 = Color3.fromRGB(27, 42, 53)
+v_puJlosvyYM.Position = UDim2.new(-0.00141951768, 0, -0.000816680142, 0)
+v_puJlosvyYM.Size = UDim2.new(0, 610, 0, 410)
+v_puJlosvyYM.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+v_puJlosvyYM.ImageColor3 = Color3.fromRGB(0, 0, 0)
+v_puJlosvyYM.ScaleType = Enum.ScaleType.Slice
+v_puJlosvyYM.SliceCenter = Rect.new(100, 100, 100, 100)
+v_puJlosvyYM.SliceScale = 0.120
 
-TIPP_PPIT.Name = "TIPP_PPIT"
-TIPP_PPIT.Parent = Main
-TIPP_PPIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TIPP_PPIT.BackgroundTransparency = 1.000
-TIPP_PPIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TIPP_PPIT.BorderSizePixel = 0
-TIPP_PPIT.Position = UDim2.new(0.284999996, 0, 0, 0)
-TIPP_PPIT.Size = UDim2.new(0, 342, 0, 50)
-TIPP_PPIT.Font = Enum.Font.SourceSansBold
-TIPP_PPIT.Text = "TIPP_PPIT: Aimprover"
-TIPP_PPIT.TextColor3 = Color3.fromRGB(0, 0, 0)
-TIPP_PPIT.TextSize = 40.000
+v_RZcpZDcQFJ.Name = "\77\97\105\110"
+v_RZcpZDcQFJ.Parent = v_puJlosvyYM
+v_RZcpZDcQFJ.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_RZcpZDcQFJ.BackgroundTransparency = 1.000
+v_RZcpZDcQFJ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_RZcpZDcQFJ.BorderSizePixel = 4
+v_RZcpZDcQFJ.Position = UDim2.new(0.00810807012, 0, 0.0100879204, 0)
+v_RZcpZDcQFJ.Size = UDim2.new(0, 600, 0, 400)
+v_RZcpZDcQFJ.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+local v_wAYXjs = 11;
+v_RZcpZDcQFJ.ImageColor3 = Color3.fromRGB(16, 44, 19)
+v_RZcpZDcQFJ.ScaleType = Enum.ScaleType.Slice
+v_RZcpZDcQFJ.SliceCenter = Rect.new(100, 100, 100, 100)
+v_RZcpZDcQFJ.SliceScale = 0.120
 
-BorderX.Name = "Border X"
-BorderX.Parent = Main
-BorderX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BorderX.BorderColor3 = Color3.fromRGB(39, 59, 39)
-BorderX.BorderSizePixel = 3
-BorderX.Position = UDim2.new(0.148000002, 0, 0.126000002, 0)
-BorderX.Size = UDim2.new(0, 508, 0, 5)
+v_GciMbFuGGs.Name = "\84\73\80\80\95\80\80\73\84"
+v_GciMbFuGGs.Parent = v_RZcpZDcQFJ
+v_GciMbFuGGs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_GciMbFuGGs.BackgroundTransparency = 1.000
+v_GciMbFuGGs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_GciMbFuGGs.BorderSizePixel = 0
+local v_eMeRWA = 960;
+v_GciMbFuGGs.Position = UDim2.new(0.284999996, 0, 0, 0)
+v_GciMbFuGGs.Size = UDim2.new(0, 342, 0, 50)
+local v_IGdwbM = 186;
+v_GciMbFuGGs.Font = Enum.Font.SourceSansBold
+v_GciMbFuGGs.Text = "\84\73\80\80\95\80\80\73\84\58\32\65\105\109\112\114\111\118\101\114"
+local v_vfXpRN = 497;
+if v_vfXpRN > 33 then v_vfXpRN = v_vfXpRN + 1 end;
+v_GciMbFuGGs.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_GciMbFuGGs.TextSize = 40.000
+local v_hxVReP = 144;
+if v_hxVReP > 290 then v_hxVReP = v_hxVReP + 1 end;
 
-BorderY.Name = "Border Y"
-BorderY.Parent = BorderX
-BorderY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BorderY.BorderColor3 = Color3.fromRGB(39, 59, 39)
-BorderY.BorderSizePixel = 3
-BorderY.Position = UDim2.new(-0.0114487773, 0, -9.39249897, 0)
-BorderY.Size = UDim2.new(0, 5, 0, 393)
+v_yWJWeZtDfo.Name = "\66\111\114\100\101\114\32\88"
+v_yWJWeZtDfo.Parent = v_RZcpZDcQFJ
+local v_GntQrR = 382;
+if v_GntQrR > 208 then v_GntQrR = v_GntQrR + 1 end;
+v_yWJWeZtDfo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+v_yWJWeZtDfo.BorderColor3 = Color3.fromRGB(39, 59, 39)
+local v_XOfWQA = 679;
+if v_XOfWQA > 264 then v_XOfWQA = v_XOfWQA + 1 end;
+v_yWJWeZtDfo.BorderSizePixel = 3
+v_yWJWeZtDfo.Position = UDim2.new(0.148000002, 0, 0.126000002, 0)
+v_yWJWeZtDfo.Size = UDim2.new(0, 508, 0, 5)
+local v_VphHhn = 626;
 
-BorderXB.Name = "Border X B"
-BorderXB.Parent = BorderX
-BorderXB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BorderXB.BackgroundTransparency = 1.000
-BorderXB.BorderColor3 = Color3.fromRGB(27, 42, 53)
-BorderXB.Position = UDim2.new(-0.00160625787, 0, -0.0739990249, 0)
-BorderXB.Size = UDim2.new(0, 517, 0, 5)
-BorderXB.Image = "rbxassetid://3570695787"
-BorderXB.ImageColor3 = Color3.fromRGB(0, 0, 0)
-BorderXB.ScaleType = Enum.ScaleType.Slice
-BorderXB.SliceCenter = Rect.new(100, 100, 100, 100)
-BorderXB.SliceScale = 0.120
+local v_BLOxxR = 971;
+if v_BLOxxR > 174 then v_BLOxxR = v_BLOxxR + 1 end;
+v_DhkmVrGQyN.Name = "\66\111\114\100\101\114\32\89"
+local v_uXoyXO = 684;
+v_DhkmVrGQyN.Parent = v_yWJWeZtDfo
+v_DhkmVrGQyN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+v_DhkmVrGQyN.BorderColor3 = Color3.fromRGB(39, 59, 39)
+local v_GudwKt = 502;
+if v_GudwKt > 365 then v_GudwKt = v_GudwKt + 1 end;
+v_DhkmVrGQyN.BorderSizePixel = 3
+v_DhkmVrGQyN.Position = UDim2.new(-0.0114487773, 0, -9.39249897, 0)
+local v_ETPQmz = 480;
+if v_ETPQmz > 56 then v_ETPQmz = v_ETPQmz + 1 end;
+v_DhkmVrGQyN.Size = UDim2.new(0, 5, 0, 393)
 
-BorderXY.Name = "Border X Y"
-BorderXY.Parent = BorderX
-BorderXY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BorderXY.BackgroundTransparency = 1.000
-BorderXY.BorderColor3 = Color3.fromRGB(27, 42, 53)
-BorderXY.Position = UDim2.new(-0.0114487773, 0, -10.079999, 0)
-BorderXY.Size = UDim2.new(0, 5, 0, 400)
-BorderXY.Image = "rbxassetid://3570695787"
-BorderXY.ImageColor3 = Color3.fromRGB(0, 0, 0)
-BorderXY.ScaleType = Enum.ScaleType.Slice
-BorderXY.SliceCenter = Rect.new(100, 100, 100, 100)
-BorderXY.SliceScale = 0.120
+v_DOxgKpfpGt.Name = "\66\111\114\100\101\114\32\88\32\66"
+v_DOxgKpfpGt.Parent = v_yWJWeZtDfo
+local v_mtZGcp = 696;
+v_DOxgKpfpGt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_DOxgKpfpGt.BackgroundTransparency = 1.000
+local v_OLYMIp = 913;
+v_DOxgKpfpGt.BorderColor3 = Color3.fromRGB(27, 42, 53)
+local v_uaRhDf = 228;
+if v_uaRhDf > 321 then v_uaRhDf = v_uaRhDf + 1 end;
+v_DOxgKpfpGt.Position = UDim2.new(-0.00160625787, 0, -0.0739990249, 0)
+v_DOxgKpfpGt.Size = UDim2.new(0, 517, 0, 5)
+v_DOxgKpfpGt.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+v_DOxgKpfpGt.ImageColor3 = Color3.fromRGB(0, 0, 0)
+local v_ubaeOL = 901;
+v_DOxgKpfpGt.ScaleType = Enum.ScaleType.Slice
+v_DOxgKpfpGt.SliceCenter = Rect.new(100, 100, 100, 100)
+v_DOxgKpfpGt.SliceScale = 0.120
 
-Home.Name = "Home"
-Home.Parent = Main
-Home.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
-Home.BorderColor3 = Color3.fromRGB(39, 59, 39)
-Home.BorderSizePixel = 3
-Home.Position = UDim2.new(0.00999999978, 0, 0.150000006, 0)
-Home.Size = UDim2.new(0, 70, 0, 50)
-Home.Font = Enum.Font.SourceSansBold
-Home.Text = "HOME"
-Home.TextColor3 = Color3.fromRGB(0, 0, 0)
-Home.TextSize = 25.000
+v_suAiMOXpWH.Name = "\66\111\114\100\101\114\32\88\32\89"
+local v_rBraRo = 974;
+v_suAiMOXpWH.Parent = v_yWJWeZtDfo
+v_suAiMOXpWH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_suAiMOXpWH.BackgroundTransparency = 1.000
+v_suAiMOXpWH.BorderColor3 = Color3.fromRGB(27, 42, 53)
+v_suAiMOXpWH.Position = UDim2.new(-0.0114487773, 0, -10.079999, 0)
+local v_lAqdcR = 810;
+if v_lAqdcR > 233 then v_lAqdcR = v_lAqdcR + 1 end;
+v_suAiMOXpWH.Size = UDim2.new(0, 5, 0, 400)
+local v_dbFWMZ = 18;
+v_suAiMOXpWH.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"
+v_suAiMOXpWH.ImageColor3 = Color3.fromRGB(0, 0, 0)
+v_suAiMOXpWH.ScaleType = Enum.ScaleType.Slice
+v_suAiMOXpWH.SliceCenter = Rect.new(100, 100, 100, 100)
+local v_EMcGVP = 498;
+if v_EMcGVP > 75 then v_EMcGVP = v_EMcGVP + 1 end;
+v_suAiMOXpWH.SliceScale = 0.120
 
-NeverComing.Name = "Never Coming"
-NeverComing.Parent = Main
-NeverComing.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
-NeverComing.BorderColor3 = Color3.fromRGB(39, 59, 39)
-NeverComing.BorderSizePixel = 3
-NeverComing.Position = UDim2.new(0.00999999978, 0, 0.300000012, 0)
-NeverComing.Size = UDim2.new(0, 70, 0, 50)
-NeverComing.Font = Enum.Font.SourceSansBold
-NeverComing.Text = "Never coming"
-NeverComing.TextColor3 = Color3.fromRGB(0, 0, 0)
-NeverComing.TextSize = 12.000
+v_VwkPsWqSuB.Name = "\72\111\109\101"
+v_VwkPsWqSuB.Parent = v_RZcpZDcQFJ
+v_VwkPsWqSuB.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+v_VwkPsWqSuB.BorderColor3 = Color3.fromRGB(39, 59, 39)
+local v_mTqJyV = 537;
+if v_mTqJyV > 257 then v_mTqJyV = v_mTqJyV + 1 end;
+v_VwkPsWqSuB.BorderSizePixel = 3
+v_VwkPsWqSuB.Position = UDim2.new(0.00999999978, 0, 0.150000006, 0)
+v_VwkPsWqSuB.Size = UDim2.new(0, 70, 0, 50)
+v_VwkPsWqSuB.Font = Enum.Font.SourceSansBold
+v_VwkPsWqSuB.Text = "\72\79\77\69"
+local v_OUCGxU = 224;
+v_VwkPsWqSuB.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_VwkPsWqSuB.TextSize = 25.000
 
-NeverComing_2.Name = "Never Coming"
-NeverComing_2.Parent = Main
-NeverComing_2.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
-NeverComing_2.BorderColor3 = Color3.fromRGB(39, 59, 39)
-NeverComing_2.BorderSizePixel = 3
-NeverComing_2.Position = UDim2.new(0.00999999978, 0, 0.449999988, 0)
-NeverComing_2.Size = UDim2.new(0, 70, 0, 50)
-NeverComing_2.Font = Enum.Font.SourceSansBold
-NeverComing_2.Text = "Never coming"
-NeverComing_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-NeverComing_2.TextSize = 12.000
+local v_sTfIFg = 190;
+if v_sTfIFg > 390 then v_sTfIFg = v_sTfIFg + 1 end;
+v_YImIKuwoiH.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"
+v_YImIKuwoiH.Parent = v_RZcpZDcQFJ
+v_YImIKuwoiH.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+v_YImIKuwoiH.BorderColor3 = Color3.fromRGB(39, 59, 39)
+v_YImIKuwoiH.BorderSizePixel = 3
+local v_nXESRW = 964;
+v_YImIKuwoiH.Position = UDim2.new(0.00999999978, 0, 0.300000012, 0)
+v_YImIKuwoiH.Size = UDim2.new(0, 70, 0, 50)
+v_YImIKuwoiH.Font = Enum.Font.SourceSansBold
+v_YImIKuwoiH.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"
+v_YImIKuwoiH.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_YImIKuwoiH.TextSize = 12.000
+local v_bjtrkW = 229;
+if v_bjtrkW > 471 then v_bjtrkW = v_bjtrkW + 1 end;
 
-NeverComing_3.Name = "Never Coming"
-NeverComing_3.Parent = Main
-NeverComing_3.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
-NeverComing_3.BorderColor3 = Color3.fromRGB(39, 59, 39)
-NeverComing_3.BorderSizePixel = 3
-NeverComing_3.Position = UDim2.new(0.00999999978, 0, 0.600000024, 0)
-NeverComing_3.Size = UDim2.new(0, 70, 0, 50)
-NeverComing_3.Font = Enum.Font.SourceSansBold
-NeverComing_3.Text = "Never coming"
-NeverComing_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-NeverComing_3.TextSize = 12.000
+local v_Xebefi = 12;
+v_CRkrbGuHPI.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"
+local v_WXKggW = 472;
+if v_WXKggW > 87 then v_WXKggW = v_WXKggW + 1 end;
+v_CRkrbGuHPI.Parent = v_RZcpZDcQFJ
+v_CRkrbGuHPI.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+local v_WZICKT = 704;
+if v_WZICKT > 47 then v_WZICKT = v_WZICKT + 1 end;
+v_CRkrbGuHPI.BorderColor3 = Color3.fromRGB(39, 59, 39)
+v_CRkrbGuHPI.BorderSizePixel = 3
+local v_ByVnmD = 461;
+if v_ByVnmD > 402 then v_ByVnmD = v_ByVnmD + 1 end;
+v_CRkrbGuHPI.Position = UDim2.new(0.00999999978, 0, 0.449999988, 0)
+local v_tSAMuX = 619;
+if v_tSAMuX > 375 then v_tSAMuX = v_tSAMuX + 1 end;
+v_CRkrbGuHPI.Size = UDim2.new(0, 70, 0, 50)
+v_CRkrbGuHPI.Font = Enum.Font.SourceSansBold
+local v_lxezJm = 955;
+v_CRkrbGuHPI.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"
+v_CRkrbGuHPI.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_CRkrbGuHPI.TextSize = 12.000
 
-NeverComing_4.Name = "Never Coming"
-NeverComing_4.Parent = Main
-NeverComing_4.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
-NeverComing_4.BorderColor3 = Color3.fromRGB(39, 59, 39)
-NeverComing_4.BorderSizePixel = 3
-NeverComing_4.Position = UDim2.new(0.00999999978, 0, 0.75, 0)
-NeverComing_4.Size = UDim2.new(0, 70, 0, 50)
-NeverComing_4.Font = Enum.Font.SourceSansBold
-NeverComing_4.Text = "Never coming"
-NeverComing_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-NeverComing_4.TextSize = 12.000
+v_ahsudZHmqx.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"
+local v_MQxWPF = 928;
+v_ahsudZHmqx.Parent = v_RZcpZDcQFJ
+v_ahsudZHmqx.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+local v_YzmpFM = 137;
+v_ahsudZHmqx.BorderColor3 = Color3.fromRGB(39, 59, 39)
+v_ahsudZHmqx.BorderSizePixel = 3
+v_ahsudZHmqx.Position = UDim2.new(0.00999999978, 0, 0.600000024, 0)
+v_ahsudZHmqx.Size = UDim2.new(0, 70, 0, 50)
+v_ahsudZHmqx.Font = Enum.Font.SourceSansBold
+v_ahsudZHmqx.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"
+v_ahsudZHmqx.TextColor3 = Color3.fromRGB(0, 0, 0)
+local v_GIQCoN = 250;
+if v_GIQCoN > 367 then v_GIQCoN = v_GIQCoN + 1 end;
+v_ahsudZHmqx.TextSize = 12.000
 
-Aimbot.Name = "Aimbot"
-Aimbot.Parent = Main
-Aimbot.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
-Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Aimbot.BorderSizePixel = 0
-Aimbot.Position = UDim2.new(0.709999979, 0, 0.200000003, 0)
-Aimbot.Size = UDim2.new(0, 130, 0, 30)
+local v_CdVpmS = 578;
+if v_CdVpmS > 159 then v_CdVpmS = v_CdVpmS + 1 end;
+v_jKbgXyIxTL.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"
+v_jKbgXyIxTL.Parent = v_RZcpZDcQFJ
+local v_vEwZVf = 370;
+if v_vEwZVf > 364 then v_vEwZVf = v_vEwZVf + 1 end;
+v_jKbgXyIxTL.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+local v_yQDLJv = 140;
+v_jKbgXyIxTL.BorderColor3 = Color3.fromRGB(39, 59, 39)
+v_jKbgXyIxTL.BorderSizePixel = 3
+v_jKbgXyIxTL.Position = UDim2.new(0.00999999978, 0, 0.75, 0)
+v_jKbgXyIxTL.Size = UDim2.new(0, 70, 0, 50)
+v_jKbgXyIxTL.Font = Enum.Font.SourceSansBold
+local v_dFBJCT = 781;
+v_jKbgXyIxTL.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"
+v_jKbgXyIxTL.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_jKbgXyIxTL.TextSize = 12.000
 
-Aimbot_2.Name = "Aimbot"
-Aimbot_2.Parent = Aimbot
-Aimbot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Aimbot_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Aimbot_2.BorderSizePixel = 0
-Aimbot_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
-Aimbot_2.Size = UDim2.new(0, 125, 0, 25)
+v_xzzDjIOuMi.Name = "\65\105\109\98\111\116"
+v_xzzDjIOuMi.Parent = v_RZcpZDcQFJ
+v_xzzDjIOuMi.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+local v_QDzBcu = 692;
+if v_QDzBcu > 265 then v_QDzBcu = v_QDzBcu + 1 end;
+v_xzzDjIOuMi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+local v_UYvgBi = 718;
+if v_UYvgBi > 120 then v_UYvgBi = v_UYvgBi + 1 end;
+v_xzzDjIOuMi.BorderSizePixel = 0
+local v_FNmrbE = 848;
+v_xzzDjIOuMi.Position = UDim2.new(0.709999979, 0, 0.200000003, 0)
+local v_YhjgAT = 735;
+if v_YhjgAT > 175 then v_YhjgAT = v_YhjgAT + 1 end;
+v_xzzDjIOuMi.Size = UDim2.new(0, 130, 0, 30)
+local v_RhCCsg = 267;
 
-AimbotONOFF.Name = "Aimbot ON/OFF"
-AimbotONOFF.Parent = Aimbot_2
-AimbotONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AimbotONOFF.BackgroundTransparency = 1.000
-AimbotONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimbotONOFF.BorderSizePixel = 0
-AimbotONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
-AimbotONOFF.Size = UDim2.new(0, 125, 0, 25)
-AimbotONOFF.Font = Enum.Font.SourceSans
-AimbotONOFF.Text = ""
-AimbotONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimbotONOFF.TextSize = 14.000
+local v_GgVvos = 195;
+if v_GgVvos > 309 then v_GgVvos = v_GgVvos + 1 end;
+v_FVyxxoKStS.Name = "\65\105\109\98\111\116"
+v_FVyxxoKStS.Parent = v_xzzDjIOuMi
+v_FVyxxoKStS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_FVyxxoKStS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+local v_Rtkvln = 798;
+if v_Rtkvln > 188 then v_Rtkvln = v_Rtkvln + 1 end;
+v_FVyxxoKStS.BorderSizePixel = 0
+v_FVyxxoKStS.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+v_FVyxxoKStS.Size = UDim2.new(0, 125, 0, 25)
 
-UICorner.Parent = Aimbot_2
+v_KQOwKWwQAO.Name = "\65\105\109\98\111\116\32\79\78\47\79\70\70"
+v_KQOwKWwQAO.Parent = v_FVyxxoKStS
+v_KQOwKWwQAO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_KQOwKWwQAO.BackgroundTransparency = 1.000
+v_KQOwKWwQAO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_KQOwKWwQAO.BorderSizePixel = 0
+v_KQOwKWwQAO.Position = UDim2.new(0, 0, -0.0399987809, 0)
+v_KQOwKWwQAO.Size = UDim2.new(0, 125, 0, 25)
+v_KQOwKWwQAO.Font = Enum.Font.SourceSans
+v_KQOwKWwQAO.Text = ""
+v_KQOwKWwQAO.TextColor3 = Color3.fromRGB(0, 0, 0)
+local v_gMxhAU = 820;
+if v_gMxhAU > 437 then v_gMxhAU = v_gMxhAU + 1 end;
+v_KQOwKWwQAO.TextSize = 14.000
 
-UICorner_2.Parent = Aimbot
+v_TKtkGeCrOL.Parent = v_FVyxxoKStS
 
-ESP.Name = "ESP"
-ESP.Parent = Main
-ESP.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
-ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ESP.BorderSizePixel = 0
-ESP.Position = UDim2.new(0.709666669, 0, 0.349999994, 0)
-ESP.Size = UDim2.new(0, 130, 0, 30)
+v_aiXPqHWBGB.Parent = v_xzzDjIOuMi
 
-ESP_2.Name = "ESP"
-ESP_2.Parent = ESP
-ESP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ESP_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ESP_2.BorderSizePixel = 0
-ESP_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
-ESP_2.Size = UDim2.new(0, 125, 0, 25)
+v_JdqhqGJhSs.Name = "\69\83\80"
+v_JdqhqGJhSs.Parent = v_RZcpZDcQFJ
+v_JdqhqGJhSs.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+v_JdqhqGJhSs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_JdqhqGJhSs.BorderSizePixel = 0
+v_JdqhqGJhSs.Position = UDim2.new(0.709666669, 0, 0.349999994, 0)
+v_JdqhqGJhSs.Size = UDim2.new(0, 130, 0, 30)
 
-ESPONOFF.Name = "ESP ON/OFF"
-ESPONOFF.Parent = ESP_2
-ESPONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ESPONOFF.BackgroundTransparency = 1.000
-ESPONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ESPONOFF.BorderSizePixel = 0
-ESPONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
-ESPONOFF.Size = UDim2.new(0, 125, 0, 25)
-ESPONOFF.Font = Enum.Font.SourceSans
-ESPONOFF.Text = ""
-ESPONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
-ESPONOFF.TextSize = 14.000
+v_pSylYJMHmT.Name = "\69\83\80"
+v_pSylYJMHmT.Parent = v_JdqhqGJhSs
+v_pSylYJMHmT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_pSylYJMHmT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_pSylYJMHmT.BorderSizePixel = 0
+local v_sWclZQ = 351;
+v_pSylYJMHmT.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+v_pSylYJMHmT.Size = UDim2.new(0, 125, 0, 25)
 
-UICorner_3.Parent = ESP_2
+v_OQuEByXoRC.Name = "\69\83\80\32\79\78\47\79\70\70"
+local v_aUaChs = 974;
+if v_aUaChs > 265 then v_aUaChs = v_aUaChs + 1 end;
+v_OQuEByXoRC.Parent = v_pSylYJMHmT
+v_OQuEByXoRC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+local v_UOHyPZ = 125;
+v_OQuEByXoRC.BackgroundTransparency = 1.000
+local v_wIXceQ = 457;
+v_OQuEByXoRC.BorderColor3 = Color3.fromRGB(0, 0, 0)
+local v_EWrVLz = 788;
+v_OQuEByXoRC.BorderSizePixel = 0
+v_OQuEByXoRC.Position = UDim2.new(0, 0, -0.0399987809, 0)
+v_OQuEByXoRC.Size = UDim2.new(0, 125, 0, 25)
+v_OQuEByXoRC.Font = Enum.Font.SourceSans
+v_OQuEByXoRC.Text = ""
+local v_kbxpeW = 239;
+v_OQuEByXoRC.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_OQuEByXoRC.TextSize = 14.000
+local v_WhKQzs = 87;
 
-UICorner_4.Parent = ESP
+v_asdgrxsbdU.Parent = v_pSylYJMHmT
 
-SilentAim.Name = "Silent Aim"
-SilentAim.Parent = Main
-SilentAim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SilentAim.BackgroundTransparency = 1.000
-SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim.BorderSizePixel = 0
-SilentAim.Position = UDim2.new(0.185000002, 0, 0.474999994, 0)
-SilentAim.Size = UDim2.new(0, 342, 0, 50)
-SilentAim.Font = Enum.Font.SourceSansBold
-SilentAim.Text = "Silent Aim: (not mine)"
-SilentAim.TextColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim.TextSize = 40.000
-SilentAim.TextXAlignment = Enum.TextXAlignment.Left
+v_RbkTsNXEzQ.Parent = v_JdqhqGJhSs
 
-ESP_3.Name = "ESP"
-ESP_3.Parent = Main
-ESP_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ESP_3.BackgroundTransparency = 1.000
-ESP_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ESP_3.BorderSizePixel = 0
-ESP_3.Position = UDim2.new(0.185000002, 0, 0.32249999, 0)
-ESP_3.Size = UDim2.new(0, 342, 0, 50)
-ESP_3.Font = Enum.Font.SourceSansBold
-ESP_3.Text = "ESP:"
-ESP_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-ESP_3.TextSize = 40.000
-ESP_3.TextXAlignment = Enum.TextXAlignment.Left
+v_EIWckYbFep.Name = "\83\105\108\101\110\116\32\65\105\109"
+v_EIWckYbFep.Parent = v_RZcpZDcQFJ
+v_EIWckYbFep.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_EIWckYbFep.BackgroundTransparency = 1.000
+v_EIWckYbFep.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_EIWckYbFep.BorderSizePixel = 0
+local v_sKbuxb = 812;
+v_EIWckYbFep.Position = UDim2.new(0.185000002, 0, 0.474999994, 0)
+v_EIWckYbFep.Size = UDim2.new(0, 342, 0, 50)
+local v_hLeGSW = 70;
+v_EIWckYbFep.Font = Enum.Font.SourceSansBold
+v_EIWckYbFep.Text = "\83\105\108\101\110\116\32\65\105\109\58\32\40\110\111\116\32\109\105\110\101\41"
+v_EIWckYbFep.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_EIWckYbFep.TextSize = 40.000
+local v_JHVtYe = 578;
+if v_JHVtYe > 292 then v_JHVtYe = v_JHVtYe + 1 end;
+v_EIWckYbFep.TextXAlignment = Enum.TextXAlignment.Left
 
-SilentAim_2.Name = "Silent Aim"
-SilentAim_2.Parent = Main
-SilentAim_2.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
-SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim_2.BorderSizePixel = 0
-SilentAim_2.Position = UDim2.new(0.709999979, 0, 0.5, 0)
-SilentAim_2.Size = UDim2.new(0, 130, 0, 30)
+v_sjZGosXmpU.Name = "\69\83\80"
+local v_opUucS = 295;
+if v_opUucS > 118 then v_opUucS = v_opUucS + 1 end;
+v_sjZGosXmpU.Parent = v_RZcpZDcQFJ
+local v_MveCqf = 145;
+if v_MveCqf > 467 then v_MveCqf = v_MveCqf + 1 end;
+v_sjZGosXmpU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_sjZGosXmpU.BackgroundTransparency = 1.000
+v_sjZGosXmpU.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_sjZGosXmpU.BorderSizePixel = 0
+local v_TlrnvG = 765;
+if v_TlrnvG > 221 then v_TlrnvG = v_TlrnvG + 1 end;
+v_sjZGosXmpU.Position = UDim2.new(0.185000002, 0, 0.32249999, 0)
+v_sjZGosXmpU.Size = UDim2.new(0, 342, 0, 50)
+local v_jKGZCF = 740;
+if v_jKGZCF > 434 then v_jKGZCF = v_jKGZCF + 1 end;
+v_sjZGosXmpU.Font = Enum.Font.SourceSansBold
+local v_zvfEvT = 722;
+if v_zvfEvT > 175 then v_zvfEvT = v_zvfEvT + 1 end;
+v_sjZGosXmpU.Text = "\69\83\80\58"
+local v_hpweAQ = 621;
+v_sjZGosXmpU.TextColor3 = Color3.fromRGB(0, 0, 0)
+local v_qMjEWx = 709;
+v_sjZGosXmpU.TextSize = 40.000
+v_sjZGosXmpU.TextXAlignment = Enum.TextXAlignment.Left
 
-SilentAim_3.Name = "Silent Aim"
-SilentAim_3.Parent = SilentAim_2
-SilentAim_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SilentAim_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim_3.BorderSizePixel = 0
-SilentAim_3.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
-SilentAim_3.Size = UDim2.new(0, 125, 0, 25)
+v_tVHICAWQFN.Name = "\83\105\108\101\110\116\32\65\105\109"
+v_tVHICAWQFN.Parent = v_RZcpZDcQFJ
+local v_CDaSwn = 245;
+if v_CDaSwn > 175 then v_CDaSwn = v_CDaSwn + 1 end;
+v_tVHICAWQFN.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+v_tVHICAWQFN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_tVHICAWQFN.BorderSizePixel = 0
+v_tVHICAWQFN.Position = UDim2.new(0.709999979, 0, 0.5, 0)
+v_tVHICAWQFN.Size = UDim2.new(0, 130, 0, 30)
+local v_szhDFC = 733;
+if v_szhDFC > 224 then v_szhDFC = v_szhDFC + 1 end;
 
-AimbotCircleONOFF.Name = "Aimbot Circle ON/OFF"
-AimbotCircleONOFF.Parent = SilentAim_3
-AimbotCircleONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AimbotCircleONOFF.BackgroundTransparency = 1.000
-AimbotCircleONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimbotCircleONOFF.BorderSizePixel = 0
-AimbotCircleONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
-AimbotCircleONOFF.Size = UDim2.new(0, 125, 0, 25)
-AimbotCircleONOFF.Font = Enum.Font.SourceSans
-AimbotCircleONOFF.Text = ""
-AimbotCircleONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimbotCircleONOFF.TextSize = 14.000
+v_eWdpdDKwgl.Name = "\83\105\108\101\110\116\32\65\105\109"
+v_eWdpdDKwgl.Parent = v_tVHICAWQFN
+v_eWdpdDKwgl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_eWdpdDKwgl.BorderColor3 = Color3.fromRGB(0, 0, 0)
+local v_RETZvs = 132;
+v_eWdpdDKwgl.BorderSizePixel = 0
+local v_SYgofH = 604;
+v_eWdpdDKwgl.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+local v_CuqmUb = 954;
+if v_CuqmUb > 330 then v_CuqmUb = v_CuqmUb + 1 end;
+v_eWdpdDKwgl.Size = UDim2.new(0, 125, 0, 25)
+local v_xCtLvX = 626;
+if v_xCtLvX > 366 then v_xCtLvX = v_xCtLvX + 1 end;
 
-UICorner_5.Parent = SilentAim_3
+v_OmtxzyOIMZ.Name = "\65\105\109\98\111\116\32\67\105\114\99\108\101\32\79\78\47\79\70\70"
+v_OmtxzyOIMZ.Parent = v_eWdpdDKwgl
+v_OmtxzyOIMZ.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_OmtxzyOIMZ.BackgroundTransparency = 1.000
+v_OmtxzyOIMZ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_OmtxzyOIMZ.BorderSizePixel = 0
+v_OmtxzyOIMZ.Position = UDim2.new(0, 0, -0.0399987809, 0)
+v_OmtxzyOIMZ.Size = UDim2.new(0, 125, 0, 25)
+v_OmtxzyOIMZ.Font = Enum.Font.SourceSans
+local v_qqUWzj = 42;
+v_OmtxzyOIMZ.Text = ""
+v_OmtxzyOIMZ.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_OmtxzyOIMZ.TextSize = 14.000
 
-UICorner_6.Parent = SilentAim_2
+v_RnkAaGXINv.Parent = v_eWdpdDKwgl
 
-Aimbot_3.Name = "Aimbot"
-Aimbot_3.Parent = Main
-Aimbot_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Aimbot_3.BackgroundTransparency = 1.000
-Aimbot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Aimbot_3.BorderSizePixel = 0
-Aimbot_3.Position = UDim2.new(0.185000002, 0, 0.174999997, 0)
-Aimbot_3.Size = UDim2.new(0, 342, 0, 50)
-Aimbot_3.Font = Enum.Font.SourceSansBold
-Aimbot_3.Text = "Aimbot:"
-Aimbot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-Aimbot_3.TextSize = 40.000
-Aimbot_3.TextXAlignment = Enum.TextXAlignment.Left
+v_GSuyEVRJux.Parent = v_tVHICAWQFN
+local v_VqoDaB = 12;
+if v_VqoDaB > 88 then v_VqoDaB = v_VqoDaB + 1 end;
 
-SilentAim_4.Name = "Silent Aim"
-SilentAim_4.Parent = Main
-SilentAim_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SilentAim_4.BackgroundTransparency = 1.000
-SilentAim_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim_4.BorderSizePixel = 0
-SilentAim_4.Position = UDim2.new(0.185000002, 0, 0.625, 0)
-SilentAim_4.Size = UDim2.new(0, 342, 0, 50)
-SilentAim_4.Font = Enum.Font.SourceSansBold
-SilentAim_4.Text = "Infi. Yield: (not mine)"
-SilentAim_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-SilentAim_4.TextSize = 40.000
-SilentAim_4.TextXAlignment = Enum.TextXAlignment.Left
+v_PncUcLUjpW.Name = "\65\105\109\98\111\116"
+local v_DvblYx = 536;
+v_PncUcLUjpW.Parent = v_RZcpZDcQFJ
+v_PncUcLUjpW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_PncUcLUjpW.BackgroundTransparency = 1.000
+local v_ZqrVIb = 235;
+v_PncUcLUjpW.BorderColor3 = Color3.fromRGB(0, 0, 0)
+local v_bMaOWC = 408;
+v_PncUcLUjpW.BorderSizePixel = 0
+v_PncUcLUjpW.Position = UDim2.new(0.185000002, 0, 0.174999997, 0)
+v_PncUcLUjpW.Size = UDim2.new(0, 342, 0, 50)
+v_PncUcLUjpW.Font = Enum.Font.SourceSansBold
+v_PncUcLUjpW.Text = "\65\105\109\98\111\116\58"
+v_PncUcLUjpW.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_PncUcLUjpW.TextSize = 40.000
+v_PncUcLUjpW.TextXAlignment = Enum.TextXAlignment.Left
+local v_kGwAAq = 806;
+if v_kGwAAq > 321 then v_kGwAAq = v_kGwAAq + 1 end;
 
-InfiniteYield.Name = "Infinite Yield"
-InfiniteYield.Parent = Main
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
-InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.BorderSizePixel = 0
-InfiniteYield.Position = UDim2.new(0.709999979, 0, 0.649999976, 0)
-InfiniteYield.Size = UDim2.new(0, 130, 0, 30)
+v_PRyanheFHH.Name = "\83\105\108\101\110\116\32\65\105\109"
+v_PRyanheFHH.Parent = v_RZcpZDcQFJ
+local v_JaYgTA = 934;
+v_PRyanheFHH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_PRyanheFHH.BackgroundTransparency = 1.000
+v_PRyanheFHH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_PRyanheFHH.BorderSizePixel = 0
+local v_nZoqjG = 902;
+if v_nZoqjG > 400 then v_nZoqjG = v_nZoqjG + 1 end;
+v_PRyanheFHH.Position = UDim2.new(0.185000002, 0, 0.625, 0)
+local v_gPgFXL = 132;
+v_PRyanheFHH.Size = UDim2.new(0, 342, 0, 50)
+local v_lzkwNQ = 419;
+if v_lzkwNQ > 273 then v_lzkwNQ = v_lzkwNQ + 1 end;
+v_PRyanheFHH.Font = Enum.Font.SourceSansBold
+local v_Yonwjc = 357;
+v_PRyanheFHH.Text = "\73\110\102\105\46\32\89\105\101\108\100\58\32\40\110\111\116\32\109\105\110\101\41"
+v_PRyanheFHH.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_PRyanheFHH.TextSize = 40.000
+v_PRyanheFHH.TextXAlignment = Enum.TextXAlignment.Left
 
-InfiniteYield_2.Name = "Infinite Yield"
-InfiniteYield_2.Parent = InfiniteYield
-InfiniteYield_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYield_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield_2.BorderSizePixel = 0
-InfiniteYield_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
-InfiniteYield_2.Size = UDim2.new(0, 125, 0, 25)
+local v_zCZNDl = 132;
+if v_zCZNDl > 37 then v_zCZNDl = v_zCZNDl + 1 end;
+v_YNscUUyaWI.Name = "\73\110\102\105\110\105\116\101\32\89\105\101\108\100"
+local v_vnJoqn = 465;
+if v_vnJoqn > 196 then v_vnJoqn = v_vnJoqn + 1 end;
+v_YNscUUyaWI.Parent = v_RZcpZDcQFJ
+v_YNscUUyaWI.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+local v_zbAwjw = 723;
+if v_zbAwjw > 127 then v_zbAwjw = v_zbAwjw + 1 end;
+v_YNscUUyaWI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_YNscUUyaWI.BorderSizePixel = 0
+v_YNscUUyaWI.Position = UDim2.new(0.709999979, 0, 0.649999976, 0)
+v_YNscUUyaWI.Size = UDim2.new(0, 130, 0, 30)
+local v_oGWCQx = 18;
 
-AimbotCircleONOFF_2.Name = "Aimbot Circle ON/OFF"
-AimbotCircleONOFF_2.Parent = InfiniteYield_2
-AimbotCircleONOFF_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AimbotCircleONOFF_2.BackgroundTransparency = 1.000
-AimbotCircleONOFF_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimbotCircleONOFF_2.BorderSizePixel = 0
-AimbotCircleONOFF_2.Position = UDim2.new(0, 0, -0.0399987809, 0)
-AimbotCircleONOFF_2.Size = UDim2.new(0, 125, 0, 25)
-AimbotCircleONOFF_2.Font = Enum.Font.SourceSans
-AimbotCircleONOFF_2.Text = ""
-AimbotCircleONOFF_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimbotCircleONOFF_2.TextSize = 14.000
+v_bCEPLofkYY.Name = "\73\110\102\105\110\105\116\101\32\89\105\101\108\100"
+v_bCEPLofkYY.Parent = v_YNscUUyaWI
+local v_EwlshV = 212;
+if v_EwlshV > 300 then v_EwlshV = v_EwlshV + 1 end;
+v_bCEPLofkYY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_bCEPLofkYY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_bCEPLofkYY.BorderSizePixel = 0
+v_bCEPLofkYY.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+v_bCEPLofkYY.Size = UDim2.new(0, 125, 0, 25)
 
-UICorner_7.Parent = InfiniteYield_2
+v_EktHFSKVlX.Name = "\65\105\109\98\111\116\32\67\105\114\99\108\101\32\79\78\47\79\70\70"
+local v_JVucpT = 281;
+if v_JVucpT > 134 then v_JVucpT = v_JVucpT + 1 end;
+v_EktHFSKVlX.Parent = v_bCEPLofkYY
+v_EktHFSKVlX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_EktHFSKVlX.BackgroundTransparency = 1.000
+v_EktHFSKVlX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v_EktHFSKVlX.BorderSizePixel = 0
+local v_Pznyka = 965;
+v_EktHFSKVlX.Position = UDim2.new(0, 0, -0.0399987809, 0)
+v_EktHFSKVlX.Size = UDim2.new(0, 125, 0, 25)
+local v_osDAEV = 704;
+v_EktHFSKVlX.Font = Enum.Font.SourceSans
+v_EktHFSKVlX.Text = ""
+v_EktHFSKVlX.TextColor3 = Color3.fromRGB(0, 0, 0)
+v_EktHFSKVlX.TextSize = 14.000
 
-UICorner_8.Parent = InfiniteYield
+v_jjgqqKfzCI.Parent = v_bCEPLofkYY
 
--- Scripts:
+local v_QlaTVe = 253;
+if v_QlaTVe > 263 then v_QlaTVe = v_QlaTVe + 1 end;
+v_oDMZiqrauK.Parent = v_YNscUUyaWI
 
-local function AMFGA_fake_script() -- CloseOpenGUI.LocalScript 
-	local script = Instance.new('LocalScript', CloseOpenGUI)
 
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
+
+local function v_uOvrPsHeWX() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_ghmquACSZq)
+
+ local v_FPgxcQATwb = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
+ 
+ local v_drnPtGQNyq = script.Parent
+ 
+local v_gVAAex = 697;
+ local v_ZJhZOnVxSA
+ local v_EGcOOPrmaO
+ local v_JIkMhBeGSu
+ local v_flZtKLiKyA
+ 
+local v_jjIMiD = 829;
+if v_jjIMiD > 447 then v_jjIMiD = v_jjIMiD + 1 end;
+ local function v_UvOSFnZBCq(input)
+ local v_IYcpJidxKa = input.Position - v_JIkMhBeGSu
+ v_drnPtGQNyq.Position = UDim2.new(v_flZtKLiKyA.X.Scale, v_flZtKLiKyA.X.Offset + v_IYcpJidxKa.X, v_flZtKLiKyA.Y.Scale, v_flZtKLiKyA.Y.Offset + v_IYcpJidxKa.Y)
+ end
+ 
+ v_drnPtGQNyq.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+ v_ZJhZOnVxSA = (1 == 1)
+ v_JIkMhBeGSu = input.Position
+local v_FUwfvD = 754;
+ v_flZtKLiKyA = v_drnPtGQNyq.Position
+ 
+ input.Changed:Connect(function()
+ if input.UserInputState == Enum.UserInputState.End then
+ v_ZJhZOnVxSA = (1 == 2)
+ end
+local v_SEQxOg = 711;
+if v_SEQxOg > 379 then v_SEQxOg = v_SEQxOg + 1 end;
+ end)
+ end
+ end)
+ 
+local v_lkClrA = 797;
+if v_lkClrA > 125 then v_lkClrA = v_lkClrA + 1 end;
+ v_drnPtGQNyq.InputChanged:Connect(function(input)
+local v_DTmQQz = 879;
+ if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+local v_HzRnbn = 720;
+ v_EGcOOPrmaO = input
+ end
+ end)
+ 
+ v_FPgxcQATwb.InputChanged:Connect(function(input)
+ if input == v_EGcOOPrmaO and v_ZJhZOnVxSA then
+ v_UvOSFnZBCq(input)
+ end
+ end)
 end
-coroutine.wrap(AMFGA_fake_script)()
-local function UNSX_fake_script() -- CloseOpen.LocalScript 
-	local script = Instance.new('LocalScript', CloseOpen)
+local v_cCTrkV = 318;
+coroutine.wrap(v_uOvrPsHeWX)()
+local v_qyMFJp = 868;
+if v_qyMFJp > 273 then v_qyMFJp = v_qyMFJp + 1 end;
+local function v_JSPQfSUzlL() 
+local v_UVQytE = 715;
+if v_UVQytE > 87 then v_UVQytE = v_UVQytE + 1 end;
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_gLPSuusRXM)
 
-	local button = script.Parent
-	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
-	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
-	
-	local isOpen = true
-	local lastPos = mainBorder.Position
-	local isProcessing = false -- Verhindert Doppel-Trigger
-	
-	button.MouseButton1Click:Connect(function()
-		if isProcessing then return end
-		isProcessing = true
-	
-		isOpen = not isOpen
-	
-		if isOpen then
-			mainBorder.Position = lastPos
-		else
-			if mainBorder.Position.X.Offset > -1000 then
-				lastPos = mainBorder.Position
-			end
-			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
-		end
-	
-		task.wait(0.1) -- Kurze Pause zur Stabilisierung
-		isProcessing = false
-	end)
+ local v_AkBgEWMiwb = script.Parent
+ local v_IBWVJnWKeh = v_AkBgEWMiwb:FindFirstAncestorOfClass("\83\99\114\101\101\110\71\117\105")
+ local v_XcRlOMGDfl = v_IBWVJnWKeh:WaitForChild("\77\97\105\110\66\111\114\100\101\114\32\71\85\73")
+local v_yHFObD = 872;
+ 
+ local v_eZtjjrUWPN = (1 == 1)
+local v_NsoqUZ = 855;
+if v_NsoqUZ > 104 then v_NsoqUZ = v_NsoqUZ + 1 end;
+ local v_xucYAkAmUL = v_XcRlOMGDfl.Position
+local v_nmBnBQ = 895;
+if v_nmBnBQ > 11 then v_nmBnBQ = v_nmBnBQ + 1 end;
+ local v_wIcTfRhaST = (1 == 2) 
+ 
+local v_EHccxr = 799;
+if v_EHccxr > 7 then v_EHccxr = v_EHccxr + 1 end;
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+local v_GVzhSR = 377;
+if v_GVzhSR > 39 then v_GVzhSR = v_GVzhSR + 1 end;
+ if v_wIcTfRhaST then return end
+ v_wIcTfRhaST = (1 == 1)
+ 
+ v_eZtjjrUWPN = not v_eZtjjrUWPN
+local v_gnFVav = 103;
+if v_gnFVav > 234 then v_gnFVav = v_gnFVav + 1 end;
+ 
+local v_yhfUAO = 19;
+if v_yhfUAO > 103 then v_yhfUAO = v_yhfUAO + 1 end;
+ if v_eZtjjrUWPN then
+local v_KoFfIU = 103;
+ v_XcRlOMGDfl.Position = v_xucYAkAmUL
+ else
+ if v_XcRlOMGDfl.Position.X.Offset > -1000 then
+ v_xucYAkAmUL = v_XcRlOMGDfl.Position
+ end
+ v_XcRlOMGDfl.Position = UDim2.new(0, -2000, 0, -2000)
+ end
+ 
+ task.wait(0.1) 
+ v_wIcTfRhaST = (1 == 2)
+ end)
+local v_ibOuPc = 557;
+if v_ibOuPc > 193 then v_ibOuPc = v_ibOuPc + 1 end;
 end
-coroutine.wrap(UNSX_fake_script)()
-local function GRWQF_fake_script() -- MainBorderGUI.LocalScript 
-	local script = Instance.new('LocalScript', MainBorderGUI)
+coroutine.wrap(v_JSPQfSUzlL)()
+local function v_gHGwrLojEL() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_vrJhMZPrIv)
+local v_snLhoG = 585;
 
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
+ local v_FPgxcQATwb = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
+local v_ZEDgju = 101;
+if v_ZEDgju > 6 then v_ZEDgju = v_ZEDgju + 1 end;
+ 
+ local v_drnPtGQNyq = script.Parent
+ 
+ local v_ZJhZOnVxSA
+local v_bfKGlP = 376;
+if v_bfKGlP > 113 then v_bfKGlP = v_bfKGlP + 1 end;
+ local v_EGcOOPrmaO
+local v_NlWoJQ = 59;
+ local v_JIkMhBeGSu
+local v_zXvSxf = 79;
+if v_zXvSxf > 228 then v_zXvSxf = v_zXvSxf + 1 end;
+ local v_flZtKLiKyA
+ 
+ local function v_UvOSFnZBCq(input)
+local v_HulbOj = 628;
+ local v_IYcpJidxKa = input.Position - v_JIkMhBeGSu
+local v_wTmKQd = 169;
+if v_wTmKQd > 268 then v_wTmKQd = v_wTmKQd + 1 end;
+ v_drnPtGQNyq.Position = UDim2.new(v_flZtKLiKyA.X.Scale, v_flZtKLiKyA.X.Offset + v_IYcpJidxKa.X, v_flZtKLiKyA.Y.Scale, v_flZtKLiKyA.Y.Offset + v_IYcpJidxKa.Y)
+ end
+ 
+local v_INmZoW = 974;
+if v_INmZoW > 37 then v_INmZoW = v_INmZoW + 1 end;
+ v_drnPtGQNyq.InputBegan:Connect(function(input)
+local v_nLVHRP = 337;
+ if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+ v_ZJhZOnVxSA = (1 == 1)
+ v_JIkMhBeGSu = input.Position
+ v_flZtKLiKyA = v_drnPtGQNyq.Position
+local v_GgPiWi = 666;
+if v_GgPiWi > 247 then v_GgPiWi = v_GgPiWi + 1 end;
+ 
+local v_ZhsTdB = 418;
+if v_ZhsTdB > 165 then v_ZhsTdB = v_ZhsTdB + 1 end;
+ input.Changed:Connect(function()
+ if input.UserInputState == Enum.UserInputState.End then
+ v_ZJhZOnVxSA = (1 == 2)
+local v_aRbvBD = 672;
+if v_aRbvBD > 181 then v_aRbvBD = v_aRbvBD + 1 end;
+ end
+ end)
+ end
+ end)
+ 
+ v_drnPtGQNyq.InputChanged:Connect(function(input)
+local v_FgoMAG = 151;
+if v_FgoMAG > 127 then v_FgoMAG = v_FgoMAG + 1 end;
+ if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+ v_EGcOOPrmaO = input
+local v_PTVOZT = 611;
+if v_PTVOZT > 201 then v_PTVOZT = v_PTVOZT + 1 end;
+ end
+ end)
+ 
+local v_qLowLb = 856;
+if v_qLowLb > 461 then v_qLowLb = v_qLowLb + 1 end;
+ v_FPgxcQATwb.InputChanged:Connect(function(input)
+local v_SGuBeI = 339;
+ if input == v_EGcOOPrmaO and v_ZJhZOnVxSA then
+ v_UvOSFnZBCq(input)
+ end
+local v_IElSrT = 635;
+if v_IElSrT > 12 then v_IElSrT = v_IElSrT + 1 end;
+ end)
 end
-coroutine.wrap(GRWQF_fake_script)()
-local function YDES_fake_script() -- AimbotONOFF.Red/Green 
-	local script = Instance.new('LocalScript', AimbotONOFF)
+local v_sSQgkq = 492;
+coroutine.wrap(v_gHGwrLojEL)()
+local function v_HjyDPYHaeD() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_KQOwKWwQAO)
 
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	button.Font = Enum.Font.SourceSansBold 
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
+ local v_lrOnXbkbBy = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
+ 
+ local v_AkBgEWMiwb = script.Parent
+ local v_RGgGtYTflA = v_AkBgEWMiwb.Parent 
+local v_fbkRUv = 652;
+ 
+local v_vDyQgj = 486;
+if v_vDyQgj > 295 then v_vDyQgj = v_vDyQgj + 1 end;
+ local v_nLmSpvoWnE = (1 == 2)
+ 
+ local v_kWAQSfunCx = Color3.fromRGB(0, 255, 127) 
+ local v_xUIPKCFKWm = Color3.fromRGB(255, 50, 50) 
+ 
+ local v_XrFKMWYfPp = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+ 
+local v_szykym = 709;
+if v_szykym > 301 then v_szykym = v_szykym + 1 end;
+ v_AkBgEWMiwb.Font = Enum.Font.SourceSansBold 
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ v_RGgGtYTflA.BackgroundColor3 = v_xUIPKCFKWm
+ 
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+local v_eSANEn = 511;
+ v_nLmSpvoWnE = not v_nLmSpvoWnE
+ 
+local v_zHLIID = 883;
+ if v_nLmSpvoWnE then
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_kWAQSfunCx})
+ v_lcTtCWREbS:Play()
+local v_jTFyrp = 872;
+ v_AkBgEWMiwb.Text = "\79\78"
+ else
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_xUIPKCFKWm})
+ v_lcTtCWREbS:Play()
+ v_AkBgEWMiwb.Text = "\79\70\70"
+local v_UtBJjR = 625;
+ end
+ end)
 end
-coroutine.wrap(YDES_fake_script)()
-local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript 
-	local script = Instance.new('LocalScript', AimbotONOFF)
+local v_wHcnuA = 977;
+coroutine.wrap(v_HjyDPYHaeD)()
+local v_FCqYUs = 181;
+local function v_KVCjYvmmUq() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_KQOwKWwQAO)
 
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	local Players = game:GetService("Players")
-	local Camera = workspace.CurrentCamera
-	-- VARIABLE SETTINGS
-	local aimbotEnabled = false
-	local isLockActive = false
-	local smoothing = 1 -- Set to 1 automatically as requested
-	local aimKey = Enum.KeyCode.C
-	local aimMode = "HOLD" -- Restored
-	local targetPartName = "Head"
-	local menuToggleKey = Enum.KeyCode.B 
-	-- UI STATE
-	local lastPos = UDim2.new(0.5, 0, 0.5, 0)
-	local isMenuVisible = false
-	local isProcessing = false
-	-- 1. GUI ERSTELLEN
-	local screenGui = script:FindFirstAncestorOfClass("ScreenGui")
-	local frame = Instance.new("Frame", screenGui)
-	frame.Name = "AimbotSettings"
-	frame.Size = UDim2.new(0, 220, 0, 420) -- Increased size back for additional mode input
-	frame.Position = UDim2.new(0, 3000, 0, -1000) -- Start offscreen
-	frame.AnchorPoint = Vector2.new(0.5, 0.5)
-	frame.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
-	frame.BorderSizePixel = 0
-	frame.Visible = true 
-	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 15)
-	-- // TOGGLE FUNCTION //
-	local function toggleMenu()
-		if isProcessing then return end
-		isProcessing = true
-	
-		isMenuVisible = not isMenuVisible
-	
-		if isMenuVisible then
-			frame.Position = lastPos
-		else
-			-- Only save position if the menu is actually on screen
-			if frame.Position.X.Offset < 2000 then
-				lastPos = frame.Position
-			end
-			frame.Position = UDim2.new(0, 3000, 0, -1000)
-		end
-	
-		task.wait(0.1)
-		isProcessing = false
-	end
-	-- // DRAGGABLE LOGIC //
-	local dragToggle, dragStart, startPos
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then dragToggle = false end
-			end)
-		end
-	end)
-	UserInputService.InputChanged:Connect(function(input)
-		if dragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local delta = input.Position - dragStart
-			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-			lastPos = frame.Position
-		end
-	end)
-	-- Titel
-	local title = Instance.new("TextLabel", frame)
-	title.Text = "Settings"
-	title.Size = UDim2.new(1, 0, 0, 40)
-	title.BackgroundTransparency = 1
-	title.TextColor3 = Color3.new(1, 1, 1)
-	title.Font = Enum.Font.GothamBold
-	title.TextSize = 16
-	local function isVisible(targetPart)
-		local char = Players.LocalPlayer.Character
-		if not char then return false end
-		local rayParams = RaycastParams.new()
-		rayParams.FilterDescendantsInstances = {char, Camera}
-		rayParams.FilterType = Enum.RaycastFilterType.Exclude
-		local origin = Camera.CFrame.Position
-		local direction = targetPart.Position - origin
-		local raycastResult = workspace:Raycast(origin, direction, rayParams)
-		if raycastResult then
-			return raycastResult.Instance:IsDescendantOf(targetPart.Parent)
-		end
-		return false
-	end
-	-- // ZIELFINDUNG //
-	local function getTarget()
-		local closest = nil
-		local dist = math.huge
-		local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
-		for _, p in pairs(Players:GetPlayers()) do
-			if p ~= Players.LocalPlayer and p.Character and p.Team ~= Players.LocalPlayer.Team then
-				local hum = p.Character:FindFirstChild("Humanoid")
-				if hum and hum.Health > 0 then
-					local targetPart = p.Character:FindFirstChild(targetPartName)
-					if not targetPart then
-						targetPart = p.Character:FindFirstChild("Head") or p.Character:FindFirstChild("HumanoidRootPart")
-					end
-					if targetPart then
-						local pos, on = Camera:WorldToViewportPoint(targetPart.Position)
-						if on and isVisible(targetPart) then
-							local mag = (Vector2.new(pos.X, pos.Y) - center).Magnitude
-							if mag < dist then 
-								closest = targetPart 
-								dist = mag 
-							end
-						end
-					end
-				end
-			end
-		end
-		return closest
-	end
-	-- // GUI UTILITIES //
-	local function createKeySelector(labelText, defaultKey, pos, callback)
-		local label = Instance.new("TextLabel", frame)
-		label.Text = labelText
-		label.Size = UDim2.new(0.8, 0, 0, 20)
-		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
-		label.BackgroundTransparency = 1
-		label.TextColor3 = Color3.fromRGB(200, 200, 200)
-		label.Font = Enum.Font.GothamSemibold
-		label.TextSize = 10
-		label.TextXAlignment = Enum.TextXAlignment.Left
-		local button = Instance.new("TextBox", frame)
-		button.Text = defaultKey.Name
-		button.Size = UDim2.new(0.8, 0, 0, 28)
-		button.Position = pos
-		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
-		button.TextColor3 = Color3.new(1, 1, 1)
-		button.Font = Enum.Font.Gotham
-		button.TextSize = 12
-		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
-		button.FocusLost:Connect(function()
-			local text = button.Text:upper()
-			local success, result = pcall(function() return Enum.KeyCode[text] end)
-			if success and result then
-				button.Text = result.Name
-				callback(result)
-			else
-				button.Text = "INVALID"
-				task.wait(1)
-				button.Text = defaultKey.Name
-			end
-		end)
-		return button
-	end
-	local function createCycleSelector(labelText, options, startIndex, pos, callback)
-		local label = Instance.new("TextLabel", frame)
-		label.Text = labelText
-		label.Size = UDim2.new(0.8, 0, 0, 20)
-		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
-		label.BackgroundTransparency = 1
-		label.TextColor3 = Color3.fromRGB(200, 200, 200)
-		label.Font = Enum.Font.GothamSemibold
-		label.TextSize = 10
-		label.TextXAlignment = Enum.TextXAlignment.Left
-		local button = Instance.new("TextButton", frame)
-		local currentIndex = startIndex
-		button.Text = options[currentIndex]
-		button.Size = UDim2.new(0.8, 0, 0, 28)
-		button.Position = pos
-		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
-		button.TextColor3 = Color3.new(1, 1, 1)
-		button.Font = Enum.Font.Gotham
-		button.TextSize = 12
-		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
-		button.MouseButton1Click:Connect(function()
-			currentIndex = currentIndex + 1
-			if currentIndex > #options then currentIndex = 1 end
-			button.Text = options[currentIndex]
-			callback(options[currentIndex])
-		end)
-		return button
-	end
-	local function createTextInput(labelText, defaultText, pos, callback)
-		local label = Instance.new("TextLabel", frame)
-		label.Text = labelText
-		label.Size = UDim2.new(0.8, 0, 0, 20)
-		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
-		label.BackgroundTransparency = 1
-		label.TextColor3 = Color3.fromRGB(200, 200, 200)
-		label.Font = Enum.Font.GothamSemibold
-		label.TextSize = 10
-		label.TextXAlignment = Enum.TextXAlignment.Left
-		local txt = Instance.new("TextBox", frame)
-		txt.Text = defaultText
-		txt.Size = UDim2.new(0.8, 0, 0, 28)
-		txt.Position = pos
-		txt.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
-		txt.TextColor3 = Color3.new(1, 1, 1)
-		txt.Font = Enum.Font.Gotham
-		txt.TextSize = 12
-		Instance.new("UICorner", txt).CornerRadius = UDim.new(0, 8)
-		txt.FocusLost:Connect(function()
-			callback(txt.Text)
-		end)
-		return txt
-	end
-	local showMobileButton = UserInputService.TouchEnabled -- Auto-detect
-	local mobileButton = Instance.new("TextButton", screenGui)
-	mobileButton.Name = "MobileAimButton"
-	mobileButton.Size = UDim2.new(0, 60, 0, 60)
-	mobileButton.Position = UDim2.new(0.8, 0, 0.5, 0)
-	mobileButton.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
-	mobileButton.TextColor3 = Color3.new(1, 1, 1)
-	mobileButton.Text = "AIM"
-	mobileButton.Font = Enum.Font.GothamBold
-	mobileButton.TextSize = 14
-	mobileButton.Visible = showMobileButton
-	Instance.new("UICorner", mobileButton).CornerRadius = UDim.new(1, 0)
-	-- Mobile Button Draggable logic
-	local mDragToggle, mDragStart, mStartPos
-	mobileButton.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
-			mDragToggle = true
-			mDragStart = input.Position
-			mStartPos = mobileButton.Position
-	
-			-- Handle Aim Trigger
-			if aimMode == "HOLD" then
-				isLockActive = true
-			else
-				isLockActive = not isLockActive
-			end
-		end
-	end)
-	mobileButton.InputEnded:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
-			mDragToggle = false
-			if aimMode == "HOLD" then
-				isLockActive = false
-			end
-		end
-	end)
-	UserInputService.InputChanged:Connect(function(input)
-		if mDragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
-			local delta = input.Position - mDragStart
-			if delta.Magnitude > 5 then -- Small threshold to distinguish click vs drag
-				mobileButton.Position = UDim2.new(mStartPos.X.Scale, mStartPos.X.Offset + delta.X, mStartPos.Y.Scale, mStartPos.Y.Offset + delta.Y)
-			end
-		end
-	end)
-	createKeySelector("Aimbot Key:", aimKey, UDim2.new(0.1, 0, 0.12, 0), function(k) aimKey = k end)
-	createKeySelector("Menu Toggle (B):", menuToggleKey, UDim2.new(0.1, 0, 0.25, 0), function(k) menuToggleKey = k end)
-	createCycleSelector("Aim Mode:", {"HOLD", "TOGGLE"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(m)
-		aimMode = m
-		isLockActive = false
-	end)
-	createCycleSelector("Mobile Button:", {"OFF", "ON"}, (showMobileButton and 2 or 1), UDim2.new(0.1, 0, 0.51, 0), function(o)
-		mobileButton.Visible = (o == "ON")
-	end)
-	createTextInput("Smoothing (0.01 - 1):", tostring(smoothing), UDim2.new(0.1, 0, 0.64, 0), function(t) 
-		local n = tonumber(t) 
-		if n then smoothing = math.clamp(n, 0.01, 1) else smoothing = 1 end 
-	end)
-	createCycleSelector("Target Part:", {"Head", "Torso"}, 1, UDim2.new(0.1, 0, 0.77, 0), function(p)
-		if p == "Torso" then
-			targetPartName = "UpperTorso"
-		else
-			targetPartName = "Head"
-		end
-	end)
-	UserInputService.InputBegan:Connect(function(i, p) 
-		if p then return end 
-		if i.KeyCode == aimKey then 
-			if aimMode == "HOLD" then
-				isLockActive = true 
-			else
-				isLockActive = not isLockActive
-			end
-		elseif i.KeyCode == menuToggleKey then
-			toggleMenu()
-		end 
-	end)
-	UserInputService.InputEnded:Connect(function(i) 
-		if i.KeyCode == aimKey and aimMode == "HOLD" then 
-			isLockActive = false 
-		end 
-	end)
-	script.Parent.MouseButton1Click:Connect(toggleMenu)
-	RunService.RenderStepped:Connect(function()
-		if isLockActive then
-			local target = getTarget()
-			if target then
-				local lookAt = CFrame.new(Camera.CFrame.Position, target.Position)
-				Camera.CFrame = Camera.CFrame:Lerp(lookAt, smoothing)
-			end
-		end
-	end)
-	
+ local v_NrnamCPpMF = game:GetService("\82\117\110\83\101\114\118\105\99\101")
+local v_rHLlsR = 257;
+if v_rHLlsR > 445 then v_rHLlsR = v_rHLlsR + 1 end;
+ local v_FPgxcQATwb = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101")
+local v_CxAisg = 977;
+if v_CxAisg > 74 then v_CxAisg = v_CxAisg + 1 end;
+ local v_hejSMBEVJo = game:GetService("\80\108\97\121\101\114\115")
+ local v_uZXiWdojtQ = workspace.CurrentCamera
+ 
+ local v_UYrCUJiGua = (1 == 2)
+ local v_dpNwnTAMhN = (1 == 2)
+ local v_CnkKBWjZhu = 1 
+ local v_dFAnSHIXJt = Enum.KeyCode.C
+local v_EoHLuT = 600;
+ local v_cVbVimUDwJ = "\72\79\76\68" 
+ local v_HrrcumkFbq = "\72\101\97\100"
+ local v_FVRhhktucf = Enum.KeyCode.B 
+ 
+local v_IhJpHm = 552;
+ local v_xucYAkAmUL = UDim2.new(0.5, 0, 0.5, 0)
+ local v_JXgLftHZYs = (1 == 2)
+ local v_wIcTfRhaST = (1 == 2)
+ 
+local v_bHTgey = 157;
+ local v_IBWVJnWKeh = script:FindFirstAncestorOfClass("\83\99\114\101\101\110\71\117\105")
+ local v_BmfsAdsvRx = Instance.new("\70\114\97\109\101", v_IBWVJnWKeh)
+local v_fYkkyY = 858;
+if v_fYkkyY > 28 then v_fYkkyY = v_fYkkyY + 1 end;
+ v_BmfsAdsvRx.Name = "\65\105\109\98\111\116\83\101\116\116\105\110\103\115"
+local v_lYVqtR = 715;
+ v_BmfsAdsvRx.Size = UDim2.new(0, 220, 0, 420) 
+local v_ZKZbpD = 80;
+ v_BmfsAdsvRx.Position = UDim2.new(0, 3000, 0, -1000) 
+local v_GvGDjL = 732;
+ v_BmfsAdsvRx.AnchorPoint = Vector2.new(0.5, 0.5)
+local v_GuZXJE = 681;
+if v_GuZXJE > 107 then v_GuZXJE = v_GuZXJE + 1 end;
+ v_BmfsAdsvRx.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
+ v_BmfsAdsvRx.BorderSizePixel = 0
+ v_BmfsAdsvRx.Visible = (1 == 1) 
+ Instance.new("\85\73\67\111\114\110\101\114", v_BmfsAdsvRx).CornerRadius = UDim.new(0, 15)
+ 
+local v_ruSWWa = 82;
+if v_ruSWWa > 154 then v_ruSWWa = v_ruSWWa + 1 end;
+ local function v_oqBjKCLFwR()
+ if v_wIcTfRhaST then return end
+ v_wIcTfRhaST = (1 == 1)
+ 
+ v_JXgLftHZYs = not v_JXgLftHZYs
+ 
+ if v_JXgLftHZYs then
+ v_BmfsAdsvRx.Position = v_xucYAkAmUL
+ else
+ 
+local v_olNTHi = 636;
+ if v_BmfsAdsvRx.Position.X.Offset < 2000 then
+ v_xucYAkAmUL = v_BmfsAdsvRx.Position
+local v_oRuiQQ = 664;
+if v_oRuiQQ > 312 then v_oRuiQQ = v_oRuiQQ + 1 end;
+ end
+ v_BmfsAdsvRx.Position = UDim2.new(0, 3000, 0, -1000)
+ end
+ 
+local v_hgcimm = 392;
+ task.wait(0.1)
+ v_wIcTfRhaST = (1 == 2)
+ end
+local v_DMSIcD = 546;
+ 
+ local v_sOMBLxKnHg, v_JIkMhBeGSu, v_flZtKLiKyA
+ v_BmfsAdsvRx.InputBegan:Connect(function(input)
+ if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+local v_oKmjvt = 525;
+if v_oKmjvt > 320 then v_oKmjvt = v_oKmjvt + 1 end;
+ v_sOMBLxKnHg = (1 == 1)
+ v_JIkMhBeGSu = input.Position
+ v_flZtKLiKyA = v_BmfsAdsvRx.Position
+ input.Changed:Connect(function()
+local v_mxrDNC = 372;
+if v_mxrDNC > 6 then v_mxrDNC = v_mxrDNC + 1 end;
+ if input.UserInputState == Enum.UserInputState.End then v_sOMBLxKnHg = (1 == 2) end
+ end)
+local v_WZXkUu = 469;
+if v_WZXkUu > 354 then v_WZXkUu = v_WZXkUu + 1 end;
+ end
+ end)
+ v_FPgxcQATwb.InputChanged:Connect(function(input)
+ if v_sOMBLxKnHg and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+ local v_IYcpJidxKa = input.Position - v_JIkMhBeGSu
+local v_gUTpxz = 16;
+if v_gUTpxz > 5 then v_gUTpxz = v_gUTpxz + 1 end;
+ v_BmfsAdsvRx.Position = UDim2.new(v_flZtKLiKyA.X.Scale, v_flZtKLiKyA.X.Offset + v_IYcpJidxKa.X, v_flZtKLiKyA.Y.Scale, v_flZtKLiKyA.Y.Offset + v_IYcpJidxKa.Y)
+local v_AIfGEY = 463;
+ v_xucYAkAmUL = v_BmfsAdsvRx.Position
+ end
+local v_KZREgR = 539;
+ end)
+local v_QGXHFV = 257;
+if v_QGXHFV > 222 then v_QGXHFV = v_QGXHFV + 1 end;
+ 
+ local v_NIJyfRESKo = Instance.new("\84\101\120\116\76\97\98\101\108", v_BmfsAdsvRx)
+ v_NIJyfRESKo.Text = "\83\101\116\116\105\110\103\115"
+ v_NIJyfRESKo.Size = UDim2.new(1, 0, 0, 40)
+ v_NIJyfRESKo.BackgroundTransparency = 1
+local v_JhZpwP = 527;
+if v_JhZpwP > 376 then v_JhZpwP = v_JhZpwP + 1 end;
+ v_NIJyfRESKo.TextColor3 = Color3.new(1, 1, 1)
+ v_NIJyfRESKo.Font = Enum.Font.GothamBold
+ v_NIJyfRESKo.TextSize = 16
+ local function v_qBBuxdCXvj(v_sBskZWKuqL)
+ local v_GfbDmehAVH = v_hejSMBEVJo.LocalPlayer.Character
+ if not v_GfbDmehAVH then return (1 == 2) end
+local v_dCoQwo = 460;
+ local v_kaxXtyyxfQ = RaycastParams.new()
+local v_LLBFFO = 7;
+ v_kaxXtyyxfQ.FilterDescendantsInstances = {v_GfbDmehAVH, v_uZXiWdojtQ}
+ v_kaxXtyyxfQ.FilterType = Enum.RaycastFilterType.Exclude
+local v_hutRtp = 946;
+ local v_oMrmMdIIbL = v_uZXiWdojtQ.CFrame.Position
+ local v_hhRoGwhMdt = v_sBskZWKuqL.Position - v_oMrmMdIIbL
+ local v_JTVUznLhbZ = workspace:Raycast(v_oMrmMdIIbL, v_hhRoGwhMdt, v_kaxXtyyxfQ)
+ if v_JTVUznLhbZ then
+ return v_JTVUznLhbZ.Instance:IsDescendantOf(v_sBskZWKuqL.Parent)
+ end
+ return (1 == 2)
+ end
+ 
+ local function v_phjayfliSg()
+ local v_fEPkYAAjaF = nil
+ local v_jGfAFqwnSZ = math.huge
+ local v_OeoIBurvXz = Vector2.new(v_uZXiWdojtQ.ViewportSize.X / 2, v_uZXiWdojtQ.ViewportSize.Y / 2)
+local v_SkQpyI = 821;
+ for _, p in pairs(v_hejSMBEVJo:GetPlayers()) do
+ if p ~= v_hejSMBEVJo.LocalPlayer and p.Character and p.Team ~= v_hejSMBEVJo.LocalPlayer.Team then
+local v_FTkCiR = 616;
+ local v_HrifDZMTLa = p.Character:FindFirstChild("\72\117\109\97\110\111\105\100")
+ if v_HrifDZMTLa and v_HrifDZMTLa.Health > 0 then
+ local v_sBskZWKuqL = p.Character:FindFirstChild(v_HrrcumkFbq)
+local v_RwESpk = 414;
+if v_RwESpk > 305 then v_RwESpk = v_RwESpk + 1 end;
+ if not v_sBskZWKuqL then
+ v_sBskZWKuqL = p.Character:FindFirstChild("\72\101\97\100") or p.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116")
+ end
+local v_aiMfJK = 363;
+ if v_sBskZWKuqL then
+ local v_QiUPaNOjJo, on = v_uZXiWdojtQ:WorldToViewportPoint(v_sBskZWKuqL.Position)
+ if on and v_qBBuxdCXvj(v_sBskZWKuqL) then
+ local v_MxXMstgJel = (Vector2.new(v_QiUPaNOjJo.X, v_QiUPaNOjJo.Y) - v_OeoIBurvXz).Magnitude
+ if v_MxXMstgJel < v_jGfAFqwnSZ then 
+ v_fEPkYAAjaF = v_sBskZWKuqL 
+ v_jGfAFqwnSZ = v_MxXMstgJel 
+ end
+local v_ltqQyk = 28;
+if v_ltqQyk > 22 then v_ltqQyk = v_ltqQyk + 1 end;
+ end
+local v_fIcnpM = 476;
+if v_fIcnpM > 90 then v_fIcnpM = v_fIcnpM + 1 end;
+ end
+ end
+ end
+ end
+ return v_fEPkYAAjaF
+local v_NrWSGH = 434;
+if v_NrWSGH > 351 then v_NrWSGH = v_NrWSGH + 1 end;
+ end
+ 
+ local function v_uvXHJJOyoL(labelText, defaultKey, v_QiUPaNOjJo, callback)
+ local v_VwQEHnWJIk = Instance.new("\84\101\120\116\76\97\98\101\108", v_BmfsAdsvRx)
+local v_LMgtDM = 270;
+if v_LMgtDM > 6 then v_LMgtDM = v_LMgtDM + 1 end;
+ v_VwQEHnWJIk.Text = labelText
+ v_VwQEHnWJIk.Size = UDim2.new(0.8, 0, 0, 20)
+local v_vhoHDP = 671;
+if v_vhoHDP > 34 then v_vhoHDP = v_vhoHDP + 1 end;
+ v_VwQEHnWJIk.Position = UDim2.new(0.1, 0, v_QiUPaNOjJo.Y.Scale - 0.05, 0)
+ v_VwQEHnWJIk.BackgroundTransparency = 1
+ v_VwQEHnWJIk.TextColor3 = Color3.fromRGB(200, 200, 200)
+local v_PYaszt = 819;
+ v_VwQEHnWJIk.Font = Enum.Font.GothamSemibold
+ v_VwQEHnWJIk.TextSize = 10
+ v_VwQEHnWJIk.TextXAlignment = Enum.TextXAlignment.Left
+ local v_AkBgEWMiwb = Instance.new("\84\101\120\116\66\111\120", v_BmfsAdsvRx)
+ v_AkBgEWMiwb.Text = defaultKey.Name
+local v_TYLBhi = 268;
+if v_TYLBhi > 74 then v_TYLBhi = v_TYLBhi + 1 end;
+ v_AkBgEWMiwb.Size = UDim2.new(0.8, 0, 0, 28)
+ v_AkBgEWMiwb.Position = v_QiUPaNOjJo
+ v_AkBgEWMiwb.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+ v_AkBgEWMiwb.TextColor3 = Color3.new(1, 1, 1)
+ v_AkBgEWMiwb.Font = Enum.Font.Gotham
+ v_AkBgEWMiwb.TextSize = 12
+ Instance.new("\85\73\67\111\114\110\101\114", v_AkBgEWMiwb).CornerRadius = UDim.new(0, 8)
+ v_AkBgEWMiwb.FocusLost:Connect(function()
+local v_NOPXGN = 560;
+if v_NOPXGN > 240 then v_NOPXGN = v_NOPXGN + 1 end;
+ local v_VZhAMqNeDM = v_AkBgEWMiwb.Text:upper()
+ local v_vGjNpXyThR, result = pcall(function() return Enum.KeyCode[v_VZhAMqNeDM] end)
+ if v_vGjNpXyThR and result then
+local v_XgIlua = 262;
+ v_AkBgEWMiwb.Text = result.Name
+ callback(result)
+ else
+ v_AkBgEWMiwb.Text = "\73\78\86\65\76\73\68"
+ task.wait(1)
+ v_AkBgEWMiwb.Text = defaultKey.Name
+ end
+ end)
+ return v_AkBgEWMiwb
+ end
+ local function v_uHseVZzwhM(labelText, options, startIndex, v_QiUPaNOjJo, callback)
+local v_fkPBTb = 254;
+if v_fkPBTb > 473 then v_fkPBTb = v_fkPBTb + 1 end;
+ local v_VwQEHnWJIk = Instance.new("\84\101\120\116\76\97\98\101\108", v_BmfsAdsvRx)
+local v_ZLFPDv = 199;
+ v_VwQEHnWJIk.Text = labelText
+local v_ynaifp = 469;
+if v_ynaifp > 374 then v_ynaifp = v_ynaifp + 1 end;
+ v_VwQEHnWJIk.Size = UDim2.new(0.8, 0, 0, 20)
+ v_VwQEHnWJIk.Position = UDim2.new(0.1, 0, v_QiUPaNOjJo.Y.Scale - 0.05, 0)
+ v_VwQEHnWJIk.BackgroundTransparency = 1
+local v_mvCRXl = 428;
+if v_mvCRXl > 497 then v_mvCRXl = v_mvCRXl + 1 end;
+ v_VwQEHnWJIk.TextColor3 = Color3.fromRGB(200, 200, 200)
+local v_vfYuCo = 571;
+if v_vfYuCo > 18 then v_vfYuCo = v_vfYuCo + 1 end;
+ v_VwQEHnWJIk.Font = Enum.Font.GothamSemibold
+local v_HUIdQe = 880;
+if v_HUIdQe > 375 then v_HUIdQe = v_HUIdQe + 1 end;
+ v_VwQEHnWJIk.TextSize = 10
+ v_VwQEHnWJIk.TextXAlignment = Enum.TextXAlignment.Left
+local v_xNcoqp = 641;
+ local v_AkBgEWMiwb = Instance.new("\84\101\120\116\66\117\116\116\111\110", v_BmfsAdsvRx)
+ local v_povREFqWnf = startIndex
+local v_WKjgxP = 345;
+if v_WKjgxP > 42 then v_WKjgxP = v_WKjgxP + 1 end;
+ v_AkBgEWMiwb.Text = options[v_povREFqWnf]
+ v_AkBgEWMiwb.Size = UDim2.new(0.8, 0, 0, 28)
+ v_AkBgEWMiwb.Position = v_QiUPaNOjJo
+ v_AkBgEWMiwb.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+local v_Wrwdla = 404;
+if v_Wrwdla > 9 then v_Wrwdla = v_Wrwdla + 1 end;
+ v_AkBgEWMiwb.TextColor3 = Color3.new(1, 1, 1)
+ v_AkBgEWMiwb.Font = Enum.Font.Gotham
+ v_AkBgEWMiwb.TextSize = 12
+local v_YWZFei = 372;
+if v_YWZFei > 437 then v_YWZFei = v_YWZFei + 1 end;
+ Instance.new("\85\73\67\111\114\110\101\114", v_AkBgEWMiwb).CornerRadius = UDim.new(0, 8)
+local v_nscslv = 698;
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+local v_EqRIFQ = 647;
+if v_EqRIFQ > 142 then v_EqRIFQ = v_EqRIFQ + 1 end;
+ v_povREFqWnf = v_povREFqWnf + 1
+ if v_povREFqWnf > #options then v_povREFqWnf = 1 end
+ v_AkBgEWMiwb.Text = options[v_povREFqWnf]
+local v_vdUPgQ = 359;
+if v_vdUPgQ > 204 then v_vdUPgQ = v_vdUPgQ + 1 end;
+ callback(options[v_povREFqWnf])
+ end)
+ return v_AkBgEWMiwb
+ end
+local v_ulRZdD = 870;
+if v_ulRZdD > 232 then v_ulRZdD = v_ulRZdD + 1 end;
+ local function v_bloIsSFvFr(labelText, defaultText, v_QiUPaNOjJo, callback)
+ local v_VwQEHnWJIk = Instance.new("\84\101\120\116\76\97\98\101\108", v_BmfsAdsvRx)
+ v_VwQEHnWJIk.Text = labelText
+ v_VwQEHnWJIk.Size = UDim2.new(0.8, 0, 0, 20)
+ v_VwQEHnWJIk.Position = UDim2.new(0.1, 0, v_QiUPaNOjJo.Y.Scale - 0.05, 0)
+ v_VwQEHnWJIk.BackgroundTransparency = 1
+ v_VwQEHnWJIk.TextColor3 = Color3.fromRGB(200, 200, 200)
+local v_dUtBoF = 666;
+if v_dUtBoF > 414 then v_dUtBoF = v_dUtBoF + 1 end;
+ v_VwQEHnWJIk.Font = Enum.Font.GothamSemibold
+local v_pQtiIF = 116;
+if v_pQtiIF > 187 then v_pQtiIF = v_pQtiIF + 1 end;
+ v_VwQEHnWJIk.TextSize = 10
+ v_VwQEHnWJIk.TextXAlignment = Enum.TextXAlignment.Left
+ local v_dQqZwUiLPB = Instance.new("\84\101\120\116\66\111\120", v_BmfsAdsvRx)
+ v_dQqZwUiLPB.Text = defaultText
+local v_VZyxLb = 706;
+if v_VZyxLb > 172 then v_VZyxLb = v_VZyxLb + 1 end;
+ v_dQqZwUiLPB.Size = UDim2.new(0.8, 0, 0, 28)
+ v_dQqZwUiLPB.Position = v_QiUPaNOjJo
+ v_dQqZwUiLPB.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+local v_vFHzOn = 855;
+ v_dQqZwUiLPB.TextColor3 = Color3.new(1, 1, 1)
+ v_dQqZwUiLPB.Font = Enum.Font.Gotham
+ v_dQqZwUiLPB.TextSize = 12
+ Instance.new("\85\73\67\111\114\110\101\114", v_dQqZwUiLPB).CornerRadius = UDim.new(0, 8)
+ v_dQqZwUiLPB.FocusLost:Connect(function()
+ callback(v_dQqZwUiLPB.Text)
+ end)
+ return v_dQqZwUiLPB
+local v_QgZeXK = 140;
+ end
+ local v_kGvULLiDbM = v_FPgxcQATwb.TouchEnabled 
+ local v_JKjrkXPvWD = Instance.new("\84\101\120\116\66\117\116\116\111\110", v_IBWVJnWKeh)
+ v_JKjrkXPvWD.Name = "\77\111\98\105\108\101\65\105\109\66\117\116\116\111\110"
+ v_JKjrkXPvWD.Size = UDim2.new(0, 60, 0, 60)
+ v_JKjrkXPvWD.Position = UDim2.new(0.8, 0, 0.5, 0)
+local v_nnXJvT = 822;
+ v_JKjrkXPvWD.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+ v_JKjrkXPvWD.TextColor3 = Color3.new(1, 1, 1)
+ v_JKjrkXPvWD.Text = "\65\73\77"
+local v_OcDEfT = 213;
+if v_OcDEfT > 103 then v_OcDEfT = v_OcDEfT + 1 end;
+ v_JKjrkXPvWD.Font = Enum.Font.GothamBold
+local v_iYKSUa = 167;
+ v_JKjrkXPvWD.TextSize = 14
+ v_JKjrkXPvWD.Visible = v_kGvULLiDbM
+local v_lCxNck = 717;
+ Instance.new("\85\73\67\111\114\110\101\114", v_JKjrkXPvWD).CornerRadius = UDim.new(1, 0)
+ 
+ local v_YhvYICPJCI, mDragStart, mStartPos
+local v_cHIzZI = 333;
+if v_cHIzZI > 288 then v_cHIzZI = v_cHIzZI + 1 end;
+ v_JKjrkXPvWD.InputBegan:Connect(function(input)
+ if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+local v_fPieIp = 542;
+if v_fPieIp > 428 then v_fPieIp = v_fPieIp + 1 end;
+ v_YhvYICPJCI = (1 == 1)
+local v_maXHpa = 897;
+ mDragStart = input.Position
+ mStartPos = v_JKjrkXPvWD.Position
+local v_XvRwxP = 261;
+ 
+ 
+ if v_cVbVimUDwJ == "\72\79\76\68" then
+ v_dpNwnTAMhN = (1 == 1)
+ else
+local v_EwVkXJ = 683;
+if v_EwVkXJ > 478 then v_EwVkXJ = v_EwVkXJ + 1 end;
+ v_dpNwnTAMhN = not v_dpNwnTAMhN
+ end
+ end
+local v_BbvTsZ = 100;
+if v_BbvTsZ > 319 then v_BbvTsZ = v_BbvTsZ + 1 end;
+ end)
+local v_qpUVHU = 642;
+ v_JKjrkXPvWD.InputEnded:Connect(function(input)
+ if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+ v_YhvYICPJCI = (1 == 2)
+local v_lBxKiW = 977;
+if v_lBxKiW > 304 then v_lBxKiW = v_lBxKiW + 1 end;
+ if v_cVbVimUDwJ == "\72\79\76\68" then
+local v_sqpmKX = 777;
+ v_dpNwnTAMhN = (1 == 2)
+ end
+ end
+local v_fPkUms = 231;
+if v_fPkUms > 110 then v_fPkUms = v_fPkUms + 1 end;
+ end)
+local v_VQoYYD = 595;
+ v_FPgxcQATwb.InputChanged:Connect(function(input)
+local v_aaTAif = 454;
+if v_aaTAif > 188 then v_aaTAif = v_aaTAif + 1 end;
+ if v_YhvYICPJCI and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+ local v_IYcpJidxKa = input.Position - mDragStart
+ if v_IYcpJidxKa.Magnitude > 5 then 
+ v_JKjrkXPvWD.Position = UDim2.new(mStartPos.X.Scale, mStartPos.X.Offset + v_IYcpJidxKa.X, mStartPos.Y.Scale, mStartPos.Y.Offset + v_IYcpJidxKa.Y)
+ end
+ end
+local v_EgPfcF = 109;
+if v_EgPfcF > 232 then v_EgPfcF = v_EgPfcF + 1 end;
+ end)
+local v_emwDki = 638;
+ v_uvXHJJOyoL("\65\105\109\98\111\116\32\75\101\121\58", v_dFAnSHIXJt, UDim2.new(0.1, 0, 0.12, 0), function(k) v_dFAnSHIXJt = k end)
+ v_uvXHJJOyoL("\77\101\110\117\32\84\111\103\103\108\101\32\40\66\41\58", v_FVRhhktucf, UDim2.new(0.1, 0, 0.25, 0), function(k) v_FVRhhktucf = k end)
+ v_uHseVZzwhM("\65\105\109\32\77\111\100\101\58", {"\72\79\76\68", "\84\79\71\71\76\69"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(m)
+ v_cVbVimUDwJ = m
+ v_dpNwnTAMhN = (1 == 2)
+ end)
+local v_KQsgnW = 862;
+if v_KQsgnW > 262 then v_KQsgnW = v_KQsgnW + 1 end;
+ v_uHseVZzwhM("\77\111\98\105\108\101\32\66\117\116\116\111\110\58", {"\79\70\70", "\79\78"}, (v_kGvULLiDbM and 2 or 1), UDim2.new(0.1, 0, 0.51, 0), function(o)
+ v_JKjrkXPvWD.Visible = (o == "\79\78")
+local v_EdzlwU = 115;
+ end)
+local v_kiRpEz = 443;
+if v_kiRpEz > 157 then v_kiRpEz = v_kiRpEz + 1 end;
+ v_bloIsSFvFr("\83\109\111\111\116\104\105\110\103\32\40\48\46\48\49\32\45\32\49\41\58", tostring(v_CnkKBWjZhu), UDim2.new(0.1, 0, 0.64, 0), function(t) 
+ local v_jnesNtDzbZ = tonumber(t) 
+ if v_jnesNtDzbZ then v_CnkKBWjZhu = math.clamp(v_jnesNtDzbZ, 0.01, 1) else v_CnkKBWjZhu = 1 end 
+ end)
+ v_uHseVZzwhM("\84\97\114\103\101\116\32\80\97\114\116\58", {"\72\101\97\100", "\84\111\114\115\111"}, 1, UDim2.new(0.1, 0, 0.77, 0), function(p)
+ if p == "\84\111\114\115\111" then
+ v_HrrcumkFbq = "\85\112\112\101\114\84\111\114\115\111"
+ else
+ v_HrrcumkFbq = "\72\101\97\100"
+ end
+ end)
+ v_FPgxcQATwb.InputBegan:Connect(function(i, p) 
+local v_KLOdER = 257;
+if v_KLOdER > 37 then v_KLOdER = v_KLOdER + 1 end;
+ if p then return end 
+ if i.KeyCode == v_dFAnSHIXJt then 
+ if v_cVbVimUDwJ == "\72\79\76\68" then
+ v_dpNwnTAMhN = (1 == 1) 
+ else
+ v_dpNwnTAMhN = not v_dpNwnTAMhN
+ end
+local v_iksDQP = 898;
+if v_iksDQP > 98 then v_iksDQP = v_iksDQP + 1 end;
+ elseif i.KeyCode == v_FVRhhktucf then
+local v_XzwfuW = 430;
+if v_XzwfuW > 352 then v_XzwfuW = v_XzwfuW + 1 end;
+ v_oqBjKCLFwR()
+ end 
+ end)
+ v_FPgxcQATwb.InputEnded:Connect(function(i) 
+ if i.KeyCode == v_dFAnSHIXJt and v_cVbVimUDwJ == "\72\79\76\68" then 
+local v_qbqGio = 154;
+ v_dpNwnTAMhN = (1 == 2) 
+ end 
+local v_unntsg = 755;
+if v_unntsg > 420 then v_unntsg = v_unntsg + 1 end;
+ end)
+ script.Parent.MouseButton1Click:Connect(v_oqBjKCLFwR)
+ v_NrnamCPpMF.RenderStepped:Connect(function()
+local v_lXrWbY = 422;
+if v_lXrWbY > 113 then v_lXrWbY = v_lXrWbY + 1 end;
+ if v_dpNwnTAMhN then
+local v_PAosjD = 239;
+if v_PAosjD > 109 then v_PAosjD = v_PAosjD + 1 end;
+ local v_mczwZaNbgJ = v_phjayfliSg()
+local v_sJsRvK = 203;
+ if v_mczwZaNbgJ then
+ local v_PKdgldpusU = CFrame.new(v_uZXiWdojtQ.CFrame.Position, v_mczwZaNbgJ.Position)
+ v_uZXiWdojtQ.CFrame = v_uZXiWdojtQ.CFrame:Lerp(v_PKdgldpusU, v_CnkKBWjZhu)
+ end
+local v_cmznmV = 465;
+if v_cmznmV > 364 then v_cmznmV = v_cmznmV + 1 end;
+ end
+ end)
+ 
 end
-coroutine.wrap(XTIKVO_fake_script)()
-local function ANKA_fake_script() -- ESPONOFF.Red/Green 
-	local script = Instance.new('LocalScript', ESPONOFF)
+coroutine.wrap(v_KVCjYvmmUq)()
+local function v_taqgQwDZpK() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_OQuEByXoRC)
+local v_VxxEJu = 289;
+if v_VxxEJu > 17 then v_VxxEJu = v_VxxEJu + 1 end;
 
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent
-	
-	local active = false
-	
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
+ local v_lrOnXbkbBy = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
+ 
+ local v_AkBgEWMiwb = script.Parent
+ local v_RGgGtYTflA = v_AkBgEWMiwb.Parent
+local v_xQvqtJ = 207;
+if v_xQvqtJ > 368 then v_xQvqtJ = v_xQvqtJ + 1 end;
+ 
+ local v_nLmSpvoWnE = (1 == 2)
+ 
+local v_ZhIgeD = 36;
+ local v_kWAQSfunCx = Color3.fromRGB(0, 255, 127) 
+ local v_xUIPKCFKWm = Color3.fromRGB(255, 50, 50) 
+ 
+ local v_XrFKMWYfPp = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+ 
+ v_AkBgEWMiwb.Font = Enum.Font.SourceSansBold 
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ v_RGgGtYTflA.BackgroundColor3 = v_xUIPKCFKWm
+ 
+local v_JOePCa = 268;
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+ v_nLmSpvoWnE = not v_nLmSpvoWnE
+ 
+ if v_nLmSpvoWnE then
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_kWAQSfunCx})
+ v_lcTtCWREbS:Play()
+local v_TuiONC = 404;
+ v_AkBgEWMiwb.Text = "\79\78"
+ else
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_xUIPKCFKWm})
+ v_lcTtCWREbS:Play()
+local v_VLEMmI = 319;
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ end
+local v_kBxxrx = 614;
+ end)
 end
-coroutine.wrap(ANKA_fake_script)()
-local function PFVYZU_fake_script() -- ESPONOFF.LocalScript 
-	local script = Instance.new('LocalScript', ESPONOFF)
+coroutine.wrap(v_taqgQwDZpK)()
+local function v_wbawctiXob() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_OQuEByXoRC)
+local v_YiJWHC = 912;
 
-	local RunService = game:GetService("RunService")
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	local button = script.Parent
-	local espActive = false
-	-- Funktion zum Erstellen des ESP
-	local function createESP(player)
-		if player == LocalPlayer then return end
-		local function setup(char)
-			if not espActive then return end
-	
-			local head = char:WaitForChild("Head", 10)
-			if head and not head:FindFirstChild("ESPTag") then
-				local bgui = Instance.new("BillboardGui", head)
-				bgui.Name = "ESPTag"
-				bgui.Size = UDim2.new(0, 150, 0, 75)
-				bgui.AlwaysOnTop = true
-				bgui.StudsOffset = Vector3.new(0, 3, 0)
-				local lbl = Instance.new("TextLabel", bgui)
-				lbl.Name = "TextLabel"
-				lbl.BackgroundTransparency = 1
-				lbl.Size = UDim2.new(1, 0, 1, 0)
-				lbl.TextColor3 = player.TeamColor.Color 
-				lbl.Font = Enum.Font.GothamBold
-				lbl.TextStrokeTransparency = 0 
-				lbl.TextSize = 14
-			end
-		end
-		player.CharacterAdded:Connect(setup)
-		if player.Character then setup(player.Character) end
-	
-		player:GetPropertyChangedSignal("Team"):Connect(function()
-			if player.Character then setup(player.Character) end
-		end)
-	end
-	Players.PlayerAdded:Connect(createESP)
-	for _, p in pairs(Players:GetPlayers()) do
-		createESP(p)
-	end
-	button.MouseButton1Click:Connect(function()
-		espActive = not espActive
-		if espActive then
-			for _, p in pairs(Players:GetPlayers()) do 
-				if p.Character then createESP(p) end -- Nutzt die bestehende Setup-Logik
-			end
-		else
-			for _, p in pairs(Players:GetPlayers()) do
-				if p.Character and p.Character:FindFirstChild("Head") then
-					local tag = p.Character.Head:FindFirstChild("ESPTag")
-					if tag then tag:Destroy() end
-				end
-			end
-		end
-	end)
-	RunService.RenderStepped:Connect(function()
-		if espActive then
-			local myHead = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Head")
-			if not myHead then return end
-			for _, p in pairs(Players:GetPlayers()) do
-				if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("Head") then
-					local head = p.Character.Head
-					local tag = head:FindFirstChild("ESPTag")
-					local label = tag and tag:FindFirstChild("TextLabel")
-					if label then
-						local dist = math.floor((myHead.Position - head.Position).Magnitude)
-						label.Text = p.Name .. "\n[" .. dist .. "m]"
-						-- Farbe ständig aktuell halten
-						label.TextColor3 = p.TeamColor.Color
-					end
-				end
-			end
-		end
-	end)
+ local v_NrnamCPpMF = game:GetService("\82\117\110\83\101\114\118\105\99\101")
+local v_wYkpOc = 391;
+if v_wYkpOc > 473 then v_wYkpOc = v_wYkpOc + 1 end;
+ local v_hejSMBEVJo = game:GetService("\80\108\97\121\101\114\115")
+local v_EEglNF = 684;
+if v_EEglNF > 100 then v_EEglNF = v_EEglNF + 1 end;
+ local v_FYJvtgmvgZ = v_hejSMBEVJo.LocalPlayer
+ local v_AkBgEWMiwb = script.Parent
+local v_gaYDqt = 552;
+ local v_ojgNyMXczR = (1 == 2)
+ 
+ local function v_ZsYZwOvSVn(player)
+ if player == v_FYJvtgmvgZ then return end
+ local function v_dsduJtjTzz(v_GfbDmehAVH)
+local v_CbzLqY = 439;
+if v_CbzLqY > 172 then v_CbzLqY = v_CbzLqY + 1 end;
+ if not v_ojgNyMXczR then return end
+ 
+ local v_yxfswhtoBh = v_GfbDmehAVH:WaitForChild("\72\101\97\100", 10)
+ if v_yxfswhtoBh and not v_yxfswhtoBh:FindFirstChild("\69\83\80\84\97\103") then
+ local v_BrQXNCvJNz = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105", v_yxfswhtoBh)
+ v_BrQXNCvJNz.Name = "\69\83\80\84\97\103"
+ v_BrQXNCvJNz.Size = UDim2.new(0, 150, 0, 75)
+local v_POZKuj = 983;
+if v_POZKuj > 42 then v_POZKuj = v_POZKuj + 1 end;
+ v_BrQXNCvJNz.AlwaysOnTop = (1 == 1)
+local v_XbFOud = 102;
+ v_BrQXNCvJNz.StudsOffset = Vector3.new(0, 3, 0)
+ local v_KqMLbpPbpi = Instance.new("\84\101\120\116\76\97\98\101\108", v_BrQXNCvJNz)
+ v_KqMLbpPbpi.Name = "\84\101\120\116\76\97\98\101\108"
+ v_KqMLbpPbpi.BackgroundTransparency = 1
+ v_KqMLbpPbpi.Size = UDim2.new(1, 0, 1, 0)
+local v_cWJVGR = 59;
+ v_KqMLbpPbpi.TextColor3 = player.TeamColor.Color 
+local v_JMCfut = 733;
+if v_JMCfut > 351 then v_JMCfut = v_JMCfut + 1 end;
+ v_KqMLbpPbpi.Font = Enum.Font.GothamBold
+ v_KqMLbpPbpi.TextStrokeTransparency = 0 
+ v_KqMLbpPbpi.TextSize = 14
+local v_uCQxnb = 870;
+if v_uCQxnb > 231 then v_uCQxnb = v_uCQxnb + 1 end;
+ end
+local v_jkprig = 208;
+if v_jkprig > 124 then v_jkprig = v_jkprig + 1 end;
+ end
+ player.CharacterAdded:Connect(v_dsduJtjTzz)
+ if player.Character then v_dsduJtjTzz(player.Character) end
+ 
+local v_KMewiu = 653;
+ player:GetPropertyChangedSignal("\84\101\97\109"):Connect(function()
+local v_oElLzn = 54;
+if v_oElLzn > 92 then v_oElLzn = v_oElLzn + 1 end;
+ if player.Character then v_dsduJtjTzz(player.Character) end
+local v_SmxBdJ = 467;
+if v_SmxBdJ > 360 then v_SmxBdJ = v_SmxBdJ + 1 end;
+ end)
+ end
+ v_hejSMBEVJo.PlayerAdded:Connect(v_ZsYZwOvSVn)
+ for _, p in pairs(v_hejSMBEVJo:GetPlayers()) do
+ v_ZsYZwOvSVn(p)
+local v_dPgkte = 526;
+ end
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+ v_ojgNyMXczR = not v_ojgNyMXczR
+ if v_ojgNyMXczR then
+ for _, p in pairs(v_hejSMBEVJo:GetPlayers()) do 
+ if p.Character then v_ZsYZwOvSVn(p) end 
+ end
+ else
+ for _, p in pairs(v_hejSMBEVJo:GetPlayers()) do
+ if p.Character and p.Character:FindFirstChild("\72\101\97\100") then
+ local v_gVqjYsczIy = p.Character.Head:FindFirstChild("\69\83\80\84\97\103")
+local v_HvBRGb = 963;
+ if v_gVqjYsczIy then v_gVqjYsczIy:Destroy() end
+ end
+ end
+ end
+local v_xsXyRl = 453;
+if v_xsXyRl > 273 then v_xsXyRl = v_xsXyRl + 1 end;
+ end)
+ v_NrnamCPpMF.RenderStepped:Connect(function()
+local v_VifrgN = 978;
+if v_VifrgN > 374 then v_VifrgN = v_VifrgN + 1 end;
+ if v_ojgNyMXczR then
+ local v_gnpZMwNNRt = v_FYJvtgmvgZ.Character and v_FYJvtgmvgZ.Character:FindFirstChild("\72\101\97\100")
+ if not v_gnpZMwNNRt then return end
+ for _, p in pairs(v_hejSMBEVJo:GetPlayers()) do
+ if p ~= v_FYJvtgmvgZ and p.Character and p.Character:FindFirstChild("\72\101\97\100") then
+local v_tFRtKb = 105;
+ local v_yxfswhtoBh = p.Character.Head
+local v_bVikag = 921;
+ local v_gVqjYsczIy = v_yxfswhtoBh:FindFirstChild("\69\83\80\84\97\103")
+ local v_VwQEHnWJIk = v_gVqjYsczIy and v_gVqjYsczIy:FindFirstChild("\84\101\120\116\76\97\98\101\108")
+local v_OTTnyi = 584;
+ if v_VwQEHnWJIk then
+local v_uvmTeA = 714;
+if v_uvmTeA > 125 then v_uvmTeA = v_uvmTeA + 1 end;
+ local v_jGfAFqwnSZ = math.floor((v_gnpZMwNNRt.Position - v_yxfswhtoBh.Position).Magnitude)
+ v_VwQEHnWJIk.Text = p.Name .. "\92\110\91" .. v_jGfAFqwnSZ .. "\109\93"
+local v_jeFgFt = 994;
+ 
+ v_VwQEHnWJIk.TextColor3 = p.TeamColor.Color
+local v_ftrWbF = 80;
+if v_ftrWbF > 159 then v_ftrWbF = v_ftrWbF + 1 end;
+ end
+ end
+local v_ySIjBG = 245;
+if v_ySIjBG > 397 then v_ySIjBG = v_ySIjBG + 1 end;
+ end
+local v_KmVTxk = 109;
+ end
+ end)
 end
-coroutine.wrap(PFVYZU_fake_script)()
-local function SXHSS_fake_script() -- AimbotCircleONOFF.LocalScript 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+coroutine.wrap(v_wbawctiXob)()
+local function v_THPNmMdLhZ() 
+local v_hNkBWr = 395;
+if v_hNkBWr > 13 then v_hNkBWr = v_hNkBWr + 1 end;
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_OmtxzyOIMZ)
+local v_ffJctd = 400;
 
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local success, err = pcall(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
-		end)
-	end)
+ local v_AkBgEWMiwb = script.Parent
+ 
+local v_sKFFSS = 940;
+if v_sKFFSS > 320 then v_sKFFSS = v_sKFFSS + 1 end;
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+ local v_vGjNpXyThR, err = pcall(function()
+ loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\83\116\101\102\97\110\117\107\49\50\47\65\105\109\105\110\103\47\109\97\105\110\47\69\120\97\109\112\108\101\115\47\85\110\105\118\101\114\115\97\108\83\105\108\101\110\116\65\105\109\46\108\117\97", (1 == 1)))()
+ end)
+ end)
 end
-coroutine.wrap(SXHSS_fake_script)()
-local function QEFRZ_fake_script() -- AimbotCircleONOFF.Red/Green 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+coroutine.wrap(v_THPNmMdLhZ)()
+local v_DUimxN = 1;
+local function v_UOoYQyXEqd() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_OmtxzyOIMZ)
+local v_TvMywl = 447;
 
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
+ local v_lrOnXbkbBy = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
+ 
+local v_vjaYan = 46;
+ local v_AkBgEWMiwb = script.Parent
+ local v_RGgGtYTflA = v_AkBgEWMiwb.Parent 
+ 
+ local v_nLmSpvoWnE = (1 == 2)
+ 
+ local v_kWAQSfunCx = Color3.fromRGB(0, 255, 127) 
+ local v_xUIPKCFKWm = Color3.fromRGB(255, 50, 50) 
+ 
+local v_LtAztB = 492;
+ local v_XrFKMWYfPp = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+ 
+local v_cFhwqH = 474;
+ v_AkBgEWMiwb.Font = Enum.Font.SourceSansBold 
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ v_RGgGtYTflA.BackgroundColor3 = v_xUIPKCFKWm
+ 
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+ v_nLmSpvoWnE = not v_nLmSpvoWnE
+ 
+ if v_nLmSpvoWnE then
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_kWAQSfunCx})
+ v_lcTtCWREbS:Play()
+ v_AkBgEWMiwb.Text = "\79\78"
+ else
+local v_puUHag = 460;
+if v_puUHag > 281 then v_puUHag = v_puUHag + 1 end;
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_xUIPKCFKWm})
+ v_lcTtCWREbS:Play()
+local v_bVRwji = 511;
+if v_bVRwji > 191 then v_bVRwji = v_bVRwji + 1 end;
+ v_AkBgEWMiwb.Text = "\79\70\70"
+local v_jtzSyJ = 617;
+if v_jtzSyJ > 13 then v_jtzSyJ = v_jtzSyJ + 1 end;
+ end
+local v_XOgMPB = 704;
+if v_XOgMPB > 21 then v_XOgMPB = v_XOgMPB + 1 end;
+ end)
 end
-coroutine.wrap(QEFRZ_fake_script)()
-local function KXYY_fake_script() -- AimbotCircleONOFF_2.LocalScript 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+coroutine.wrap(v_UOoYQyXEqd)()
+local function v_NPgVCBohJr() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_EktHFSKVlX)
 
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local success, err = pcall(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-		end)
-	end)
+ local v_AkBgEWMiwb = script.Parent
+ 
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+ local v_vGjNpXyThR, err = pcall(function()
+ loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\69\100\103\101\73\89\47\105\110\102\105\110\105\116\101\121\105\101\108\100\47\109\97\115\116\101\114\47\115\111\117\114\99\101"))()
+ end)
+ end)
+local v_fqmXDM = 579;
+if v_fqmXDM > 394 then v_fqmXDM = v_fqmXDM + 1 end;
 end
-coroutine.wrap(KXYY_fake_script)()
-local function ERSBNXJ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
-	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+coroutine.wrap(v_NPgVCBohJr)()
+local function v_PAahUOSTNE() 
+ local script = Instance.new("\76\111\99\97\108\83\99\114\105\112\116", v_EktHFSKVlX)
+local v_JgjFVN = 654;
+if v_JgjFVN > 477 then v_JgjFVN = v_JgjFVN + 1 end;
 
-	local TweenService = game:GetService("TweenService")
-	
-	local button = script.Parent
-	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
-	
-	local active = false
-	
-	-- Einstellungen für die Farben
-	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
-	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
-	
-	-- Zeit und Stil der Animation
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
-	
-	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
-	button.Text = "OFF"
-	background.BackgroundColor3 = colorOff
-	
-	button.MouseButton1Click:Connect(function()
-		active = not active
-	
-		if active then
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
-			tween:Play()
-			button.Text = "ON"
-		else
-			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
-			tween:Play()
-			button.Text = "OFF"
-		end
-	end)
+local v_BskZEE = 493;
+ local v_lrOnXbkbBy = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101")
+ 
+ local v_AkBgEWMiwb = script.Parent
+ local v_RGgGtYTflA = v_AkBgEWMiwb.Parent 
+ 
+ local v_nLmSpvoWnE = (1 == 2)
+ 
+ 
+ local v_kWAQSfunCx = Color3.fromRGB(0, 255, 127) 
+ local v_xUIPKCFKWm = Color3.fromRGB(255, 50, 50) 
+ 
+ 
+ local v_XrFKMWYfPp = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+local v_KxSDgm = 850;
+ 
+ v_AkBgEWMiwb.Font = Enum.Font.SourceSansBold 
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ v_RGgGtYTflA.BackgroundColor3 = v_xUIPKCFKWm
+ 
+ v_AkBgEWMiwb.MouseButton1Click:Connect(function()
+local v_fYFINS = 654;
+ v_nLmSpvoWnE = not v_nLmSpvoWnE
+ 
+ if v_nLmSpvoWnE then
+local v_uLhtdE = 760;
+if v_uLhtdE > 278 then v_uLhtdE = v_uLhtdE + 1 end;
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_kWAQSfunCx})
+ v_lcTtCWREbS:Play()
+ v_AkBgEWMiwb.Text = "\79\78"
+ else
+local v_BwXxVs = 72;
+ local v_lcTtCWREbS = v_lrOnXbkbBy:Create(v_RGgGtYTflA, v_XrFKMWYfPp, {BackgroundColor3 = v_xUIPKCFKWm})
+local v_PLWLFd = 539;
+if v_PLWLFd > 460 then v_PLWLFd = v_PLWLFd + 1 end;
+ v_lcTtCWREbS:Play()
+ v_AkBgEWMiwb.Text = "\79\70\70"
+ end
+ end)
 end
-coroutine.wrap(ERSBNXJ_fake_script)()
+coroutine.wrap(v_PAahUOSTNE)()
