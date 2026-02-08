@@ -1,2 +1,1096 @@
--- Obfuscated by ZENO v8.0
-local _0x5189cbZFTamnbUtyJa = Instance.new("\83\99\114\101\101\110\71\117\105"); local _0x9578e3jaCWLMsIyDUJ = Instance.new("\70\114\97\109\101"); local _0x1d44ebcRvfsIMsjhfk = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0x5cff8ehCSWUgzlMySw = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0xf69ad2eANkMWIhsiLE = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x1e4279gSWenHPVRPlL = Instance.new("\70\114\97\109\101"); local _0x32415fqVvoiMgQoLJv = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0xb15ff6QBHvLMSaFSdX = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0x71d6d4ucjtMVKRlznS = Instance.new("\84\101\120\116\76\97\98\101\108"); local _0x550297YyAWXvvuvNKL = Instance.new("\70\114\97\109\101"); local _0x279d52aCHclvZCFWRz = Instance.new("\70\114\97\109\101"); local _0xc1121dcdRjOXiWgNVs = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0xb9c594BSaJfILrDQrR = Instance.new("\73\109\97\103\101\76\97\98\101\108"); local _0x8a11a3MxbaGJpofnVF = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x0a9e33DwdWFmnrVrrO = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x57fb6drsbkrUrBxjjH = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0xb1b548CJqApEjnFFsO = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x165a2emCsYOEmoeXis = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0xa397ccCzPnbPzfWcrH = Instance.new("\70\114\97\109\101"); local _0x5c021fQMejzWXZNZfQ = Instance.new("\70\114\97\109\101"); local _0xff59e8AagszTSjBOVa = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x856037kdwqcssuFBOQ = Instance.new("\85\73\67\111\114\110\101\114"); local _0x756e6etmFNiaTtCnrF = Instance.new("\85\73\67\111\114\110\101\114"); local _0x75c651sZWqtwgMzUEw = Instance.new("\70\114\97\109\101"); local _0xbb0986WbhXBMTauHea = Instance.new("\70\114\97\109\101"); local _0x7ca556TzBYvXrfymEu = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x82dec6aMMCJBQXhUrn = Instance.new("\85\73\67\111\114\110\101\114"); local _0xec6a19icNpoIqkqNHU = Instance.new("\85\73\67\111\114\110\101\114"); local _0xd55c69tUXbcsVhlGtO = Instance.new("\84\101\120\116\76\97\98\101\108"); local _0x736fe6VWbQKcsFTSSs = Instance.new("\84\101\120\116\76\97\98\101\108"); local _0x41fbbdCDYcYtTvBDzl = Instance.new("\70\114\97\109\101"); local _0xe2d6b3VPlBSmGDXvqq = Instance.new("\70\114\97\109\101"); local _0x3440e9lBBlJQOcOzKN = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x600a82EgMBMzjsfRDA = Instance.new("\85\73\67\111\114\110\101\114"); local _0xeedacflpvhKkwxCegK = Instance.new("\85\73\67\111\114\110\101\114"); local _0x184bfbYSkRUkvhKqXR = Instance.new("\84\101\120\116\76\97\98\101\108"); local _0xc07d17VTfdAWWKHRbc = Instance.new("\84\101\120\116\76\97\98\101\108"); local _0xbbedcciiskUGjLEqyw = Instance.new("\70\114\97\109\101"); local _0x150be1GVTGCURxzxRv = Instance.new("\70\114\97\109\101"); local _0xe27e4fMbqJDivmwrnp = Instance.new("\84\101\120\116\66\117\116\116\111\110"); local _0x707ee2RVTXAzNfybVB = Instance.new("\85\73\67\111\114\110\101\114"); local _0x31b4f2mlNrebOcJQME = Instance.new("\85\73\67\111\114\110\101\114"); _0x5189cbZFTamnbUtyJa.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105"); _0x5189cbZFTamnbUtyJa.DisplayOrder = 999999999; _0x5189cbZFTamnbUtyJa.ResetOnSpawn = (0x1 == 0x2); _0x9578e3jaCWLMsIyDUJ.Name = "\67\108\111\115\101\47\79\112\101\110\32\71\85\73"; _0x9578e3jaCWLMsIyDUJ.Parent = _0x5189cbZFTamnbUtyJa; _0x9578e3jaCWLMsIyDUJ.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x9578e3jaCWLMsIyDUJ.BackgroundTransparency = 1.000; _0x9578e3jaCWLMsIyDUJ.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x9578e3jaCWLMsIyDUJ.BorderSizePixel = 0; _0x9578e3jaCWLMsIyDUJ.Position = UDim2.new(0.053970702, 0, 0.0817757025, 0); _0x9578e3jaCWLMsIyDUJ.Size = UDim2.new(0, 70, 0, 70); _0x1d44ebcRvfsIMsjhfk.Name = "\67\108\111\115\101\32\66"; _0x1d44ebcRvfsIMsjhfk.Parent = _0x9578e3jaCWLMsIyDUJ; _0x1d44ebcRvfsIMsjhfk.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x1d44ebcRvfsIMsjhfk.BackgroundTransparency = 1.000; _0x1d44ebcRvfsIMsjhfk.BorderColor3 = Color3.fromRGB(27, 42, 53); _0x1d44ebcRvfsIMsjhfk.Position = UDim2.new(0.0285714287, 0, 0.0285714287, 0); _0x1d44ebcRvfsIMsjhfk.Size = UDim2.new(0, 65, 0, 65); _0x1d44ebcRvfsIMsjhfk.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0x1d44ebcRvfsIMsjhfk.ImageColor3 = Color3.fromRGB(0, 0, 0); _0x1d44ebcRvfsIMsjhfk.ScaleType = Enum.ScaleType.Slice; _0x1d44ebcRvfsIMsjhfk.SliceCenter = Rect.new(100, 100, 100, 100); _0x1d44ebcRvfsIMsjhfk.SliceScale = 0.120; _0x5cff8ehCSWUgzlMySw.Name = "\67\108\111\115\101"; _0x5cff8ehCSWUgzlMySw.Parent = _0x1d44ebcRvfsIMsjhfk; _0x5cff8ehCSWUgzlMySw.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x5cff8ehCSWUgzlMySw.BackgroundTransparency = 1.000; _0x5cff8ehCSWUgzlMySw.BorderColor3 = Color3.fromRGB(27, 42, 53); _0x5cff8ehCSWUgzlMySw.Position = UDim2.new(0.0375000015, 0, 0.0350000001, 0); _0x5cff8ehCSWUgzlMySw.Size = UDim2.new(0, 60, 0, 60); _0x5cff8ehCSWUgzlMySw.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0x5cff8ehCSWUgzlMySw.ImageColor3 = Color3.fromRGB(27, 48, 27); _0x5cff8ehCSWUgzlMySw.ScaleType = Enum.ScaleType.Slice; _0x5cff8ehCSWUgzlMySw.SliceCenter = Rect.new(100, 100, 100, 100); _0x5cff8ehCSWUgzlMySw.SliceScale = 0.120; _0xf69ad2eANkMWIhsiLE.Name = "\67\108\111\115\101\47\79\112\101\110"; _0xf69ad2eANkMWIhsiLE.Parent = _0x5cff8ehCSWUgzlMySw; _0xf69ad2eANkMWIhsiLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xf69ad2eANkMWIhsiLE.BackgroundTransparency = 1.000; _0xf69ad2eANkMWIhsiLE.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xf69ad2eANkMWIhsiLE.BorderSizePixel = 0; _0xf69ad2eANkMWIhsiLE.Position = UDim2.new(0, 0, -0.016666539, 0); _0xf69ad2eANkMWIhsiLE.Size = UDim2.new(0, 60, 0, 60); _0xf69ad2eANkMWIhsiLE.Font = Enum.Font.SourceSansBold; _0xf69ad2eANkMWIhsiLE.Text = "\84"; _0xf69ad2eANkMWIhsiLE.TextColor3 = Color3.fromRGB(0, 0, 0); _0xf69ad2eANkMWIhsiLE.TextSize = 40.000; _0x1e4279gSWenHPVRPlL.Name = "\77\97\105\110\66\111\114\100\101\114\32\71\85\73"; _0x1e4279gSWenHPVRPlL.Parent = _0x5189cbZFTamnbUtyJa; _0x1e4279gSWenHPVRPlL.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x1e4279gSWenHPVRPlL.BackgroundTransparency = 1.000; _0x1e4279gSWenHPVRPlL.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x1e4279gSWenHPVRPlL.BorderSizePixel = 0; _0x1e4279gSWenHPVRPlL.Position = UDim2.new(0.264456451, 0, 0.260514021, 0); _0x1e4279gSWenHPVRPlL.Size = UDim2.new(0, 610, 0, 410); _0x32415fqVvoiMgQoLJv.Name = "\77\97\105\110\66\111\114\100\101\114"; _0x32415fqVvoiMgQoLJv.Parent = _0x1e4279gSWenHPVRPlL; _0x32415fqVvoiMgQoLJv.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x32415fqVvoiMgQoLJv.BackgroundTransparency = 1.000; _0x32415fqVvoiMgQoLJv.BorderColor3 = Color3.fromRGB(27, 42, 53); _0x32415fqVvoiMgQoLJv.Position = UDim2.new(-0.00141951768, 0, -0.000816680142, 0); _0x32415fqVvoiMgQoLJv.Size = UDim2.new(0, 610, 0, 410); _0x32415fqVvoiMgQoLJv.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0x32415fqVvoiMgQoLJv.ImageColor3 = Color3.fromRGB(0, 0, 0); _0x32415fqVvoiMgQoLJv.ScaleType = Enum.ScaleType.Slice; _0x32415fqVvoiMgQoLJv.SliceCenter = Rect.new(100, 100, 100, 100); _0x32415fqVvoiMgQoLJv.SliceScale = 0.120; _0xb15ff6QBHvLMSaFSdX.Name = "\77\97\105\110"; _0xb15ff6QBHvLMSaFSdX.Parent = _0x32415fqVvoiMgQoLJv; _0xb15ff6QBHvLMSaFSdX.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xb15ff6QBHvLMSaFSdX.BackgroundTransparency = 1.000; _0xb15ff6QBHvLMSaFSdX.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xb15ff6QBHvLMSaFSdX.BorderSizePixel = 4; _0xb15ff6QBHvLMSaFSdX.Position = UDim2.new(0.00810807012, 0, 0.0100879204, 0); _0xb15ff6QBHvLMSaFSdX.Size = UDim2.new(0, 600, 0, 400); _0xb15ff6QBHvLMSaFSdX.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0xb15ff6QBHvLMSaFSdX.ImageColor3 = Color3.fromRGB(16, 44, 19); _0xb15ff6QBHvLMSaFSdX.ScaleType = Enum.ScaleType.Slice; _0xb15ff6QBHvLMSaFSdX.SliceCenter = Rect.new(100, 100, 100, 100); _0xb15ff6QBHvLMSaFSdX.SliceScale = 0.120; _0x71d6d4ucjtMVKRlznS.Name = "\84\73\80\80\95\80\80\73\84"; _0x71d6d4ucjtMVKRlznS.Parent = _0xb15ff6QBHvLMSaFSdX; _0x71d6d4ucjtMVKRlznS.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x71d6d4ucjtMVKRlznS.BackgroundTransparency = 1.000; _0x71d6d4ucjtMVKRlznS.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x71d6d4ucjtMVKRlznS.BorderSizePixel = 0; _0x71d6d4ucjtMVKRlznS.Position = UDim2.new(0.284999996, 0, 0, 0); _0x71d6d4ucjtMVKRlznS.Size = UDim2.new(0, 342, 0, 50); _0x71d6d4ucjtMVKRlznS.Font = Enum.Font.SourceSansBold; _0x71d6d4ucjtMVKRlznS.Text = "\84\73\80\80\95\80\80\73\84\58\32\65\105\109\112\114\111\118\101\114"; _0x71d6d4ucjtMVKRlznS.TextColor3 = Color3.fromRGB(0, 0, 0); _0x71d6d4ucjtMVKRlznS.TextSize = 40.000; _0x550297YyAWXvvuvNKL.Name = "\66\111\114\100\101\114\32\88"; _0x550297YyAWXvvuvNKL.Parent = _0xb15ff6QBHvLMSaFSdX; _0x550297YyAWXvvuvNKL.BackgroundColor3 = Color3.fromRGB(0, 0, 0); _0x550297YyAWXvvuvNKL.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x550297YyAWXvvuvNKL.BorderSizePixel = 3; _0x550297YyAWXvvuvNKL.Position = UDim2.new(0.148000002, 0, 0.126000002, 0); _0x550297YyAWXvvuvNKL.Size = UDim2.new(0, 508, 0, 5); _0x279d52aCHclvZCFWRz.Name = "\66\111\114\100\101\114\32\89"; _0x279d52aCHclvZCFWRz.Parent = _0x550297YyAWXvvuvNKL; _0x279d52aCHclvZCFWRz.BackgroundColor3 = Color3.fromRGB(0, 0, 0); _0x279d52aCHclvZCFWRz.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x279d52aCHclvZCFWRz.BorderSizePixel = 3; _0x279d52aCHclvZCFWRz.Position = UDim2.new(-0.0114487773, 0, -9.39249897, 0); _0x279d52aCHclvZCFWRz.Size = UDim2.new(0, 5, 0, 393); _0xc1121dcdRjOXiWgNVs.Name = "\66\111\114\100\101\114\32\88\32\66"; _0xc1121dcdRjOXiWgNVs.Parent = _0x550297YyAWXvvuvNKL; _0xc1121dcdRjOXiWgNVs.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xc1121dcdRjOXiWgNVs.BackgroundTransparency = 1.000; _0xc1121dcdRjOXiWgNVs.BorderColor3 = Color3.fromRGB(27, 42, 53); _0xc1121dcdRjOXiWgNVs.Position = UDim2.new(-0.00160625787, 0, -0.0739990249, 0); _0xc1121dcdRjOXiWgNVs.Size = UDim2.new(0, 517, 0, 5); _0xc1121dcdRjOXiWgNVs.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0xc1121dcdRjOXiWgNVs.ImageColor3 = Color3.fromRGB(0, 0, 0); _0xc1121dcdRjOXiWgNVs.ScaleType = Enum.ScaleType.Slice; _0xc1121dcdRjOXiWgNVs.SliceCenter = Rect.new(100, 100, 100, 100); _0xc1121dcdRjOXiWgNVs.SliceScale = 0.120; _0xb9c594BSaJfILrDQrR.Name = "\66\111\114\100\101\114\32\88\32\89"; _0xb9c594BSaJfILrDQrR.Parent = _0x550297YyAWXvvuvNKL; _0xb9c594BSaJfILrDQrR.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xb9c594BSaJfILrDQrR.BackgroundTransparency = 1.000; _0xb9c594BSaJfILrDQrR.BorderColor3 = Color3.fromRGB(27, 42, 53); _0xb9c594BSaJfILrDQrR.Position = UDim2.new(-0.0114487773, 0, -10.079999, 0); _0xb9c594BSaJfILrDQrR.Size = UDim2.new(0, 5, 0, 400); _0xb9c594BSaJfILrDQrR.Image = "\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\55\48\54\57\53\55\56\55"; _0xb9c594BSaJfILrDQrR.ImageColor3 = Color3.fromRGB(0, 0, 0); _0xb9c594BSaJfILrDQrR.ScaleType = Enum.ScaleType.Slice; _0xb9c594BSaJfILrDQrR.SliceCenter = Rect.new(100, 100, 100, 100); _0xb9c594BSaJfILrDQrR.SliceScale = 0.120; _0x8a11a3MxbaGJpofnVF.Name = "\72\111\109\101"; _0x8a11a3MxbaGJpofnVF.Parent = _0xb15ff6QBHvLMSaFSdX; _0x8a11a3MxbaGJpofnVF.BackgroundColor3 = Color3.fromRGB(20, 42, 17); _0x8a11a3MxbaGJpofnVF.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x8a11a3MxbaGJpofnVF.BorderSizePixel = 3; _0x8a11a3MxbaGJpofnVF.Position = UDim2.new(0.00999999978, 0, 0.150000006, 0); _0x8a11a3MxbaGJpofnVF.Size = UDim2.new(0, 70, 0, 50); _0x8a11a3MxbaGJpofnVF.Font = Enum.Font.SourceSansBold; _0x8a11a3MxbaGJpofnVF.Text = "\72\79\77\69"; _0x8a11a3MxbaGJpofnVF.TextColor3 = Color3.fromRGB(0, 0, 0); _0x8a11a3MxbaGJpofnVF.TextSize = 25.000; _0x0a9e33DwdWFmnrVrrO.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"; _0x0a9e33DwdWFmnrVrrO.Parent = _0xb15ff6QBHvLMSaFSdX; _0x0a9e33DwdWFmnrVrrO.BackgroundColor3 = Color3.fromRGB(20, 42, 17); _0x0a9e33DwdWFmnrVrrO.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x0a9e33DwdWFmnrVrrO.BorderSizePixel = 3; _0x0a9e33DwdWFmnrVrrO.Position = UDim2.new(0.00999999978, 0, 0.300000012, 0); _0x0a9e33DwdWFmnrVrrO.Size = UDim2.new(0, 70, 0, 50); _0x0a9e33DwdWFmnrVrrO.Font = Enum.Font.SourceSansBold; _0x0a9e33DwdWFmnrVrrO.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"; _0x0a9e33DwdWFmnrVrrO.TextColor3 = Color3.fromRGB(0, 0, 0); _0x0a9e33DwdWFmnrVrrO.TextSize = 12.000; _0x57fb6drsbkrUrBxjjH.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"; _0x57fb6drsbkrUrBxjjH.Parent = _0xb15ff6QBHvLMSaFSdX; _0x57fb6drsbkrUrBxjjH.BackgroundColor3 = Color3.fromRGB(20, 42, 17); _0x57fb6drsbkrUrBxjjH.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x57fb6drsbkrUrBxjjH.BorderSizePixel = 3; _0x57fb6drsbkrUrBxjjH.Position = UDim2.new(0.00999999978, 0, 0.449999988, 0); _0x57fb6drsbkrUrBxjjH.Size = UDim2.new(0, 70, 0, 50); _0x57fb6drsbkrUrBxjjH.Font = Enum.Font.SourceSansBold; _0x57fb6drsbkrUrBxjjH.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"; _0x57fb6drsbkrUrBxjjH.TextColor3 = Color3.fromRGB(0, 0, 0); _0x57fb6drsbkrUrBxjjH.TextSize = 12.000; _0xb1b548CJqApEjnFFsO.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"; _0xb1b548CJqApEjnFFsO.Parent = _0xb15ff6QBHvLMSaFSdX; _0xb1b548CJqApEjnFFsO.BackgroundColor3 = Color3.fromRGB(20, 42, 17); _0xb1b548CJqApEjnFFsO.BorderColor3 = Color3.fromRGB(39, 59, 39); _0xb1b548CJqApEjnFFsO.BorderSizePixel = 3; _0xb1b548CJqApEjnFFsO.Position = UDim2.new(0.00999999978, 0, 0.600000024, 0); _0xb1b548CJqApEjnFFsO.Size = UDim2.new(0, 70, 0, 50); _0xb1b548CJqApEjnFFsO.Font = Enum.Font.SourceSansBold; _0xb1b548CJqApEjnFFsO.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"; _0xb1b548CJqApEjnFFsO.TextColor3 = Color3.fromRGB(0, 0, 0); _0xb1b548CJqApEjnFFsO.TextSize = 12.000; _0x165a2emCsYOEmoeXis.Name = "\78\101\118\101\114\32\67\111\109\105\110\103"; _0x165a2emCsYOEmoeXis.Parent = _0xb15ff6QBHvLMSaFSdX; _0x165a2emCsYOEmoeXis.BackgroundColor3 = Color3.fromRGB(20, 42, 17); _0x165a2emCsYOEmoeXis.BorderColor3 = Color3.fromRGB(39, 59, 39); _0x165a2emCsYOEmoeXis.BorderSizePixel = 3; _0x165a2emCsYOEmoeXis.Position = UDim2.new(0.00999999978, 0, 0.75, 0); _0x165a2emCsYOEmoeXis.Size = UDim2.new(0, 70, 0, 50); _0x165a2emCsYOEmoeXis.Font = Enum.Font.SourceSansBold; _0x165a2emCsYOEmoeXis.Text = "\78\101\118\101\114\32\99\111\109\105\110\103"; _0x165a2emCsYOEmoeXis.TextColor3 = Color3.fromRGB(0, 0, 0); _0x165a2emCsYOEmoeXis.TextSize = 12.000; _0xa397ccCzPnbPzfWcrH.Name = "\65\105\109\98\111\116"; _0xa397ccCzPnbPzfWcrH.Parent = _0xb15ff6QBHvLMSaFSdX; _0xa397ccCzPnbPzfWcrH.BackgroundColor3 = Color3.fromRGB(39, 59, 39); _0xa397ccCzPnbPzfWcrH.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xa397ccCzPnbPzfWcrH.BorderSizePixel = 0; _0xa397ccCzPnbPzfWcrH.Position = UDim2.new(0.709999979, 0, 0.200000003, 0); _0xa397ccCzPnbPzfWcrH.Size = UDim2.new(0, 130, 0, 30); _0x5c021fQMejzWXZNZfQ.Name = "\65\105\109\98\111\116"; _0x5c021fQMejzWXZNZfQ.Parent = _0xa397ccCzPnbPzfWcrH; _0x5c021fQMejzWXZNZfQ.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x5c021fQMejzWXZNZfQ.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x5c021fQMejzWXZNZfQ.BorderSizePixel = 0; _0x5c021fQMejzWXZNZfQ.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0); _0x5c021fQMejzWXZNZfQ.Size = UDim2.new(0, 125, 0, 25); _0xff59e8AagszTSjBOVa.Name = "\65\105\109\98\111\116\32\79\78\47\79\70\70"; _0xff59e8AagszTSjBOVa.Parent = _0x5c021fQMejzWXZNZfQ; _0xff59e8AagszTSjBOVa.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xff59e8AagszTSjBOVa.BackgroundTransparency = 1.000; _0xff59e8AagszTSjBOVa.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xff59e8AagszTSjBOVa.BorderSizePixel = 0; _0xff59e8AagszTSjBOVa.Position = UDim2.new(0, 0, -0.0399987809, 0); _0xff59e8AagszTSjBOVa.Size = UDim2.new(0, 125, 0, 25); _0xff59e8AagszTSjBOVa.Font = Enum.Font.SourceSans; _0xff59e8AagszTSjBOVa.Text = ""; _0xff59e8AagszTSjBOVa.TextColor3 = Color3.fromRGB(0, 0, 0); _0xff59e8AagszTSjBOVa.TextSize = 14.000; _0x856037kdwqcssuFBOQ.Parent = _0x5c021fQMejzWXZNZfQ; _0x756e6etmFNiaTtCnrF.Parent = _0xa397ccCzPnbPzfWcrH; _0x75c651sZWqtwgMzUEw.Name = "\69\83\80"; _0x75c651sZWqtwgMzUEw.Parent = _0xb15ff6QBHvLMSaFSdX; _0x75c651sZWqtwgMzUEw.BackgroundColor3 = Color3.fromRGB(39, 59, 39); _0x75c651sZWqtwgMzUEw.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x75c651sZWqtwgMzUEw.BorderSizePixel = 0; _0x75c651sZWqtwgMzUEw.Position = UDim2.new(0.709666669, 0, 0.349999994, 0); _0x75c651sZWqtwgMzUEw.Size = UDim2.new(0, 130, 0, 30); _0xbb0986WbhXBMTauHea.Name = "\69\83\80"; _0xbb0986WbhXBMTauHea.Parent = _0x75c651sZWqtwgMzUEw; _0xbb0986WbhXBMTauHea.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xbb0986WbhXBMTauHea.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xbb0986WbhXBMTauHea.BorderSizePixel = 0; _0xbb0986WbhXBMTauHea.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0); _0xbb0986WbhXBMTauHea.Size = UDim2.new(0, 125, 0, 25); _0x7ca556TzBYvXrfymEu.Name = "\69\83\80\32\79\78\47\79\70\70"; _0x7ca556TzBYvXrfymEu.Parent = _0xbb0986WbhXBMTauHea; _0x7ca556TzBYvXrfymEu.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x7ca556TzBYvXrfymEu.BackgroundTransparency = 1.000; _0x7ca556TzBYvXrfymEu.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x7ca556TzBYvXrfymEu.BorderSizePixel = 0; _0x7ca556TzBYvXrfymEu.Position = UDim2.new(0, 0, -0.0399987809, 0); _0x7ca556TzBYvXrfymEu.Size = UDim2.new(0, 125, 0, 25); _0x7ca556TzBYvXrfymEu.Font = Enum.Font.SourceSans; _0x7ca556TzBYvXrfymEu.Text = ""; _0x7ca556TzBYvXrfymEu.TextColor3 = Color3.fromRGB(0, 0, 0); _0x7ca556TzBYvXrfymEu.TextSize = 14.000; _0x82dec6aMMCJBQXhUrn.Parent = _0xbb0986WbhXBMTauHea; _0xec6a19icNpoIqkqNHU.Parent = _0x75c651sZWqtwgMzUEw; _0xd55c69tUXbcsVhlGtO.Name = "\83\105\108\101\110\116\32\65\105\109"; _0xd55c69tUXbcsVhlGtO.Parent = _0xb15ff6QBHvLMSaFSdX; _0xd55c69tUXbcsVhlGtO.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xd55c69tUXbcsVhlGtO.BackgroundTransparency = 1.000; _0xd55c69tUXbcsVhlGtO.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xd55c69tUXbcsVhlGtO.BorderSizePixel = 0; _0xd55c69tUXbcsVhlGtO.Position = UDim2.new(0.185000002, 0, 0.474999994, 0); _0xd55c69tUXbcsVhlGtO.Size = UDim2.new(0, 342, 0, 50); _0xd55c69tUXbcsVhlGtO.Font = Enum.Font.SourceSansBold; _0xd55c69tUXbcsVhlGtO.Text = "\83\105\108\101\110\116\32\65\105\109\58\32\40\110\111\116\32\109\105\110\101\41"; _0xd55c69tUXbcsVhlGtO.TextColor3 = Color3.fromRGB(0, 0, 0); _0xd55c69tUXbcsVhlGtO.TextSize = 40.000; _0xd55c69tUXbcsVhlGtO.TextXAlignment = Enum.TextXAlignment.Left; _0x736fe6VWbQKcsFTSSs.Name = "\69\83\80"; _0x736fe6VWbQKcsFTSSs.Parent = _0xb15ff6QBHvLMSaFSdX; _0x736fe6VWbQKcsFTSSs.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x736fe6VWbQKcsFTSSs.BackgroundTransparency = 1.000; _0x736fe6VWbQKcsFTSSs.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x736fe6VWbQKcsFTSSs.BorderSizePixel = 0; _0x736fe6VWbQKcsFTSSs.Position = UDim2.new(0.185000002, 0, 0.32249999, 0); _0x736fe6VWbQKcsFTSSs.Size = UDim2.new(0, 342, 0, 50); _0x736fe6VWbQKcsFTSSs.Font = Enum.Font.SourceSansBold; _0x736fe6VWbQKcsFTSSs.Text = "\69\83\80\58"; _0x736fe6VWbQKcsFTSSs.TextColor3 = Color3.fromRGB(0, 0, 0); _0x736fe6VWbQKcsFTSSs.TextSize = 40.000; _0x736fe6VWbQKcsFTSSs.TextXAlignment = Enum.TextXAlignment.Left; _0x41fbbdCDYcYtTvBDzl.Name = "\83\105\108\101\110\116\32\65\105\109"; _0x41fbbdCDYcYtTvBDzl.Parent = _0xb15ff6QBHvLMSaFSdX; _0x41fbbdCDYcYtTvBDzl.BackgroundColor3 = Color3.fromRGB(39, 59, 39); _0x41fbbdCDYcYtTvBDzl.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x41fbbdCDYcYtTvBDzl.BorderSizePixel = 0; _0x41fbbdCDYcYtTvBDzl.Position = UDim2.new(0.709999979, 0, 0.5, 0); _0x41fbbdCDYcYtTvBDzl.Size = UDim2.new(0, 130, 0, 30); _0xe2d6b3VPlBSmGDXvqq.Name = "\83\105\108\101\110\116\32\65\105\109"; _0xe2d6b3VPlBSmGDXvqq.Parent = _0x41fbbdCDYcYtTvBDzl; _0xe2d6b3VPlBSmGDXvqq.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xe2d6b3VPlBSmGDXvqq.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xe2d6b3VPlBSmGDXvqq.BorderSizePixel = 0; _0xe2d6b3VPlBSmGDXvqq.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0); _0xe2d6b3VPlBSmGDXvqq.Size = UDim2.new(0, 125, 0, 25); _0x3440e9lBBlJQOcOzKN.Name = "\65\105\109\98\111\116\32\67\105\114\99\108\101\32\79\78\47\79\70\70"; _0x3440e9lBBlJQOcOzKN.Parent = _0xe2d6b3VPlBSmGDXvqq; _0x3440e9lBBlJQOcOzKN.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x3440e9lBBlJQOcOzKN.BackgroundTransparency = 1.000; _0x3440e9lBBlJQOcOzKN.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x3440e9lBBlJQOcOzKN.BorderSizePixel = 0; _0x3440e9lBBlJQOcOzKN.Position = UDim2.new(0, 0, -0.0399987809, 0); _0x3440e9lBBlJQOcOzKN.Size = UDim2.new(0, 125, 0, 25); _0x3440e9lBBlJQOcOzKN.Font = Enum.Font.SourceSans; _0x3440e9lBBlJQOcOzKN.Text = ""; _0x3440e9lBBlJQOcOzKN.TextColor3 = Color3.fromRGB(0, 0, 0); _0x3440e9lBBlJQOcOzKN.TextSize = 14.000; _0x600a82EgMBMzjsfRDA.Parent = _0xe2d6b3VPlBSmGDXvqq; _0xeedacflpvhKkwxCegK.Parent = _0x41fbbdCDYcYtTvBDzl; _0x184bfbYSkRUkvhKqXR.Name = "\65\105\109\98\111\116"; _0x184bfbYSkRUkvhKqXR.Parent = _0xb15ff6QBHvLMSaFSdX; _0x184bfbYSkRUkvhKqXR.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x184bfbYSkRUkvhKqXR.BackgroundTransparency = 1.000; _0x184bfbYSkRUkvhKqXR.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x184bfbYSkRUkvhKqXR.BorderSizePixel = 0; _0x184bfbYSkRUkvhKqXR.Position = UDim2.new(0.185000002, 0, 0.174999997, 0); _0x184bfbYSkRUkvhKqXR.Size = UDim2.new(0, 342, 0, 50); _0x184bfbYSkRUkvhKqXR.Font = Enum.Font.SourceSansBold; _0x184bfbYSkRUkvhKqXR.Text = "\65\105\109\98\111\116\58"; _0x184bfbYSkRUkvhKqXR.TextColor3 = Color3.fromRGB(0, 0, 0); _0x184bfbYSkRUkvhKqXR.TextSize = 40.000; _0x184bfbYSkRUkvhKqXR.TextXAlignment = Enum.TextXAlignment.Left; _0xc07d17VTfdAWWKHRbc.Name = "\83\105\108\101\110\116\32\65\105\109"; _0xc07d17VTfdAWWKHRbc.Parent = _0xb15ff6QBHvLMSaFSdX; _0xc07d17VTfdAWWKHRbc.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xc07d17VTfdAWWKHRbc.BackgroundTransparency = 1.000; _0xc07d17VTfdAWWKHRbc.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xc07d17VTfdAWWKHRbc.BorderSizePixel = 0; _0xc07d17VTfdAWWKHRbc.Position = UDim2.new(0.185000002, 0, 0.625, 0); _0xc07d17VTfdAWWKHRbc.Size = UDim2.new(0, 342, 0, 50); _0xc07d17VTfdAWWKHRbc.Font = Enum.Font.SourceSansBold; _0xc07d17VTfdAWWKHRbc.Text = "\73\110\102\105\46\32\89\105\101\108\100\58\32\40\110\111\116\32\109\105\110\101\41"; _0xc07d17VTfdAWWKHRbc.TextColor3 = Color3.fromRGB(0, 0, 0); _0xc07d17VTfdAWWKHRbc.TextSize = 40.000; _0xc07d17VTfdAWWKHRbc.TextXAlignment = Enum.TextXAlignment.Left; _0xbbedcciiskUGjLEqyw.Name = "\73\110\102\105\110\105\116\101\32\89\105\101\108\100"; _0xbbedcciiskUGjLEqyw.Parent = _0xb15ff6QBHvLMSaFSdX; _0xbbedcciiskUGjLEqyw.BackgroundColor3 = Color3.fromRGB(39, 59, 39); _0xbbedcciiskUGjLEqyw.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xbbedcciiskUGjLEqyw.BorderSizePixel = 0; _0xbbedcciiskUGjLEqyw.Position = UDim2.new(0.709999979, 0, 0.649999976, 0); _0xbbedcciiskUGjLEqyw.Size = UDim2.new(0, 130, 0, 30); _0x150be1GVTGCURxzxRv.Name = "\73\110\102\105\110\105\116\101\32\89\105\101\108\100"; _0x150be1GVTGCURxzxRv.Parent = _0xbbedcciiskUGjLEqyw; _0x150be1GVTGCURxzxRv.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0x150be1GVTGCURxzxRv.BorderColor3 = Color3.fromRGB(0, 0, 0); _0x150be1GVTGCURxzxRv.BorderSizePixel = 0; _0x150be1GVTGCURxzxRv.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0); _0x150be1GVTGCURxzxRv.Size = UDim2.new(0, 125, 0, 25); _0xe27e4fMbqJDivmwrnp.Name = "\65\105\109\98\111\116\32\67\105\114\99\108\101\32\79\78\47\79\70\70"; _0xe27e4fMbqJDivmwrnp.Parent = _0x150be1GVTGCURxzxRv; _0xe27e4fMbqJDivmwrnp.BackgroundColor3 = Color3.fromRGB(255, 255, 255); _0xe27e4fMbqJDivmwrnp.BackgroundTransparency = 1.000; _0xe27e4fMbqJDivmwrnp.BorderColor3 = Color3.fromRGB(0, 0, 0); _0xe27e4fMbqJDivmwrnp.BorderSizePixel = 0; _0xe27e4fMbqJDivmwrnp.Position = UDim2.new(0, 0, -0.0399987809, 0); _0xe27e4fMbqJDivmwrnp.Size = UDim2.new(0, 125, 0, 25); _0xe27e4fMbqJDivmwrnp.Font = Enum.Font.SourceSans; _0xe27e4fMbqJDivmwrnp.Text = ""; _0xe27e4fMbqJDivmwrnp.TextColor3 = Color3.fromRGB(0, 0, 0); _0xe27e4fMbqJDivmwrnp.TextSize = 14.000; _0x707ee2RVTXAzNfybVB.Parent = _0x150be1GVTGCURxzxRv; _0x31b4f2mlNrebOcJQME.Parent = _0xbbedcciiskUGjLEqyw; local function _0x1b0b12YlGQulvCyHLx() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x9578e3jaCWLMsIyDUJ); local _0x5d6e0cdRItNsKUvmIc = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101"); local _0xd6a61dJtSDHvybxmfM = script.Parent; local _0xc17635dwvKUoyaNQNH; local _0x51c3aaHpdfmnzZylvX; local _0xa6a257cwehhXbEucLZ; local _0x3a0d4cmICxxMwYNZnu; local function _0xbca27dAUzFQtSQowCb(_0x7b91caGXoUEBaChExR); local _0x712ce8cozgqKXoluEI = _0x7b91caGXoUEBaChExR.Position - _0xa6a257cwehhXbEucLZ; _0xd6a61dJtSDHvybxmfM.Position = UDim2.new(_0x3a0d4cmICxxMwYNZnu.X.Scale, _0x3a0d4cmICxxMwYNZnu.X.Offset + _0x712ce8cozgqKXoluEI.X, _0x3a0d4cmICxxMwYNZnu.Y.Scale, _0x3a0d4cmICxxMwYNZnu.Y.Offset + _0x712ce8cozgqKXoluEI.Y); end; _0xd6a61dJtSDHvybxmfM.InputBegan:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseButton1 or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch then; _0xc17635dwvKUoyaNQNH = (0x1 == 0x1); _0xa6a257cwehhXbEucLZ = _0x7b91caGXoUEBaChExR.Position; _0x3a0d4cmICxxMwYNZnu = _0xd6a61dJtSDHvybxmfM.Position; _0x7b91caGXoUEBaChExR.Changed:Connect(function(); if _0x7b91caGXoUEBaChExR.UserInputState == Enum.UserInputState.End then; _0xc17635dwvKUoyaNQNH = (0x1 == 0x2); end; end); end; end); _0xd6a61dJtSDHvybxmfM.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseMovement or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch then; _0x51c3aaHpdfmnzZylvX = _0x7b91caGXoUEBaChExR; end; end); _0x5d6e0cdRItNsKUvmIc.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR == _0x51c3aaHpdfmnzZylvX and _0xc17635dwvKUoyaNQNH then; _0xbca27dAUzFQtSQowCb(_0x7b91caGXoUEBaChExR); end; end); end; coroutine.wrap(_0x1b0b12YlGQulvCyHLx)(); local function _0xa79657gkcHJVtvAENs() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0xf69ad2eANkMWIhsiLE); local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0xb29be0czdFoxBZHmNc = _0x3da61ftxHCgNIhhYMJ:FindFirstAncestorOfClass("\83\99\114\101\101\110\71\117\105"); local _0xed2579tVgVEXWFNqfb = _0xb29be0czdFoxBZHmNc:WaitForChild("\77\97\105\110\66\111\114\100\101\114\32\71\85\73"); local _0xaaa79aENjOMmvAyBZs = (0x1 == 0x1); local _0xf2db2dtzIVDSWgVwII = _0xed2579tVgVEXWFNqfb.Position; local _0xeb017bpIjHLdZasimK = (0x1 == 0x2) _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); if _0xeb017bpIjHLdZasimK then return end; _0xeb017bpIjHLdZasimK = (0x1 == 0x1); _0xaaa79aENjOMmvAyBZs = not _0xaaa79aENjOMmvAyBZs; if _0xaaa79aENjOMmvAyBZs then; _0xed2579tVgVEXWFNqfb.Position = _0xf2db2dtzIVDSWgVwII; else; if _0xed2579tVgVEXWFNqfb.Position.X.Offset > -1000 then; _0xf2db2dtzIVDSWgVwII = _0xed2579tVgVEXWFNqfb.Position; end; _0xed2579tVgVEXWFNqfb.Position = UDim2.new(0, -2000, 0, -2000); end; task.wait(0.1) _0xeb017bpIjHLdZasimK = (0x1 == 0x2); end); end; coroutine.wrap(_0xa79657gkcHJVtvAENs)(); local function _0x40ad45istbdjbUQCDh() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x1e4279gSWenHPVRPlL); local _0x5d6e0cdRItNsKUvmIc = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101"); local _0xd6a61dJtSDHvybxmfM = script.Parent; local _0xc17635dwvKUoyaNQNH; local _0x51c3aaHpdfmnzZylvX; local _0xa6a257cwehhXbEucLZ; local _0x3a0d4cmICxxMwYNZnu; local function _0xbca27dAUzFQtSQowCb(_0x7b91caGXoUEBaChExR); local _0x712ce8cozgqKXoluEI = _0x7b91caGXoUEBaChExR.Position - _0xa6a257cwehhXbEucLZ; _0xd6a61dJtSDHvybxmfM.Position = UDim2.new(_0x3a0d4cmICxxMwYNZnu.X.Scale, _0x3a0d4cmICxxMwYNZnu.X.Offset + _0x712ce8cozgqKXoluEI.X, _0x3a0d4cmICxxMwYNZnu.Y.Scale, _0x3a0d4cmICxxMwYNZnu.Y.Offset + _0x712ce8cozgqKXoluEI.Y); end; _0xd6a61dJtSDHvybxmfM.InputBegan:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseButton1 or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch then; _0xc17635dwvKUoyaNQNH = (0x1 == 0x1); _0xa6a257cwehhXbEucLZ = _0x7b91caGXoUEBaChExR.Position; _0x3a0d4cmICxxMwYNZnu = _0xd6a61dJtSDHvybxmfM.Position; _0x7b91caGXoUEBaChExR.Changed:Connect(function(); if _0x7b91caGXoUEBaChExR.UserInputState == Enum.UserInputState.End then; _0xc17635dwvKUoyaNQNH = (0x1 == 0x2); end; end); end; end); _0xd6a61dJtSDHvybxmfM.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseMovement or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch then; _0x51c3aaHpdfmnzZylvX = _0x7b91caGXoUEBaChExR; end; end); _0x5d6e0cdRItNsKUvmIc.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0x7b91caGXoUEBaChExR == _0x51c3aaHpdfmnzZylvX and _0xc17635dwvKUoyaNQNH then; _0xbca27dAUzFQtSQowCb(_0x7b91caGXoUEBaChExR); end; end); end; coroutine.wrap(_0x40ad45istbdjbUQCDh)(); local function _0x715c9bFmGJNGgpUxJQ() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0xff59e8AagszTSjBOVa); local _0x049437cpcGCPXOvIGq = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101"); local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0x4fe065ItVqfwUgQCRF = _0x3da61ftxHCgNIhhYMJ.Parent local _0xfb64eftMiHoGkQaTHT = (0x1 == 0x2); local _0xf2fc90edAiqSUYAcmt = Color3.fromRGB(0, 255, 127) local _0x8786cdzuwZoBRiGsxt = Color3.fromRGB(255, 50, 50) local _0x57086bBrHXJWydQuiq = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.SourceSansBold _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; _0x4fe065ItVqfwUgQCRF.BackgroundColor3 = _0x8786cdzuwZoBRiGsxt; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0xfb64eftMiHoGkQaTHT = not _0xfb64eftMiHoGkQaTHT; if _0xfb64eftMiHoGkQaTHT then; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0xf2fc90edAiqSUYAcmt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\78"; else; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0x8786cdzuwZoBRiGsxt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; end; end); end; coroutine.wrap(_0x715c9bFmGJNGgpUxJQ)(); local function _0x0067c1rDcPCtfVCXpH() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0xff59e8AagszTSjBOVa); local _0xba12b0OlsZgfOoLiDQ = game:GetService("\82\117\110\83\101\114\118\105\99\101"); local _0x5d6e0cdRItNsKUvmIc = game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101"); local _0x2fa73bwBJMsUTrUxly = game:GetService("\80\108\97\121\101\114\115"); local _0xcb365eDFyEROvSAADe = workspace.CurrentCamera; local _0xbda99aVUchooXqDsde = (0x1 == 0x2); local _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x2); local _0x73ac47msPlzisjAoin = 1 local _0x964421FwGjUNgvlvaR = Enum.KeyCode.C; local _0x3e162fxUkgzbdxaNMg = "\72\79\76\68" local _0xadb5f2hWzrAIEzzFai = "\72\101\97\100"; local _0x1c32a9egKbizoXzgkF = Enum.KeyCode.B local _0xf2db2dtzIVDSWgVwII = UDim2.new(0.5, 0, 0.5, 0); local _0xb614e0QcZQlLpvSqUP = (0x1 == 0x2); local _0xeb017bpIjHLdZasimK = (0x1 == 0x2); local _0xb29be0czdFoxBZHmNc = script:FindFirstAncestorOfClass("\83\99\114\101\101\110\71\117\105"); local _0x2ab1d4nApbIGRskeHf = Instance.new("\70\114\97\109\101", _0xb29be0czdFoxBZHmNc); _0x2ab1d4nApbIGRskeHf.Name = "\65\105\109\98\111\116\83\101\116\116\105\110\103\115"; _0x2ab1d4nApbIGRskeHf.Size = UDim2.new(0, 220, 0, 420) _0x2ab1d4nApbIGRskeHf.Position = UDim2.new(0, 3000, 0, -1000) _0x2ab1d4nApbIGRskeHf.AnchorPoint = Vector2.new(0.5, 0.5); _0x2ab1d4nApbIGRskeHf.BackgroundColor3 = Color3.fromRGB(20, 42, 17) _0x2ab1d4nApbIGRskeHf.BorderSizePixel = 0; _0x2ab1d4nApbIGRskeHf.Visible = (0x1 == 0x1) Instance.new("\85\73\67\111\114\110\101\114", _0x2ab1d4nApbIGRskeHf).CornerRadius = UDim.new(0, 15); local function _0x207a05WdxoFYKbAcBK(); if _0xeb017bpIjHLdZasimK then return end; _0xeb017bpIjHLdZasimK = (0x1 == 0x1); _0xb614e0QcZQlLpvSqUP = not _0xb614e0QcZQlLpvSqUP; if _0xb614e0QcZQlLpvSqUP then; _0x2ab1d4nApbIGRskeHf.Position = _0xf2db2dtzIVDSWgVwII; else; if _0x2ab1d4nApbIGRskeHf.Position.X.Offset < 2000 then; _0xf2db2dtzIVDSWgVwII = _0x2ab1d4nApbIGRskeHf.Position; end; _0x2ab1d4nApbIGRskeHf.Position = UDim2.new(0, 3000, 0, -1000); end; task.wait(0.1); _0xeb017bpIjHLdZasimK = (0x1 == 0x2); end; local _0xe6ab21mecVSWbobIZv, _0xa6a257cwehhXbEucLZ, _0x3a0d4cmICxxMwYNZnu; _0x2ab1d4nApbIGRskeHf.InputBegan:Connect(function(_0x7b91caGXoUEBaChExR); if (_0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseButton1 or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch) then; _0xe6ab21mecVSWbobIZv = (0x1 == 0x1); _0xa6a257cwehhXbEucLZ = _0x7b91caGXoUEBaChExR.Position; _0x3a0d4cmICxxMwYNZnu = _0x2ab1d4nApbIGRskeHf.Position; _0x7b91caGXoUEBaChExR.Changed:Connect(function(); if _0x7b91caGXoUEBaChExR.UserInputState == Enum.UserInputState.End then _0xe6ab21mecVSWbobIZv = (0x1 == 0x2) end; end); end; end); _0x5d6e0cdRItNsKUvmIc.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0xe6ab21mecVSWbobIZv and (_0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseMovement or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch) then; local _0x712ce8cozgqKXoluEI = _0x7b91caGXoUEBaChExR.Position - _0xa6a257cwehhXbEucLZ; _0x2ab1d4nApbIGRskeHf.Position = UDim2.new(_0x3a0d4cmICxxMwYNZnu.X.Scale, _0x3a0d4cmICxxMwYNZnu.X.Offset + _0x712ce8cozgqKXoluEI.X, _0x3a0d4cmICxxMwYNZnu.Y.Scale, _0x3a0d4cmICxxMwYNZnu.Y.Offset + _0x712ce8cozgqKXoluEI.Y); _0xf2db2dtzIVDSWgVwII = _0x2ab1d4nApbIGRskeHf.Position; end; end); local _0xfe9054HwoYIFSHjljx = Instance.new("\84\101\120\116\76\97\98\101\108", _0x2ab1d4nApbIGRskeHf); _0xfe9054HwoYIFSHjljx.Text = "\83\101\116\116\105\110\103\115"; _0xfe9054HwoYIFSHjljx.Size = UDim2.new(1, 0, 0, 40); _0xfe9054HwoYIFSHjljx.BackgroundTransparency = 1; _0xfe9054HwoYIFSHjljx.TextColor3 = Color3.new(1, 1, 1); _0xfe9054HwoYIFSHjljx.Font = Enum.Font.GothamBold; _0xfe9054HwoYIFSHjljx.TextSize = 16; local function _0x5f2114JGxlWFPrIZrJ(_0xe15540GHvAGqSIInxI); local _0xe011a9tyyYZIrhmRYF = _0x2fa73bwBJMsUTrUxly.LocalPlayer.Character; if not _0xe011a9tyyYZIrhmRYF then return (0x1 == 0x2) end; local _0x8a663bOjlRCdgQARfN = RaycastParams.new(); _0x8a663bOjlRCdgQARfN.FilterDescendantsInstances = {_0xe011a9tyyYZIrhmRYF, _0xcb365eDFyEROvSAADe}; _0x8a663bOjlRCdgQARfN.FilterType = Enum.RaycastFilterType.Exclude; local _0x3a7487LYPcpfRxYSeU = _0xcb365eDFyEROvSAADe.CFrame.Position; local _0xcd4164yTuyQKOzlcvJ = _0xe15540GHvAGqSIInxI.Position - _0x3a7487LYPcpfRxYSeU; local _0xd22b57dZlDdojOGNnQ = workspace:Raycast(_0x3a7487LYPcpfRxYSeU, _0xcd4164yTuyQKOzlcvJ, _0x8a663bOjlRCdgQARfN); if _0xd22b57dZlDdojOGNnQ then; return _0xd22b57dZlDdojOGNnQ.Instance:IsDescendantOf(_0xe15540GHvAGqSIInxI.Parent); end; return (0x1 == 0x2); end; local function _0x572353nnlEHElptkzq(); local _0x8fbd09GeWrzlYCDrfy = nil; local _0xe3bd03FkZuvyNpzbgX = math.huge; local _0xb649d0KEmsSfhnBmaX = Vector2.new(_0xcb365eDFyEROvSAADe.ViewportSize.X / 2, _0xcb365eDFyEROvSAADe.ViewportSize.Y / 2); for _, _0xdb9ec9UVwvPPxWSAbY in pairs(_0x2fa73bwBJMsUTrUxly:GetPlayers()) do; if _0xdb9ec9UVwvPPxWSAbY ~= _0x2fa73bwBJMsUTrUxly.LocalPlayer and _0xdb9ec9UVwvPPxWSAbY.Character and _0xdb9ec9UVwvPPxWSAbY.Team ~= _0x2fa73bwBJMsUTrUxly.LocalPlayer.Team then; local _0x38c6abZiIRzYkrfDSH = _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild("\72\117\109\97\110\111\105\100"); if _0x38c6abZiIRzYkrfDSH and _0x38c6abZiIRzYkrfDSH.Health > 0 then; local _0xe15540GHvAGqSIInxI = _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild(_0xadb5f2hWzrAIEzzFai); if not _0xe15540GHvAGqSIInxI then; _0xe15540GHvAGqSIInxI = _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild("\72\101\97\100") or _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116"); end; if _0xe15540GHvAGqSIInxI then; local _0xf078aaXBCldgHlgGWv, _0x01b227ebxpWdrxSgok = _0xcb365eDFyEROvSAADe:WorldToViewportPoint(_0xe15540GHvAGqSIInxI.Position); if _0x01b227ebxpWdrxSgok and _0x5f2114JGxlWFPrIZrJ(_0xe15540GHvAGqSIInxI) then; local _0xc28bd0lSYAdkElggag = (Vector2.new(_0xf078aaXBCldgHlgGWv.X, _0xf078aaXBCldgHlgGWv.Y) - _0xb649d0KEmsSfhnBmaX).Magnitude; if _0xc28bd0lSYAdkElggag < _0xe3bd03FkZuvyNpzbgX then _0x8fbd09GeWrzlYCDrfy = _0xe15540GHvAGqSIInxI _0xe3bd03FkZuvyNpzbgX = _0xc28bd0lSYAdkElggag end; end; end; end; end; end; return _0x8fbd09GeWrzlYCDrfy; end; local function _0xbb74f0pMuLGFMinShh(_0x1fba1bOQJTZbvTzkzD, _0x6cde44XewbFsMeODlJ, _0xf078aaXBCldgHlgGWv, _0x5b7033ivPMcysyvXir); local _0x2d701clMNzzebDoKHE = Instance.new("\84\101\120\116\76\97\98\101\108", _0x2ab1d4nApbIGRskeHf); _0x2d701clMNzzebDoKHE.Text = _0x1fba1bOQJTZbvTzkzD; _0x2d701clMNzzebDoKHE.Size = UDim2.new(0.8, 0, 0, 20); _0x2d701clMNzzebDoKHE.Position = UDim2.new(0.1, 0, _0xf078aaXBCldgHlgGWv.Y.Scale - 0.05, 0); _0x2d701clMNzzebDoKHE.BackgroundTransparency = 1; _0x2d701clMNzzebDoKHE.TextColor3 = Color3.fromRGB(200, 200, 200); _0x2d701clMNzzebDoKHE.Font = Enum.Font.GothamSemibold; _0x2d701clMNzzebDoKHE.TextSize = 10; _0x2d701clMNzzebDoKHE.TextXAlignment = Enum.TextXAlignment.Left; local _0x3da61ftxHCgNIhhYMJ = Instance.new("\84\101\120\116\66\111\120", _0x2ab1d4nApbIGRskeHf); _0x3da61ftxHCgNIhhYMJ.Text = _0x6cde44XewbFsMeODlJ.Name; _0x3da61ftxHCgNIhhYMJ.Size = UDim2.new(0.8, 0, 0, 28); _0x3da61ftxHCgNIhhYMJ.Position = _0xf078aaXBCldgHlgGWv; _0x3da61ftxHCgNIhhYMJ.BackgroundColor3 = Color3.fromRGB(35, 65, 30); _0x3da61ftxHCgNIhhYMJ.TextColor3 = Color3.new(1, 1, 1); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.Gotham; _0x3da61ftxHCgNIhhYMJ.TextSize = 12; Instance.new("\85\73\67\111\114\110\101\114", _0x3da61ftxHCgNIhhYMJ).CornerRadius = UDim.new(0, 8); _0x3da61ftxHCgNIhhYMJ.FocusLost:Connect(function(); local _0xce1d1fSVjDBFeOxRea = _0x3da61ftxHCgNIhhYMJ.Text:upper(); local _0xdfaa20zlRlKRRJXBPU, _0x3bf9d1XHVDEnaCYIGA = pcall(function() return Enum.KeyCode[_0xce1d1fSVjDBFeOxRea] end); if _0xdfaa20zlRlKRRJXBPU and _0x3bf9d1XHVDEnaCYIGA then; _0x3da61ftxHCgNIhhYMJ.Text = _0x3bf9d1XHVDEnaCYIGA.Name; _0x5b7033ivPMcysyvXir(_0x3bf9d1XHVDEnaCYIGA); else; _0x3da61ftxHCgNIhhYMJ.Text = "\73\78\86\65\76\73\68"; task.wait(1); _0x3da61ftxHCgNIhhYMJ.Text = _0x6cde44XewbFsMeODlJ.Name; end; end); return _0x3da61ftxHCgNIhhYMJ; end; local function _0xf19b8daaXYEENMdeMJ(_0x1fba1bOQJTZbvTzkzD, _0x6d9492OkFvEEzvMIbJ, _0x7f96f1XpWpjaZMWiyS, _0xf078aaXBCldgHlgGWv, _0x5b7033ivPMcysyvXir); local _0x2d701clMNzzebDoKHE = Instance.new("\84\101\120\116\76\97\98\101\108", _0x2ab1d4nApbIGRskeHf); _0x2d701clMNzzebDoKHE.Text = _0x1fba1bOQJTZbvTzkzD; _0x2d701clMNzzebDoKHE.Size = UDim2.new(0.8, 0, 0, 20); _0x2d701clMNzzebDoKHE.Position = UDim2.new(0.1, 0, _0xf078aaXBCldgHlgGWv.Y.Scale - 0.05, 0); _0x2d701clMNzzebDoKHE.BackgroundTransparency = 1; _0x2d701clMNzzebDoKHE.TextColor3 = Color3.fromRGB(200, 200, 200); _0x2d701clMNzzebDoKHE.Font = Enum.Font.GothamSemibold; _0x2d701clMNzzebDoKHE.TextSize = 10; _0x2d701clMNzzebDoKHE.TextXAlignment = Enum.TextXAlignment.Left; local _0x3da61ftxHCgNIhhYMJ = Instance.new("\84\101\120\116\66\117\116\116\111\110", _0x2ab1d4nApbIGRskeHf); local _0x2d0606pgFGPvMtmiCX = _0x7f96f1XpWpjaZMWiyS; _0x3da61ftxHCgNIhhYMJ.Text = _0x6d9492OkFvEEzvMIbJ[_0x2d0606pgFGPvMtmiCX]; _0x3da61ftxHCgNIhhYMJ.Size = UDim2.new(0.8, 0, 0, 28); _0x3da61ftxHCgNIhhYMJ.Position = _0xf078aaXBCldgHlgGWv; _0x3da61ftxHCgNIhhYMJ.BackgroundColor3 = Color3.fromRGB(35, 65, 30); _0x3da61ftxHCgNIhhYMJ.TextColor3 = Color3.new(1, 1, 1); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.Gotham; _0x3da61ftxHCgNIhhYMJ.TextSize = 12; Instance.new("\85\73\67\111\114\110\101\114", _0x3da61ftxHCgNIhhYMJ).CornerRadius = UDim.new(0, 8); _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0x2d0606pgFGPvMtmiCX = _0x2d0606pgFGPvMtmiCX + 1; if _0x2d0606pgFGPvMtmiCX > #_0x6d9492OkFvEEzvMIbJ then _0x2d0606pgFGPvMtmiCX = 1 end; _0x3da61ftxHCgNIhhYMJ.Text = _0x6d9492OkFvEEzvMIbJ[_0x2d0606pgFGPvMtmiCX]; _0x5b7033ivPMcysyvXir(_0x6d9492OkFvEEzvMIbJ[_0x2d0606pgFGPvMtmiCX]); end); return _0x3da61ftxHCgNIhhYMJ; end; local function _0xf6d7e2MKCupuTAxAhX(_0x1fba1bOQJTZbvTzkzD, _0xe823efgLndIQnyVkkj, _0xf078aaXBCldgHlgGWv, _0x5b7033ivPMcysyvXir); local _0x2d701clMNzzebDoKHE = Instance.new("\84\101\120\116\76\97\98\101\108", _0x2ab1d4nApbIGRskeHf); _0x2d701clMNzzebDoKHE.Text = _0x1fba1bOQJTZbvTzkzD; _0x2d701clMNzzebDoKHE.Size = UDim2.new(0.8, 0, 0, 20); _0x2d701clMNzzebDoKHE.Position = UDim2.new(0.1, 0, _0xf078aaXBCldgHlgGWv.Y.Scale - 0.05, 0); _0x2d701clMNzzebDoKHE.BackgroundTransparency = 1; _0x2d701clMNzzebDoKHE.TextColor3 = Color3.fromRGB(200, 200, 200); _0x2d701clMNzzebDoKHE.Font = Enum.Font.GothamSemibold; _0x2d701clMNzzebDoKHE.TextSize = 10; _0x2d701clMNzzebDoKHE.TextXAlignment = Enum.TextXAlignment.Left; local _0xed6757AeVqxgnULjSf = Instance.new("\84\101\120\116\66\111\120", _0x2ab1d4nApbIGRskeHf); _0xed6757AeVqxgnULjSf.Text = _0xe823efgLndIQnyVkkj; _0xed6757AeVqxgnULjSf.Size = UDim2.new(0.8, 0, 0, 28); _0xed6757AeVqxgnULjSf.Position = _0xf078aaXBCldgHlgGWv; _0xed6757AeVqxgnULjSf.BackgroundColor3 = Color3.fromRGB(35, 65, 30); _0xed6757AeVqxgnULjSf.TextColor3 = Color3.new(1, 1, 1); _0xed6757AeVqxgnULjSf.Font = Enum.Font.Gotham; _0xed6757AeVqxgnULjSf.TextSize = 12; Instance.new("\85\73\67\111\114\110\101\114", _0xed6757AeVqxgnULjSf).CornerRadius = UDim.new(0, 8); _0xed6757AeVqxgnULjSf.FocusLost:Connect(function(); _0x5b7033ivPMcysyvXir(_0xed6757AeVqxgnULjSf.Text); end); return _0xed6757AeVqxgnULjSf; end; local _0x19891decqgrZAwHOFf = _0x5d6e0cdRItNsKUvmIc.TouchEnabled local _0xe64103JeQZRTlQEplX = Instance.new("\84\101\120\116\66\117\116\116\111\110", _0xb29be0czdFoxBZHmNc); _0xe64103JeQZRTlQEplX.Name = "\77\111\98\105\108\101\65\105\109\66\117\116\116\111\110"; _0xe64103JeQZRTlQEplX.Size = UDim2.new(0, 60, 0, 60); _0xe64103JeQZRTlQEplX.Position = UDim2.new(0.8, 0, 0.5, 0); _0xe64103JeQZRTlQEplX.BackgroundColor3 = Color3.fromRGB(35, 65, 30); _0xe64103JeQZRTlQEplX.TextColor3 = Color3.new(1, 1, 1); _0xe64103JeQZRTlQEplX.Text = "\65\73\77"; _0xe64103JeQZRTlQEplX.Font = Enum.Font.GothamBold; _0xe64103JeQZRTlQEplX.TextSize = 14; _0xe64103JeQZRTlQEplX.Visible = _0x19891decqgrZAwHOFf; Instance.new("\85\73\67\111\114\110\101\114", _0xe64103JeQZRTlQEplX).CornerRadius = UDim.new(1, 0); local _0x9d6d94hQeLsRVwSCcG, _0x66308bcKhqNpatDkFa, _0x7e5e68dHajJWkwwLbH; _0xe64103JeQZRTlQEplX.InputBegan:Connect(function(_0x7b91caGXoUEBaChExR); if (_0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseButton1 or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch) then; _0x9d6d94hQeLsRVwSCcG = (0x1 == 0x1); _0x66308bcKhqNpatDkFa = _0x7b91caGXoUEBaChExR.Position; _0x7e5e68dHajJWkwwLbH = _0xe64103JeQZRTlQEplX.Position; if _0x3e162fxUkgzbdxaNMg == "\72\79\76\68" then; _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x1); else; _0x7c5f36AcbMWAmxnSzW = not _0x7c5f36AcbMWAmxnSzW; end; end; end); _0xe64103JeQZRTlQEplX.InputEnded:Connect(function(_0x7b91caGXoUEBaChExR); if (_0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseButton1 or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch) then; _0x9d6d94hQeLsRVwSCcG = (0x1 == 0x2); if _0x3e162fxUkgzbdxaNMg == "\72\79\76\68" then; _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x2); end; end; end); _0x5d6e0cdRItNsKUvmIc.InputChanged:Connect(function(_0x7b91caGXoUEBaChExR); if _0x9d6d94hQeLsRVwSCcG and (_0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.MouseMovement or _0x7b91caGXoUEBaChExR.UserInputType == Enum.UserInputType.Touch) then; local _0x712ce8cozgqKXoluEI = _0x7b91caGXoUEBaChExR.Position - _0x66308bcKhqNpatDkFa; if _0x712ce8cozgqKXoluEI.Magnitude > 5 then _0xe64103JeQZRTlQEplX.Position = UDim2.new(_0x7e5e68dHajJWkwwLbH.X.Scale, _0x7e5e68dHajJWkwwLbH.X.Offset + _0x712ce8cozgqKXoluEI.X, _0x7e5e68dHajJWkwwLbH.Y.Scale, _0x7e5e68dHajJWkwwLbH.Y.Offset + _0x712ce8cozgqKXoluEI.Y); end; end; end); _0xbb74f0pMuLGFMinShh("\65\105\109\98\111\116\32\75\101\121\58", _0x964421FwGjUNgvlvaR, UDim2.new(0.1, 0, 0.12, 0), function(_0xf415d4iilythLInzOC) _0x964421FwGjUNgvlvaR = _0xf415d4iilythLInzOC end); _0xbb74f0pMuLGFMinShh("\77\101\110\117\32\84\111\103\103\108\101\32\40\66\41\58", _0x1c32a9egKbizoXzgkF, UDim2.new(0.1, 0, 0.25, 0), function(_0xf415d4iilythLInzOC) _0x1c32a9egKbizoXzgkF = _0xf415d4iilythLInzOC end); _0xf19b8daaXYEENMdeMJ("\65\105\109\32\77\111\100\101\58", {"\72\79\76\68", "\84\79\71\71\76\69"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(_0xcdde67lwImEqQYMeKN); _0x3e162fxUkgzbdxaNMg = _0xcdde67lwImEqQYMeKN; _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x2); end); _0xf19b8daaXYEENMdeMJ("\77\111\98\105\108\101\32\66\117\116\116\111\110\58", {"\79\70\70", "\79\78"}, (_0x19891decqgrZAwHOFf and 2 or 1), UDim2.new(0.1, 0, 0.51, 0), function(_0x271335MFCgfyiHudFQ); _0xe64103JeQZRTlQEplX.Visible = (_0x271335MFCgfyiHudFQ == "\79\78"); end); _0xf6d7e2MKCupuTAxAhX("\83\109\111\111\116\104\105\110\103\32\40\48\46\48\49\32\45\32\49\41\58", tostring(_0x73ac47msPlzisjAoin), UDim2.new(0.1, 0, 0.64, 0), function(_0xc152ebBvKZDjWOfJZF) local _0x8419e1NXLOHgftcBmi = tonumber(_0xc152ebBvKZDjWOfJZF) if _0x8419e1NXLOHgftcBmi then _0x73ac47msPlzisjAoin = math.clamp(_0x8419e1NXLOHgftcBmi, 0.01, 1) else _0x73ac47msPlzisjAoin = 1 end end); _0xf19b8daaXYEENMdeMJ("\84\97\114\103\101\116\32\80\97\114\116\58", {"\72\101\97\100", "\84\111\114\115\111"}, 1, UDim2.new(0.1, 0, 0.77, 0), function(_0xdb9ec9UVwvPPxWSAbY); if _0xdb9ec9UVwvPPxWSAbY == "\84\111\114\115\111" then; _0xadb5f2hWzrAIEzzFai = "\85\112\112\101\114\84\111\114\115\111"; else; _0xadb5f2hWzrAIEzzFai = "\72\101\97\100"; end; end); _0x5d6e0cdRItNsKUvmIc.InputBegan:Connect(function(_0xc4f23dWWoomivJUReE, _0xdb9ec9UVwvPPxWSAbY) if _0xdb9ec9UVwvPPxWSAbY then return end if _0xc4f23dWWoomivJUReE.KeyCode == _0x964421FwGjUNgvlvaR then if _0x3e162fxUkgzbdxaNMg == "\72\79\76\68" then; _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x1) else; _0x7c5f36AcbMWAmxnSzW = not _0x7c5f36AcbMWAmxnSzW; end; elseif _0xc4f23dWWoomivJUReE.KeyCode == _0x1c32a9egKbizoXzgkF then; _0x207a05WdxoFYKbAcBK(); end end); _0x5d6e0cdRItNsKUvmIc.InputEnded:Connect(function(_0xc4f23dWWoomivJUReE) if _0xc4f23dWWoomivJUReE.KeyCode == _0x964421FwGjUNgvlvaR and _0x3e162fxUkgzbdxaNMg == "\72\79\76\68" then _0x7c5f36AcbMWAmxnSzW = (0x1 == 0x2) end end); script.Parent.MouseButton1Click:Connect(_0x207a05WdxoFYKbAcBK); _0xba12b0OlsZgfOoLiDQ.RenderStepped:Connect(function(); if _0x7c5f36AcbMWAmxnSzW then; local _0xcddb93SDkYfWXMVhwm = _0x572353nnlEHElptkzq(); if _0xcddb93SDkYfWXMVhwm then; local _0x1ebc93xKiULjfEikYW = CFrame.new(_0xcb365eDFyEROvSAADe.CFrame.Position, _0xcddb93SDkYfWXMVhwm.Position); _0xcb365eDFyEROvSAADe.CFrame = _0xcb365eDFyEROvSAADe.CFrame:Lerp(_0x1ebc93xKiULjfEikYW, _0x73ac47msPlzisjAoin); end; end; end); end; coroutine.wrap(_0x0067c1rDcPCtfVCXpH)(); local function _0x83fb8cedKqSwjfBYAC() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x7ca556TzBYvXrfymEu); local _0x049437cpcGCPXOvIGq = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101"); local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0x4fe065ItVqfwUgQCRF = _0x3da61ftxHCgNIhhYMJ.Parent; local _0xfb64eftMiHoGkQaTHT = (0x1 == 0x2); local _0xf2fc90edAiqSUYAcmt = Color3.fromRGB(0, 255, 127) local _0x8786cdzuwZoBRiGsxt = Color3.fromRGB(255, 50, 50) local _0x57086bBrHXJWydQuiq = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.SourceSansBold _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; _0x4fe065ItVqfwUgQCRF.BackgroundColor3 = _0x8786cdzuwZoBRiGsxt; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0xfb64eftMiHoGkQaTHT = not _0xfb64eftMiHoGkQaTHT; if _0xfb64eftMiHoGkQaTHT then; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0xf2fc90edAiqSUYAcmt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\78"; else; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0x8786cdzuwZoBRiGsxt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; end; end); end; coroutine.wrap(_0x83fb8cedKqSwjfBYAC)(); local function _0x98d69dzwykMDGiAiFX() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x7ca556TzBYvXrfymEu); local _0xba12b0OlsZgfOoLiDQ = game:GetService("\82\117\110\83\101\114\118\105\99\101"); local _0x2fa73bwBJMsUTrUxly = game:GetService("\80\108\97\121\101\114\115"); local _0x06e6c1uXsNfxCcFcsP = _0x2fa73bwBJMsUTrUxly.LocalPlayer; local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0xfa188dMjxTWkcXYINd = (0x1 == 0x2); local function _0xdf9623uQLFhOQymdiY(_0xda98fdzBvcqtZOtvIn); if _0xda98fdzBvcqtZOtvIn == _0x06e6c1uXsNfxCcFcsP then return end; local function _0x851bc8ybPKqidtYckE(_0xe011a9tyyYZIrhmRYF); if not _0xfa188dMjxTWkcXYINd then return end; local _0xa7d7aayVwAIuuMaqdA = _0xe011a9tyyYZIrhmRYF:WaitForChild("\72\101\97\100", 10); if _0xa7d7aayVwAIuuMaqdA and not _0xa7d7aayVwAIuuMaqdA:FindFirstChild("\69\83\80\84\97\103") then; local _0x94c46efTTABJXmwnIO = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105", _0xa7d7aayVwAIuuMaqdA); _0x94c46efTTABJXmwnIO.Name = "\69\83\80\84\97\103"; _0x94c46efTTABJXmwnIO.Size = UDim2.new(0, 150, 0, 75); _0x94c46efTTABJXmwnIO.AlwaysOnTop = (0x1 == 0x1); _0x94c46efTTABJXmwnIO.StudsOffset = Vector3.new(0, 3, 0); local _0xc95138xnbUFhkhADJk = Instance.new("\84\101\120\116\76\97\98\101\108", _0x94c46efTTABJXmwnIO); _0xc95138xnbUFhkhADJk.Name = "\84\101\120\116\76\97\98\101\108"; _0xc95138xnbUFhkhADJk.BackgroundTransparency = 1; _0xc95138xnbUFhkhADJk.Size = UDim2.new(1, 0, 1, 0); _0xc95138xnbUFhkhADJk.TextColor3 = _0xda98fdzBvcqtZOtvIn.TeamColor.Color _0xc95138xnbUFhkhADJk.Font = Enum.Font.GothamBold; _0xc95138xnbUFhkhADJk.TextStrokeTransparency = 0 _0xc95138xnbUFhkhADJk.TextSize = 14; end; end; _0xda98fdzBvcqtZOtvIn.CharacterAdded:Connect(_0x851bc8ybPKqidtYckE); if _0xda98fdzBvcqtZOtvIn.Character then _0x851bc8ybPKqidtYckE(_0xda98fdzBvcqtZOtvIn.Character) end; _0xda98fdzBvcqtZOtvIn:GetPropertyChangedSignal("\84\101\97\109"):Connect(function(); if _0xda98fdzBvcqtZOtvIn.Character then _0x851bc8ybPKqidtYckE(_0xda98fdzBvcqtZOtvIn.Character) end; end); end; _0x2fa73bwBJMsUTrUxly.PlayerAdded:Connect(_0xdf9623uQLFhOQymdiY); for _, _0xdb9ec9UVwvPPxWSAbY in pairs(_0x2fa73bwBJMsUTrUxly:GetPlayers()) do; _0xdf9623uQLFhOQymdiY(_0xdb9ec9UVwvPPxWSAbY); end; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0xfa188dMjxTWkcXYINd = not _0xfa188dMjxTWkcXYINd; if _0xfa188dMjxTWkcXYINd then; for _, _0xdb9ec9UVwvPPxWSAbY in pairs(_0x2fa73bwBJMsUTrUxly:GetPlayers()) do if _0xdb9ec9UVwvPPxWSAbY.Character then _0xdf9623uQLFhOQymdiY(_0xdb9ec9UVwvPPxWSAbY) end end; else; for _, _0xdb9ec9UVwvPPxWSAbY in pairs(_0x2fa73bwBJMsUTrUxly:GetPlayers()) do; if _0xdb9ec9UVwvPPxWSAbY.Character and _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild("\72\101\97\100") then; local _0x20b3edkFOjbzbxvSYP = _0xdb9ec9UVwvPPxWSAbY.Character.Head:FindFirstChild("\69\83\80\84\97\103"); if _0x20b3edkFOjbzbxvSYP then _0x20b3edkFOjbzbxvSYP:Destroy() end; end; end; end; end); _0xba12b0OlsZgfOoLiDQ.RenderStepped:Connect(function(); if _0xfa188dMjxTWkcXYINd then; local _0x75fa33kzKJBVjLomgb = _0x06e6c1uXsNfxCcFcsP.Character and _0x06e6c1uXsNfxCcFcsP.Character:FindFirstChild("\72\101\97\100"); if not _0x75fa33kzKJBVjLomgb then return end; for _, _0xdb9ec9UVwvPPxWSAbY in pairs(_0x2fa73bwBJMsUTrUxly:GetPlayers()) do; if _0xdb9ec9UVwvPPxWSAbY ~= _0x06e6c1uXsNfxCcFcsP and _0xdb9ec9UVwvPPxWSAbY.Character and _0xdb9ec9UVwvPPxWSAbY.Character:FindFirstChild("\72\101\97\100") then; local _0xa7d7aayVwAIuuMaqdA = _0xdb9ec9UVwvPPxWSAbY.Character.Head; local _0x20b3edkFOjbzbxvSYP = _0xa7d7aayVwAIuuMaqdA:FindFirstChild("\69\83\80\84\97\103"); local _0x2d701clMNzzebDoKHE = _0x20b3edkFOjbzbxvSYP and _0x20b3edkFOjbzbxvSYP:FindFirstChild("\84\101\120\116\76\97\98\101\108"); if _0x2d701clMNzzebDoKHE then; local _0xe3bd03FkZuvyNpzbgX = math.floor((_0x75fa33kzKJBVjLomgb.Position - _0xa7d7aayVwAIuuMaqdA.Position).Magnitude); _0x2d701clMNzzebDoKHE.Text = _0xdb9ec9UVwvPPxWSAbY.Name .. "\92\110\91" .. _0xe3bd03FkZuvyNpzbgX .. "\109\93"; _0x2d701clMNzzebDoKHE.TextColor3 = _0xdb9ec9UVwvPPxWSAbY.TeamColor.Color; end; end; end; end; end); end; coroutine.wrap(_0x98d69dzwykMDGiAiFX)(); local function _0x5f5240KfpuxStcewMi() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x3440e9lBBlJQOcOzKN); local _0x3da61ftxHCgNIhhYMJ = script.Parent; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); local _0xdfaa20zlRlKRRJXBPU, _0x68edffwATjbLQEOSnk = pcall(function(); loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\83\116\101\102\97\110\117\107\49\50\47\65\105\109\105\110\103\47\109\97\105\110\47\69\120\97\109\112\108\101\115\47\85\110\105\118\101\114\115\97\108\83\105\108\101\110\116\65\105\109\46\108\117\97", (0x1 == 0x1)))(); end); end); end; coroutine.wrap(_0x5f5240KfpuxStcewMi)(); local function _0xffdedeqrkTrwevjALM() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0x3440e9lBBlJQOcOzKN); local _0x049437cpcGCPXOvIGq = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101"); local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0x4fe065ItVqfwUgQCRF = _0x3da61ftxHCgNIhhYMJ.Parent local _0xfb64eftMiHoGkQaTHT = (0x1 == 0x2); local _0xf2fc90edAiqSUYAcmt = Color3.fromRGB(0, 255, 127) local _0x8786cdzuwZoBRiGsxt = Color3.fromRGB(255, 50, 50) local _0x57086bBrHXJWydQuiq = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.SourceSansBold _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; _0x4fe065ItVqfwUgQCRF.BackgroundColor3 = _0x8786cdzuwZoBRiGsxt; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0xfb64eftMiHoGkQaTHT = not _0xfb64eftMiHoGkQaTHT; if _0xfb64eftMiHoGkQaTHT then; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0xf2fc90edAiqSUYAcmt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\78"; else; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0x8786cdzuwZoBRiGsxt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; end; end); end; coroutine.wrap(_0xffdedeqrkTrwevjALM)(); local function _0xca9fa3gGQnnlcpHYIZ() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0xe27e4fMbqJDivmwrnp); local _0x3da61ftxHCgNIhhYMJ = script.Parent; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); local _0xdfaa20zlRlKRRJXBPU, _0x68edffwATjbLQEOSnk = pcall(function(); loadstring(game:HttpGet('\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\69\100\103\101\73\89\47\105\110\102\105\110\105\116\101\121\105\101\108\100\47\109\97\115\116\101\114\47\115\111\117\114\99\101'))(); end); end); end; coroutine.wrap(_0xca9fa3gGQnnlcpHYIZ)(); local function _0x7ca1a5dqYfcFAnPhMB() local script = Instance.new('\76\111\99\97\108\83\99\114\105\112\116', _0xe27e4fMbqJDivmwrnp); local _0x049437cpcGCPXOvIGq = game:GetService("\84\119\101\101\110\83\101\114\118\105\99\101"); local _0x3da61ftxHCgNIhhYMJ = script.Parent; local _0x4fe065ItVqfwUgQCRF = _0x3da61ftxHCgNIhhYMJ.Parent local _0xfb64eftMiHoGkQaTHT = (0x1 == 0x2); local _0xf2fc90edAiqSUYAcmt = Color3.fromRGB(0, 255, 127) local _0x8786cdzuwZoBRiGsxt = Color3.fromRGB(255, 50, 50) local _0x57086bBrHXJWydQuiq = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out); _0x3da61ftxHCgNIhhYMJ.Font = Enum.Font.SourceSansBold _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; _0x4fe065ItVqfwUgQCRF.BackgroundColor3 = _0x8786cdzuwZoBRiGsxt; _0x3da61ftxHCgNIhhYMJ.MouseButton1Click:Connect(function(); _0xfb64eftMiHoGkQaTHT = not _0xfb64eftMiHoGkQaTHT; if _0xfb64eftMiHoGkQaTHT then; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0xf2fc90edAiqSUYAcmt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\78"; else; local _0xdf87e3UBZCosEwvGbD = _0x049437cpcGCPXOvIGq:Create(_0x4fe065ItVqfwUgQCRF, _0x57086bBrHXJWydQuiq, {BackgroundColor3 = _0x8786cdzuwZoBRiGsxt}); _0xdf87e3UBZCosEwvGbD:Play(); _0x3da61ftxHCgNIhhYMJ.Text = "\79\70\70"; end; end); end; coroutine.wrap(_0x7ca1a5dqYfcFAnPhMB)()
+local ScreenGui = Instance.new("ScreenGui")
+local CloseOpenGUI = Instance.new("Frame")
+local CloseB = Instance.new("ImageLabel")
+local Close = Instance.new("ImageLabel")
+local CloseOpen = Instance.new("TextButton")
+local MainBorderGUI = Instance.new("Frame")
+local MainBorder = Instance.new("ImageLabel")
+local Main = Instance.new("ImageLabel")
+local TIPP_PPIT = Instance.new("TextLabel")
+local BorderX = Instance.new("Frame")
+local BorderY = Instance.new("Frame")
+local BorderXB = Instance.new("ImageLabel")
+local BorderXY = Instance.new("ImageLabel")
+local Home = Instance.new("TextButton")
+local NeverComing = Instance.new("TextButton")
+local NeverComing_2 = Instance.new("TextButton")
+local NeverComing_3 = Instance.new("TextButton")
+local NeverComing_4 = Instance.new("TextButton")
+local Aimbot = Instance.new("Frame")
+local Aimbot_2 = Instance.new("Frame")
+local AimbotONOFF = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local ESP = Instance.new("Frame")
+local ESP_2 = Instance.new("Frame")
+local ESPONOFF = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextLabel")
+local ESP_3 = Instance.new("TextLabel")
+local SilentAim_2 = Instance.new("Frame")
+local SilentAim_3 = Instance.new("Frame")
+local AimbotCircleONOFF = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Aimbot_3 = Instance.new("TextLabel")
+local SilentAim_4 = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("Frame")
+local InfiniteYield_2 = Instance.new("Frame")
+local AimbotCircleONOFF_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.DisplayOrder = 999999999
+ScreenGui.ResetOnSpawn = false
+
+CloseOpenGUI.Name = "Close/Open GUI"
+CloseOpenGUI.Parent = ScreenGui
+CloseOpenGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpenGUI.BackgroundTransparency = 1.000
+CloseOpenGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpenGUI.BorderSizePixel = 0
+CloseOpenGUI.Position = UDim2.new(0.053970702, 0, 0.0817757025, 0)
+CloseOpenGUI.Size = UDim2.new(0, 70, 0, 70)
+
+CloseB.Name = "Close B"
+CloseB.Parent = CloseOpenGUI
+CloseB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseB.BackgroundTransparency = 1.000
+CloseB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseB.Position = UDim2.new(0.0285714287, 0, 0.0285714287, 0)
+CloseB.Size = UDim2.new(0, 65, 0, 65)
+CloseB.Image = "rbxassetid://3570695787"
+CloseB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+CloseB.ScaleType = Enum.ScaleType.Slice
+CloseB.SliceCenter = Rect.new(100, 100, 100, 100)
+CloseB.SliceScale = 0.120
+
+Close.Name = "Close"
+Close.Parent = CloseB
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.Position = UDim2.new(0.0375000015, 0, 0.0350000001, 0)
+Close.Size = UDim2.new(0, 60, 0, 60)
+Close.Image = "rbxassetid://3570695787"
+Close.ImageColor3 = Color3.fromRGB(27, 48, 27)
+Close.ScaleType = Enum.ScaleType.Slice
+Close.SliceCenter = Rect.new(100, 100, 100, 100)
+Close.SliceScale = 0.120
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = Close
+CloseOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.BackgroundTransparency = 1.000
+CloseOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderSizePixel = 0
+CloseOpen.Position = UDim2.new(0, 0, -0.016666539, 0)
+CloseOpen.Size = UDim2.new(0, 60, 0, 60)
+CloseOpen.Font = Enum.Font.SourceSansBold
+CloseOpen.Text = "T"
+CloseOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.TextSize = 40.000
+
+MainBorderGUI.Name = "MainBorder GUI"
+MainBorderGUI.Parent = ScreenGui
+MainBorderGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBorderGUI.BackgroundTransparency = 1.000
+MainBorderGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainBorderGUI.BorderSizePixel = 0
+MainBorderGUI.Position = UDim2.new(0.264456451, 0, 0.260514021, 0)
+MainBorderGUI.Size = UDim2.new(0, 610, 0, 410)
+
+MainBorder.Name = "MainBorder"
+MainBorder.Parent = MainBorderGUI
+MainBorder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBorder.BackgroundTransparency = 1.000
+MainBorder.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainBorder.Position = UDim2.new(-0.00141951768, 0, -0.000816680142, 0)
+MainBorder.Size = UDim2.new(0, 610, 0, 410)
+MainBorder.Image = "rbxassetid://3570695787"
+MainBorder.ImageColor3 = Color3.fromRGB(0, 0, 0)
+MainBorder.ScaleType = Enum.ScaleType.Slice
+MainBorder.SliceCenter = Rect.new(100, 100, 100, 100)
+MainBorder.SliceScale = 0.120
+
+Main.Name = "Main"
+Main.Parent = MainBorder
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 4
+Main.Position = UDim2.new(0.00810807012, 0, 0.0100879204, 0)
+Main.Size = UDim2.new(0, 600, 0, 400)
+Main.Image = "rbxassetid://3570695787"
+Main.ImageColor3 = Color3.fromRGB(16, 44, 19)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+
+TIPP_PPIT.Name = "TIPP_PPIT"
+TIPP_PPIT.Parent = Main
+TIPP_PPIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TIPP_PPIT.BackgroundTransparency = 1.000
+TIPP_PPIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TIPP_PPIT.BorderSizePixel = 0
+TIPP_PPIT.Position = UDim2.new(0.284999996, 0, 0, 0)
+TIPP_PPIT.Size = UDim2.new(0, 342, 0, 50)
+TIPP_PPIT.Font = Enum.Font.SourceSansBold
+TIPP_PPIT.Text = "TIPP_PPIT: Aimprover"
+TIPP_PPIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+TIPP_PPIT.TextSize = 40.000
+
+BorderX.Name = "Border X"
+BorderX.Parent = Main
+BorderX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderX.BorderColor3 = Color3.fromRGB(39, 59, 39)
+BorderX.BorderSizePixel = 3
+BorderX.Position = UDim2.new(0.148000002, 0, 0.126000002, 0)
+BorderX.Size = UDim2.new(0, 508, 0, 5)
+
+BorderY.Name = "Border Y"
+BorderY.Parent = BorderX
+BorderY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BorderY.BorderColor3 = Color3.fromRGB(39, 59, 39)
+BorderY.BorderSizePixel = 3
+BorderY.Position = UDim2.new(-0.0114487773, 0, -9.39249897, 0)
+BorderY.Size = UDim2.new(0, 5, 0, 393)
+
+BorderXB.Name = "Border X B"
+BorderXB.Parent = BorderX
+BorderXB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BorderXB.BackgroundTransparency = 1.000
+BorderXB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BorderXB.Position = UDim2.new(-0.00160625787, 0, -0.0739990249, 0)
+BorderXB.Size = UDim2.new(0, 517, 0, 5)
+BorderXB.Image = "rbxassetid://3570695787"
+BorderXB.ImageColor3 = Color3.fromRGB(0, 0, 0)
+BorderXB.ScaleType = Enum.ScaleType.Slice
+BorderXB.SliceCenter = Rect.new(100, 100, 100, 100)
+BorderXB.SliceScale = 0.120
+
+BorderXY.Name = "Border X Y"
+BorderXY.Parent = BorderX
+BorderXY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BorderXY.BackgroundTransparency = 1.000
+BorderXY.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BorderXY.Position = UDim2.new(-0.0114487773, 0, -10.079999, 0)
+BorderXY.Size = UDim2.new(0, 5, 0, 400)
+BorderXY.Image = "rbxassetid://3570695787"
+BorderXY.ImageColor3 = Color3.fromRGB(0, 0, 0)
+BorderXY.ScaleType = Enum.ScaleType.Slice
+BorderXY.SliceCenter = Rect.new(100, 100, 100, 100)
+BorderXY.SliceScale = 0.120
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+Home.BorderColor3 = Color3.fromRGB(39, 59, 39)
+Home.BorderSizePixel = 3
+Home.Position = UDim2.new(0.00999999978, 0, 0.150000006, 0)
+Home.Size = UDim2.new(0, 70, 0, 50)
+Home.Font = Enum.Font.SourceSansBold
+Home.Text = "HOME"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 25.000
+
+NeverComing.Name = "Never Coming"
+NeverComing.Parent = Main
+NeverComing.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing.BorderSizePixel = 3
+NeverComing.Position = UDim2.new(0.00999999978, 0, 0.300000012, 0)
+NeverComing.Size = UDim2.new(0, 70, 0, 50)
+NeverComing.Font = Enum.Font.SourceSansBold
+NeverComing.Text = "Never coming"
+NeverComing.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing.TextSize = 12.000
+
+NeverComing_2.Name = "Never Coming"
+NeverComing_2.Parent = Main
+NeverComing_2.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_2.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_2.BorderSizePixel = 3
+NeverComing_2.Position = UDim2.new(0.00999999978, 0, 0.449999988, 0)
+NeverComing_2.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_2.Font = Enum.Font.SourceSansBold
+NeverComing_2.Text = "Never coming"
+NeverComing_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_2.TextSize = 12.000
+
+NeverComing_3.Name = "Never Coming"
+NeverComing_3.Parent = Main
+NeverComing_3.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_3.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_3.BorderSizePixel = 3
+NeverComing_3.Position = UDim2.new(0.00999999978, 0, 0.600000024, 0)
+NeverComing_3.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_3.Font = Enum.Font.SourceSansBold
+NeverComing_3.Text = "Never coming"
+NeverComing_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_3.TextSize = 12.000
+
+NeverComing_4.Name = "Never Coming"
+NeverComing_4.Parent = Main
+NeverComing_4.BackgroundColor3 = Color3.fromRGB(20, 42, 17)
+NeverComing_4.BorderColor3 = Color3.fromRGB(39, 59, 39)
+NeverComing_4.BorderSizePixel = 3
+NeverComing_4.Position = UDim2.new(0.00999999978, 0, 0.75, 0)
+NeverComing_4.Size = UDim2.new(0, 70, 0, 50)
+NeverComing_4.Font = Enum.Font.SourceSansBold
+NeverComing_4.Text = "Never coming"
+NeverComing_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+NeverComing_4.TextSize = 12.000
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Main
+Aimbot.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.709999979, 0, 0.200000003, 0)
+Aimbot.Size = UDim2.new(0, 130, 0, 30)
+
+Aimbot_2.Name = "Aimbot"
+Aimbot_2.Parent = Aimbot
+Aimbot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_2.BorderSizePixel = 0
+Aimbot_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+Aimbot_2.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotONOFF.Name = "Aimbot ON/OFF"
+AimbotONOFF.Parent = Aimbot_2
+AimbotONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotONOFF.BackgroundTransparency = 1.000
+AimbotONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotONOFF.BorderSizePixel = 0
+AimbotONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotONOFF.Size = UDim2.new(0, 125, 0, 25)
+AimbotONOFF.Font = Enum.Font.SourceSans
+AimbotONOFF.Text = ""
+AimbotONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotONOFF.TextSize = 14.000
+
+UICorner.Parent = Aimbot_2
+
+UICorner_2.Parent = Aimbot
+
+ESP.Name = "ESP"
+ESP.Parent = Main
+ESP.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.709666669, 0, 0.349999994, 0)
+ESP.Size = UDim2.new(0, 130, 0, 30)
+
+ESP_2.Name = "ESP"
+ESP_2.Parent = ESP
+ESP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP_2.BorderSizePixel = 0
+ESP_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+ESP_2.Size = UDim2.new(0, 125, 0, 25)
+
+ESPONOFF.Name = "ESP ON/OFF"
+ESPONOFF.Parent = ESP_2
+ESPONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPONOFF.BackgroundTransparency = 1.000
+ESPONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPONOFF.BorderSizePixel = 0
+ESPONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+ESPONOFF.Size = UDim2.new(0, 125, 0, 25)
+ESPONOFF.Font = Enum.Font.SourceSans
+ESPONOFF.Text = ""
+ESPONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPONOFF.TextSize = 14.000
+
+UICorner_3.Parent = ESP_2
+
+UICorner_4.Parent = ESP
+
+SilentAim.Name = "Silent Aim"
+SilentAim.Parent = Main
+SilentAim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.BackgroundTransparency = 1.000
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.185000002, 0, 0.474999994, 0)
+SilentAim.Size = UDim2.new(0, 342, 0, 50)
+SilentAim.Font = Enum.Font.SourceSansBold
+SilentAim.Text = "Silent Aim: (not mine)"
+SilentAim.TextColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.TextSize = 40.000
+SilentAim.TextXAlignment = Enum.TextXAlignment.Left
+
+ESP_3.Name = "ESP"
+ESP_3.Parent = Main
+ESP_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP_3.BackgroundTransparency = 1.000
+ESP_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.BorderSizePixel = 0
+ESP_3.Position = UDim2.new(0.185000002, 0, 0.32249999, 0)
+ESP_3.Size = UDim2.new(0, 342, 0, 50)
+ESP_3.Font = Enum.Font.SourceSansBold
+ESP_3.Text = "ESP:"
+ESP_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.TextSize = 40.000
+ESP_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SilentAim_2.Name = "Silent Aim"
+SilentAim_2.Parent = Main
+SilentAim_2.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+SilentAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_2.BorderSizePixel = 0
+SilentAim_2.Position = UDim2.new(0.709999979, 0, 0.5, 0)
+SilentAim_2.Size = UDim2.new(0, 130, 0, 30)
+
+SilentAim_3.Name = "Silent Aim"
+SilentAim_3.Parent = SilentAim_2
+SilentAim_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_3.BorderSizePixel = 0
+SilentAim_3.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+SilentAim_3.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotCircleONOFF.Name = "Aimbot Circle ON/OFF"
+AimbotCircleONOFF.Parent = SilentAim_3
+AimbotCircleONOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotCircleONOFF.BackgroundTransparency = 1.000
+AimbotCircleONOFF.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF.BorderSizePixel = 0
+AimbotCircleONOFF.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotCircleONOFF.Size = UDim2.new(0, 125, 0, 25)
+AimbotCircleONOFF.Font = Enum.Font.SourceSans
+AimbotCircleONOFF.Text = ""
+AimbotCircleONOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF.TextSize = 14.000
+
+UICorner_5.Parent = SilentAim_3
+
+UICorner_6.Parent = SilentAim_2
+
+Aimbot_3.Name = "Aimbot"
+Aimbot_3.Parent = Main
+Aimbot_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot_3.BackgroundTransparency = 1.000
+Aimbot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_3.BorderSizePixel = 0
+Aimbot_3.Position = UDim2.new(0.185000002, 0, 0.174999997, 0)
+Aimbot_3.Size = UDim2.new(0, 342, 0, 50)
+Aimbot_3.Font = Enum.Font.SourceSansBold
+Aimbot_3.Text = "Aimbot:"
+Aimbot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot_3.TextSize = 40.000
+Aimbot_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SilentAim_4.Name = "Silent Aim"
+SilentAim_4.Parent = Main
+SilentAim_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_4.BackgroundTransparency = 1.000
+SilentAim_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_4.BorderSizePixel = 0
+SilentAim_4.Position = UDim2.new(0.185000002, 0, 0.625, 0)
+SilentAim_4.Size = UDim2.new(0, 342, 0, 50)
+SilentAim_4.Font = Enum.Font.SourceSansBold
+SilentAim_4.Text = "Infi. Yield: (not mine)"
+SilentAim_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim_4.TextSize = 40.000
+SilentAim_4.TextXAlignment = Enum.TextXAlignment.Left
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(39, 59, 39)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.709999979, 0, 0.649999976, 0)
+InfiniteYield.Size = UDim2.new(0, 130, 0, 30)
+
+InfiniteYield_2.Name = "Infinite Yield"
+InfiniteYield_2.Parent = InfiniteYield
+InfiniteYield_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield_2.BorderSizePixel = 0
+InfiniteYield_2.Position = UDim2.new(0.0154999997, 0, 0.0670000017, 0)
+InfiniteYield_2.Size = UDim2.new(0, 125, 0, 25)
+
+AimbotCircleONOFF_2.Name = "Aimbot Circle ON/OFF"
+AimbotCircleONOFF_2.Parent = InfiniteYield_2
+AimbotCircleONOFF_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotCircleONOFF_2.BackgroundTransparency = 1.000
+AimbotCircleONOFF_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF_2.BorderSizePixel = 0
+AimbotCircleONOFF_2.Position = UDim2.new(0, 0, -0.0399987809, 0)
+AimbotCircleONOFF_2.Size = UDim2.new(0, 125, 0, 25)
+AimbotCircleONOFF_2.Font = Enum.Font.SourceSans
+AimbotCircleONOFF_2.Text = ""
+AimbotCircleONOFF_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotCircleONOFF_2.TextSize = 14.000
+
+UICorner_7.Parent = InfiniteYield_2
+
+UICorner_8.Parent = InfiniteYield
+
+-- Scripts:
+
+local function AMFGA_fake_script() -- CloseOpenGUI.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpenGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(AMFGA_fake_script)()
+local function UNSX_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local mainBorder = screenGui:WaitForChild("MainBorder GUI")
+	
+	local isOpen = true
+	local lastPos = mainBorder.Position
+	local isProcessing = false -- Verhindert Doppel-Trigger
+	
+	button.MouseButton1Click:Connect(function()
+		if isProcessing then return end
+		isProcessing = true
+	
+		isOpen = not isOpen
+	
+		if isOpen then
+			mainBorder.Position = lastPos
+		else
+			if mainBorder.Position.X.Offset > -1000 then
+				lastPos = mainBorder.Position
+			end
+			mainBorder.Position = UDim2.new(0, -2000, 0, -2000)
+		end
+	
+		task.wait(0.1) -- Kurze Pause zur Stabilisierung
+		isProcessing = false
+	end)
+end
+coroutine.wrap(UNSX_fake_script)()
+local function GRWQF_fake_script() -- MainBorderGUI.LocalScript 
+	local script = Instance.new('LocalScript', MainBorderGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(GRWQF_fake_script)()
+local function YDES_fake_script() -- AimbotONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	button.Font = Enum.Font.SourceSansBold 
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(YDES_fake_script)()
+local function XTIKVO_fake_script() -- AimbotONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotONOFF)
+
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local Camera = workspace.CurrentCamera
+	-- VARIABLE SETTINGS
+	local aimbotEnabled = false
+	local isLockActive = false
+	local smoothing = 1 -- Set to 1 automatically as requested
+	local aimKey = Enum.KeyCode.C
+	local aimMode = "HOLD" -- Restored
+	local targetPartName = "Head"
+	local menuToggleKey = Enum.KeyCode.B 
+	-- UI STATE
+	local lastPos = UDim2.new(0.5, 0, 0.5, 0)
+	local isMenuVisible = false
+	local isProcessing = false
+	-- 1. GUI ERSTELLEN
+	local screenGui = script:FindFirstAncestorOfClass("ScreenGui")
+	local frame = Instance.new("Frame", screenGui)
+	frame.Name = "AimbotSettings"
+	frame.Size = UDim2.new(0, 220, 0, 420) -- Increased size back for additional mode input
+	frame.Position = UDim2.new(0, 3000, 0, -1000) -- Start offscreen
+	frame.AnchorPoint = Vector2.new(0.5, 0.5)
+	frame.BackgroundColor3 = Color3.fromRGB(20, 42, 17) 
+	frame.BorderSizePixel = 0
+	frame.Visible = true 
+	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 15)
+	-- // TOGGLE FUNCTION //
+	local function toggleMenu()
+		if isProcessing then return end
+		isProcessing = true
+	
+		isMenuVisible = not isMenuVisible
+	
+		if isMenuVisible then
+			frame.Position = lastPos
+		else
+			-- Only save position if the menu is actually on screen
+			if frame.Position.X.Offset < 2000 then
+				lastPos = frame.Position
+			end
+			frame.Position = UDim2.new(0, 3000, 0, -1000)
+		end
+	
+		task.wait(0.1)
+		isProcessing = false
+	end
+	-- // DRAGGABLE LOGIC //
+	local dragToggle, dragStart, startPos
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then dragToggle = false end
+			end)
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if dragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			lastPos = frame.Position
+		end
+	end)
+	-- Titel
+	local title = Instance.new("TextLabel", frame)
+	title.Text = "Settings"
+	title.Size = UDim2.new(1, 0, 0, 40)
+	title.BackgroundTransparency = 1
+	title.TextColor3 = Color3.new(1, 1, 1)
+	title.Font = Enum.Font.GothamBold
+	title.TextSize = 16
+	local function isVisible(targetPart)
+		local char = Players.LocalPlayer.Character
+		if not char then return false end
+		local rayParams = RaycastParams.new()
+		rayParams.FilterDescendantsInstances = {char, Camera}
+		rayParams.FilterType = Enum.RaycastFilterType.Exclude
+		local origin = Camera.CFrame.Position
+		local direction = targetPart.Position - origin
+		local raycastResult = workspace:Raycast(origin, direction, rayParams)
+		if raycastResult then
+			return raycastResult.Instance:IsDescendantOf(targetPart.Parent)
+		end
+		return false
+	end
+	-- // ZIELFINDUNG //
+	local function getTarget()
+		local closest = nil
+		local dist = math.huge
+		local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+		for _, p in pairs(Players:GetPlayers()) do
+			if p ~= Players.LocalPlayer and p.Character and p.Team ~= Players.LocalPlayer.Team then
+				local hum = p.Character:FindFirstChild("Humanoid")
+				if hum and hum.Health > 0 then
+					local targetPart = p.Character:FindFirstChild(targetPartName)
+					if not targetPart then
+						targetPart = p.Character:FindFirstChild("Head") or p.Character:FindFirstChild("HumanoidRootPart")
+					end
+					if targetPart then
+						local pos, on = Camera:WorldToViewportPoint(targetPart.Position)
+						if on and isVisible(targetPart) then
+							local mag = (Vector2.new(pos.X, pos.Y) - center).Magnitude
+							if mag < dist then 
+								closest = targetPart 
+								dist = mag 
+							end
+						end
+					end
+				end
+			end
+		end
+		return closest
+	end
+	-- // GUI UTILITIES //
+	local function createKeySelector(labelText, defaultKey, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local button = Instance.new("TextBox", frame)
+		button.Text = defaultKey.Name
+		button.Size = UDim2.new(0.8, 0, 0, 28)
+		button.Position = pos
+		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		button.TextColor3 = Color3.new(1, 1, 1)
+		button.Font = Enum.Font.Gotham
+		button.TextSize = 12
+		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+		button.FocusLost:Connect(function()
+			local text = button.Text:upper()
+			local success, result = pcall(function() return Enum.KeyCode[text] end)
+			if success and result then
+				button.Text = result.Name
+				callback(result)
+			else
+				button.Text = "INVALID"
+				task.wait(1)
+				button.Text = defaultKey.Name
+			end
+		end)
+		return button
+	end
+	local function createCycleSelector(labelText, options, startIndex, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local button = Instance.new("TextButton", frame)
+		local currentIndex = startIndex
+		button.Text = options[currentIndex]
+		button.Size = UDim2.new(0.8, 0, 0, 28)
+		button.Position = pos
+		button.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		button.TextColor3 = Color3.new(1, 1, 1)
+		button.Font = Enum.Font.Gotham
+		button.TextSize = 12
+		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+		button.MouseButton1Click:Connect(function()
+			currentIndex = currentIndex + 1
+			if currentIndex > #options then currentIndex = 1 end
+			button.Text = options[currentIndex]
+			callback(options[currentIndex])
+		end)
+		return button
+	end
+	local function createTextInput(labelText, defaultText, pos, callback)
+		local label = Instance.new("TextLabel", frame)
+		label.Text = labelText
+		label.Size = UDim2.new(0.8, 0, 0, 20)
+		label.Position = UDim2.new(0.1, 0, pos.Y.Scale - 0.05, 0)
+		label.BackgroundTransparency = 1
+		label.TextColor3 = Color3.fromRGB(200, 200, 200)
+		label.Font = Enum.Font.GothamSemibold
+		label.TextSize = 10
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		local txt = Instance.new("TextBox", frame)
+		txt.Text = defaultText
+		txt.Size = UDim2.new(0.8, 0, 0, 28)
+		txt.Position = pos
+		txt.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+		txt.TextColor3 = Color3.new(1, 1, 1)
+		txt.Font = Enum.Font.Gotham
+		txt.TextSize = 12
+		Instance.new("UICorner", txt).CornerRadius = UDim.new(0, 8)
+		txt.FocusLost:Connect(function()
+			callback(txt.Text)
+		end)
+		return txt
+	end
+	local showMobileButton = UserInputService.TouchEnabled -- Auto-detect
+	local mobileButton = Instance.new("TextButton", screenGui)
+	mobileButton.Name = "MobileAimButton"
+	mobileButton.Size = UDim2.new(0, 60, 0, 60)
+	mobileButton.Position = UDim2.new(0.8, 0, 0.5, 0)
+	mobileButton.BackgroundColor3 = Color3.fromRGB(35, 65, 30)
+	mobileButton.TextColor3 = Color3.new(1, 1, 1)
+	mobileButton.Text = "AIM"
+	mobileButton.Font = Enum.Font.GothamBold
+	mobileButton.TextSize = 14
+	mobileButton.Visible = showMobileButton
+	Instance.new("UICorner", mobileButton).CornerRadius = UDim.new(1, 0)
+	-- Mobile Button Draggable logic
+	local mDragToggle, mDragStart, mStartPos
+	mobileButton.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			mDragToggle = true
+			mDragStart = input.Position
+			mStartPos = mobileButton.Position
+	
+			-- Handle Aim Trigger
+			if aimMode == "HOLD" then
+				isLockActive = true
+			else
+				isLockActive = not isLockActive
+			end
+		end
+	end)
+	mobileButton.InputEnded:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			mDragToggle = false
+			if aimMode == "HOLD" then
+				isLockActive = false
+			end
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if mDragToggle and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - mDragStart
+			if delta.Magnitude > 5 then -- Small threshold to distinguish click vs drag
+				mobileButton.Position = UDim2.new(mStartPos.X.Scale, mStartPos.X.Offset + delta.X, mStartPos.Y.Scale, mStartPos.Y.Offset + delta.Y)
+			end
+		end
+	end)
+	createKeySelector("Aimbot Key:", aimKey, UDim2.new(0.1, 0, 0.12, 0), function(k) aimKey = k end)
+	createKeySelector("Menu Toggle (B):", menuToggleKey, UDim2.new(0.1, 0, 0.25, 0), function(k) menuToggleKey = k end)
+	createCycleSelector("Aim Mode:", {"HOLD", "TOGGLE"}, 1, UDim2.new(0.1, 0, 0.38, 0), function(m)
+		aimMode = m
+		isLockActive = false
+	end)
+	createCycleSelector("Mobile Button:", {"OFF", "ON"}, (showMobileButton and 2 or 1), UDim2.new(0.1, 0, 0.51, 0), function(o)
+		mobileButton.Visible = (o == "ON")
+	end)
+	createTextInput("Smoothing (0.01 - 1):", tostring(smoothing), UDim2.new(0.1, 0, 0.64, 0), function(t) 
+		local n = tonumber(t) 
+		if n then smoothing = math.clamp(n, 0.01, 1) else smoothing = 1 end 
+	end)
+	createCycleSelector("Target Part:", {"Head", "Torso"}, 1, UDim2.new(0.1, 0, 0.77, 0), function(p)
+		if p == "Torso" then
+			targetPartName = "UpperTorso"
+		else
+			targetPartName = "Head"
+		end
+	end)
+	UserInputService.InputBegan:Connect(function(i, p) 
+		if p then return end 
+		if i.KeyCode == aimKey then 
+			if aimMode == "HOLD" then
+				isLockActive = true 
+			else
+				isLockActive = not isLockActive
+			end
+		elseif i.KeyCode == menuToggleKey then
+			toggleMenu()
+		end 
+	end)
+	UserInputService.InputEnded:Connect(function(i) 
+		if i.KeyCode == aimKey and aimMode == "HOLD" then 
+			isLockActive = false 
+		end 
+	end)
+	script.Parent.MouseButton1Click:Connect(toggleMenu)
+	RunService.RenderStepped:Connect(function()
+		if isLockActive then
+			local target = getTarget()
+			if target then
+				local lookAt = CFrame.new(Camera.CFrame.Position, target.Position)
+				Camera.CFrame = Camera.CFrame:Lerp(lookAt, smoothing)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(XTIKVO_fake_script)()
+local function ANKA_fake_script() -- ESPONOFF.Red/Green 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent
+	
+	local active = false
+	
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ANKA_fake_script)()
+local function PFVYZU_fake_script() -- ESPONOFF.LocalScript 
+	local script = Instance.new('LocalScript', ESPONOFF)
+
+	local RunService = game:GetService("RunService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local button = script.Parent
+	local espActive = false
+	-- Funktion zum Erstellen des ESP
+	local function createESP(player)
+		if player == LocalPlayer then return end
+		local function setup(char)
+			if not espActive then return end
+	
+			local head = char:WaitForChild("Head", 10)
+			if head and not head:FindFirstChild("ESPTag") then
+				local bgui = Instance.new("BillboardGui", head)
+				bgui.Name = "ESPTag"
+				bgui.Size = UDim2.new(0, 150, 0, 75)
+				bgui.AlwaysOnTop = true
+				bgui.StudsOffset = Vector3.new(0, 3, 0)
+				local lbl = Instance.new("TextLabel", bgui)
+				lbl.Name = "TextLabel"
+				lbl.BackgroundTransparency = 1
+				lbl.Size = UDim2.new(1, 0, 1, 0)
+				lbl.TextColor3 = player.TeamColor.Color 
+				lbl.Font = Enum.Font.GothamBold
+				lbl.TextStrokeTransparency = 0 
+				lbl.TextSize = 14
+			end
+		end
+		player.CharacterAdded:Connect(setup)
+		if player.Character then setup(player.Character) end
+	
+		player:GetPropertyChangedSignal("Team"):Connect(function()
+			if player.Character then setup(player.Character) end
+		end)
+	end
+	Players.PlayerAdded:Connect(createESP)
+	for _, p in pairs(Players:GetPlayers()) do
+		createESP(p)
+	end
+	button.MouseButton1Click:Connect(function()
+		espActive = not espActive
+		if espActive then
+			for _, p in pairs(Players:GetPlayers()) do 
+				if p.Character then createESP(p) end -- Nutzt die bestehende Setup-Logik
+			end
+		else
+			for _, p in pairs(Players:GetPlayers()) do
+				if p.Character and p.Character:FindFirstChild("Head") then
+					local tag = p.Character.Head:FindFirstChild("ESPTag")
+					if tag then tag:Destroy() end
+				end
+			end
+		end
+	end)
+	RunService.RenderStepped:Connect(function()
+		if espActive then
+			local myHead = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Head")
+			if not myHead then return end
+			for _, p in pairs(Players:GetPlayers()) do
+				if p ~= LocalPlayer and p.Character and p.Character:FindFirstChild("Head") then
+					local head = p.Character.Head
+					local tag = head:FindFirstChild("ESPTag")
+					local label = tag and tag:FindFirstChild("TextLabel")
+					if label then
+						local dist = math.floor((myHead.Position - head.Position).Magnitude)
+						label.Text = p.Name .. "\n[" .. dist .. "m]"
+						-- Farbe ständig aktuell halten
+						label.TextColor3 = p.TeamColor.Color
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(PFVYZU_fake_script)()
+local function SXHSS_fake_script() -- AimbotCircleONOFF.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local success, err = pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/UniversalSilentAim.lua", true))()
+		end)
+	end)
+end
+coroutine.wrap(SXHSS_fake_script)()
+local function QEFRZ_fake_script() -- AimbotCircleONOFF.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(QEFRZ_fake_script)()
+local function KXYY_fake_script() -- AimbotCircleONOFF_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local success, err = pcall(function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		end)
+	end)
+end
+coroutine.wrap(KXYY_fake_script)()
+local function ERSBNXJ_fake_script() -- AimbotCircleONOFF_2.Red/Green 
+	local script = Instance.new('LocalScript', AimbotCircleONOFF_2)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local background = button.Parent -- Das Element, dessen Farbe sich ändern soll
+	
+	local active = false
+	
+	-- Einstellungen für die Farben
+	local colorOn = Color3.fromRGB(0, 255, 127) -- Grün
+	local colorOff = Color3.fromRGB(255, 50, 50) -- Rot
+	
+	-- Zeit und Stil der Animation
+	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	button.Font = Enum.Font.SourceSansBold -- Stellt sicher, dass die Schrift dick (Bold) ist
+	button.Text = "OFF"
+	background.BackgroundColor3 = colorOff
+	
+	button.MouseButton1Click:Connect(function()
+		active = not active
+	
+		if active then
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOn})
+			tween:Play()
+			button.Text = "ON"
+		else
+			local tween = TweenService:Create(background, tweenInfo, {BackgroundColor3 = colorOff})
+			tween:Play()
+			button.Text = "OFF"
+		end
+	end)
+end
+coroutine.wrap(ERSBNXJ_fake_script)()
